@@ -1,0 +1,498 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{c1336e65-5c0b-46c0-b2f4-e1aaa374f366}",
+        "repoid":"{00630613-cf31-48c7-94d1-be18dc18828b}",
+        "name":"Sprint planning",
+        "iconUrl":"C_TASK.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Task",
+        "idclass":"C_TASK",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Sprint planning"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{16656faa-147a-4a46-917b-108016d56c0d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUMLIST",
+          "complex":false,
+          "value":{"val":"", "ind":"v0@v1@v2@v3@v4@v5@v6@v7@v8@v9", "constraint":"manual@automatic@semi-automatic@planning@checking@administrating@executing@value adding@communicating@external"},
+          
+    "type":"attribute",
+    "name":"CLASSIFICATION",
+    "classname":"Classification",
+    "idclass":"CLASSIFICATION",
+    "ctrltype":"ENUM_LIST",
+    "id":"{b660c5a1-b535-4186-8a6b-c03d05634952}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"RACI",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for execution",
+    "targets":
+    [
+    
+      {
+        text:"Product Owner",
+        artefactId:"{abce10a3-6dd0-4235-ba7a-fb16c39ec5a3}",
+        id:"{abce10a3-6dd0-4235-ba7a-fb16c39ec5a3}",
+        relInstId:"{d0a57643-401b-4263-8e12-6d79fca2880b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Input/Output",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_OUTPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data output",
+    "targets":
+    [
+    
+      {
+        text:"Casos de prueba",
+        artefactId:"{03efd11f-fda8-42e2-a1fb-7480ff0ed016}",
+        id:"{03efd11f-fda8-42e2-a1fb-7480ff0ed016}",
+        relInstId:"{14bc04b8-c8cb-4ebb-ac18-d7d2a5b4d71c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Sprint backlog",
+        artefactId:"{fe8f8fa2-989b-49b2-8579-388e7008774f}",
+        id:"{fe8f8fa2-989b-49b2-8579-388e7008774f}",
+        relInstId:"{c6f6247a-d685-4005-9f53-1b9e781c832c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      },
+      {
+        text:"UML Class Diagram",
+        artefactId:"{28537e27-b1ad-4880-a111-df35820075b9}",
+        id:"{28537e27-b1ad-4880-a111-df35820075b9}",
+        relInstId:"{5af0387d-4b9c-4762-aa90-c84cb5a2ed94}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"UML ER Diagram",
+        artefactId:"{cea72376-08f7-4cc8-945e-4b6c38e5eaff}",
+        id:"{cea72376-08f7-4cc8-945e-4b6c38e5eaff}",
+        relInstId:"{53bc9f91-a7a7-404c-b2be-c3444067cde1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"UML Sequence Diagram",
+        artefactId:"{6b6fa372-7227-4f32-96e8-a985621a03c2}",
+        id:"{6b6fa372-7227-4f32-96e8-a985621a03c2}",
+        relInstId:"{2e9eea89-f7ae-41a7-acde-39bf0ce16875}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "name":"Input/Output (Runtime)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Systems/Products",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Risks",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Controls",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Object properties",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Task relevance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Object references",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Object definition",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Import details",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Standard (loop)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Multi-instances (loop)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Trigger events",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Details",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Implementation (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Service (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Send/Receive (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"User (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Script (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Call (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Representation",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v0", "ind":"v0@v1", "constraint":"inside@below"},
+          
+    "type":"attribute",
+    "name":"REPRESENTATION_NAME_TASK",
+    "classname":"Representation (Name)",
+    "idclass":"REPRESENTATION_NAME_TASK",
+    "ctrltype":"ENUM",
+    "id":"{565e3a93-18d2-4518-bbb3-2dcd433e85d0}"
+  
+
+
+    }
+    ,
+  {
+    "name":"Visualisation of attributes",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_RESPONSIBLE_FOR_EXECUTION",
+    "classname":"Show responsible for execution",
+    "idclass":"DISPLAY_RESPONSIBLE_FOR_EXECUTION",
+    "ctrltype":"BOOL",
+    "id":"{7abda636-e481-4d1f-8a8f-debaa7ed8394}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_SYMBOL_IF_DESCRIPTION",
+    "classname":"Show symbol (\"i\") when a description is entered",
+    "idclass":"DISPLAY_SYMBOL_IF_DESCRIPTION",
+    "ctrltype":"BOOL",
+    "id":"{22c826d9-af67-49a0-8cc5-c536b4e9caa9}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":"0"},
+            
+    "type":"attribute",
+    "name":"DISPLAY_COOPERATIONPARTICIPATION",
+    "classname":"Show consulted",
+    "idclass":"DISPLAY_COOPERATIONPARTICIPATION",
+    "ctrltype":"BOOL",
+    "id":"{145982cf-6fa1-4284-bd90-82dd1ecaa983}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":"0"},
+            
+    "type":"attribute",
+    "name":"DISPLAY_TO_INFORM",
+    "classname":"Show to inform",
+    "idclass":"DISPLAY_TO_INFORM",
+    "ctrltype":"BOOL",
+    "id":"{b729cdee-f271-46c5-8d47-0ae4a29ce358}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
+    "classname":"Show symbol when risks exist",
+    "idclass":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c4d83d5-56f7-4eed-b897-6368f9067750}"
+  
+
+
+    }
+    
+    ]
+  }
+  
+    ]
+  }
+        ]
+      }
+    };
+    

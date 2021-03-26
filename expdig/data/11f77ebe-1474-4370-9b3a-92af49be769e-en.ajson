@@ -1,0 +1,407 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{11f77ebe-1474-4370-9b3a-92af49be769e}",
+        "repoid":"{11f77ebe-1474-4370-9b3a-92af49be769e}",
+        "name":"Business Partner A&amp;I",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Business Partner A&amp;I"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{b9f99219-08fa-471d-83bd-dbd233f7f1e1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Agenda reuniones para definir alcance y tiempos",
+        artefactId:"{020daa4c-fa4b-467e-920e-91f4e1ffed44}",
+        id:"{020daa4c-fa4b-467e-920e-91f4e1ffed44}",
+        relInstId: "{fc943979-e1ed-4dad-9d69-14200f98cfbd}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para solución de Analítica e Inteligencia de Negocio",
+        artefactId:"{3d55b0c6-6b43-44c2-a4cc-b2f115368bf2}",
+        id:"{3d55b0c6-6b43-44c2-a4cc-b2f115368bf2}",
+        relInstId: "{afa6ad59-d651-4576-af90-0ef5b854b202}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para solución de Analítica e Inteligencia de Negocio",
+        artefactId:"{af15b41f-1f46-404e-b8ca-19cddc28bc95}",
+        id:"{af15b41f-1f46-404e-b8ca-19cddc28bc95}",
+        relInstId: "{ecac02a2-f529-46fb-9f71-d108efd74ed7}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para solución de Analítica e Inteligencia de Negocio",
+        artefactId:"{4e51a4bc-c3ae-4cf6-9efd-3c71aedce796}",
+        id:"{4e51a4bc-c3ae-4cf6-9efd-3c71aedce796}",
+        relInstId: "{6328c298-5fa6-4732-8496-66c498d693f5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
+    
+
+    "label":"Accountable for",
+    "targets":
+    [
+    
+      {
+        text:"Realiza prueba UAT",
+        artefactId:"{70dc6d52-4361-4c86-81fe-c246df98e216}",
+        id:"{70dc6d52-4361-4c86-81fe-c246df98e216}",
+        relInstId: "{b9146791-0a88-4c17-8be6-8ecb1b682093}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Genera propuesta de UX",
+        artefactId:"{1fe58633-46df-4bc9-825a-3398e43c9c20}",
+        id:"{1fe58633-46df-4bc9-825a-3398e43c9c20}",
+        relInstId: "{01f4d753-3951-45da-b9d9-c143b8f90589}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera propuesta de UX",
+        artefactId:"{73a17309-7b3f-48bc-858e-f1d1ff5b4c46}",
+        id:"{73a17309-7b3f-48bc-858e-f1d1ff5b4c46}",
+        relInstId: "{10d81729-2650-436a-9fff-84b4d9445cb1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera propuesta de UX",
+        artefactId:"{dc84ebbd-22b0-48fd-901f-8d1d5027eba2}",
+        id:"{dc84ebbd-22b0-48fd-901f-8d1d5027eba2}",
+        relInstId: "{676c54e9-76e8-47a0-8b02-4b7d4fbf79f1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Junta de entendimiento",
+        artefactId:"{b8cb2b87-5a3e-4378-ac1a-3cf47d501761}",
+        id:"{b8cb2b87-5a3e-4378-ac1a-3cf47d501761}",
+        relInstId: "{49c15403-82c2-400c-89d8-6059e51ab97c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{92b42e46-59be-49f0-96ec-bb9b640ab0cc}",
+        id:"{92b42e46-59be-49f0-96ec-bb9b640ab0cc}",
+        relInstId: "{ce3fa1c0-8322-4876-b91c-5631640b19cf}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        id:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        relInstId: "{e581b668-9013-4546-addc-15af220fa46c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{2d69d10a-9745-4399-a031-98ccc13a1558}",
+        id:"{2d69d10a-9745-4399-a031-98ccc13a1558}",
+        relInstId: "{26ac551a-31e7-4bf3-a563-55082f959365}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"Informed at",
+    "targets":
+    [
+    
+      {
+        text:"Prepara documentación para liberación",
+        artefactId:"{1a371f59-ec42-423e-88a8-2f2354befd7c}",
+        id:"{1a371f59-ec42-423e-88a8-2f2354befd7c}",
+        relInstId: "{31efda39-d570-483e-8d6e-a84427ac1369}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Prepara documentación para liberación",
+        artefactId:"{36f9a1e4-42e5-4be0-a12e-08347470686f}",
+        id:"{36f9a1e4-42e5-4be0-a12e-08347470686f}",
+        relInstId: "{b35de9fc-99a3-4a7e-a569-d5bb3aaca776}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Prepara documentación para liberación",
+        artefactId:"{b742a54f-b7ce-4c4a-b2df-3452a1195062}",
+        id:"{b742a54f-b7ce-4c4a-b2df-3452a1195062}",
+        relInstId: "{4a73790d-5077-415b-a436-ed063056a663}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    

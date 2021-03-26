@@ -1,0 +1,680 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        "repoid":"{00630613-cf31-48c7-94d1-be18dc18828b}",
+        "name":"Analiza solución y genera estimación a detalle (cotización)",
+        "iconUrl":"C_TASK.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Task",
+        "idclass":"C_TASK",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Analiza solución y genera estimación a detalle (cotización)"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{16656faa-147a-4a46-917b-108016d56c0d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v4", "ind":"v0@v5@v4@v2@v3@v1@v7@v6@v8", "constraint":"Not specified@Manual@User@Send@Receive@Service@Script@Business rule@Call activity"},
+          
+    "type":"attribute",
+    "name":"TYPE_TASK",
+    "classname":"Task type",
+    "idclass":"TYPE_TASK",
+    "ctrltype":"ENUM",
+    "id":"{e3e748c7-93e9-4538-a5c0-9b9c158043fb}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUMLIST",
+          "complex":false,
+          "value":{"val":"v2", "ind":"v0@v1@v2@v3@v4@v5@v6@v7@v8@v9", "constraint":"manual@automatic@semi-automatic@planning@checking@administrating@executing@value adding@communicating@external"},
+          
+    "type":"attribute",
+    "name":"CLASSIFICATION",
+    "classname":"Classification",
+    "idclass":"CLASSIFICATION",
+    "ctrltype":"ENUM_LIST",
+    "id":"{b660c5a1-b535-4186-8a6b-c03d05634952}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"RACI",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for execution",
+    "targets":
+    [
+    
+      {
+        text:"Arquitecto de solución TI",
+        artefactId:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
+        id:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
+        relInstId:"{d891b786-783b-4c7c-b213-c74571d1dc1f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
+    
+
+    "label":"Accountable for approving results",
+    "targets":
+    [
+    
+      {
+        text:"Líder de Arquitectura y Soluciones",
+        artefactId:"{96150c2c-f114-4385-9e75-b850c088b5a6}",
+        id:"{96150c2c-f114-4385-9e75-b850c088b5a6}",
+        relInstId:"{885d455f-4e7b-434e-a348-add5a71eb18d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted",
+    "targets":
+    [
+    
+      {
+        text:"Arquitecto institucional",
+        artefactId:"{15604ad7-2726-4205-90d4-92de3d5164a8}",
+        id:"{15604ad7-2726-4205-90d4-92de3d5164a8}",
+        relInstId:"{03416513-fc49-4a99-80f2-4c588e120893}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Business Partner TI",
+        artefactId:"{accf3502-2963-4218-a5d7-8bd185202db7}",
+        id:"{accf3502-2963-4218-a5d7-8bd185202db7}",
+        relInstId:"{12936574-0bbe-41b3-b509-fa2f9f086b95}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Responsable de QA",
+        artefactId:"{1390f55f-1d51-4f19-b37d-c6aef7c22f83}",
+        id:"{1390f55f-1d51-4f19-b37d-c6aef7c22f83}",
+        relInstId:"{c755f3bb-da5c-4120-b9f0-5d7f9d6503ad}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Responsable de infraestructura TI",
+        artefactId:"{ece83ded-ce49-4368-af56-087805ef07cd}",
+        id:"{ece83ded-ce49-4368-af56-087805ef07cd}",
+        relInstId:"{57c6db10-b9a2-4be3-8180-d41837b551ca}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Responsable de soporte TI",
+        artefactId:"{41e9c2e3-6a60-4462-9b0c-64527a441599}",
+        id:"{41e9c2e3-6a60-4462-9b0c-64527a441599}",
+        relInstId:"{9ff6fbc8-4656-4cb6-affe-b3d39a386029}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"To inform",
+    "targets":
+    [
+    
+      {
+        text:"Champion de experiencia digital",
+        artefactId:"{5375703d-ab6c-4c1a-8f5b-445bfe125a79}",
+        id:"{5375703d-ab6c-4c1a-8f5b-445bfe125a79}",
+        relInstId:"{cc63d3e0-cf7f-44a2-a1ad-0a46a3839167}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Coordinador de equipo de experiencia digital",
+        artefactId:"{23c72e36-53b1-4a56-98f7-fda8e720cb85}",
+        id:"{23c72e36-53b1-4a56-98f7-fda8e720cb85}",
+        relInstId:"{76f31982-1c61-4942-8b83-4e6f26cd02ce}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Experto funcional (SME)",
+        artefactId:"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
+        id:"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
+        relInstId:"{1491c8d7-ff1f-40b6-aafb-5040c632f7bb}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Líder funcional",
+        artefactId:"{a44e537a-86db-4f3f-98ff-b1ff807fde28}",
+        id:"{a44e537a-86db-4f3f-98ff-b1ff807fde28}",
+        relInstId:"{6d1ce319-3a28-40fe-bba0-66569cea0974}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Input/Output",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_INPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data input",
+    "targets":
+    [
+    
+      {
+        text:"Capacity plan",
+        artefactId:"{2d603045-0f7f-40ca-96aa-d13489a9b5ba}",
+        id:"{2d603045-0f7f-40ca-96aa-d13489a9b5ba}",
+        relInstId:"{893ff3b0-9e6d-462f-9c27-f5e81446f119}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_OUTPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data output",
+    "targets":
+    [
+    
+      {
+        text:"Estimación a detalle",
+        artefactId:"{05dc71ad-399a-48f4-b274-8a0e4c412b4f}",
+        id:"{05dc71ad-399a-48f4-b274-8a0e4c412b4f}",
+        relInstId:"{21a61896-81fd-459c-97d7-b562c39f92dc}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+    {
+      
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@No se presenta un plan de trabajo, aunque debe considerarse:@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@1. Se entregan estimaciones de duración y costos@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@2. Se entregan@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@2.1. Dependencias de proyectos activos (no se pueden colocar de dependencias no aprobados aunque puede explicarse proyectos no aprobados que impacten)@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@2.2. Fechas tentativas de inicio dependiendo del Capacity Plan.@@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"OUTPUT_QUALITY_REQUIREMENTS",
+    "classname":"Output - quality requirements",
+    "idclass":"OUTPUT_QUALITY_REQUIREMENTS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{f72b7e22-bad0-4258-a424-352fbe6ce5df}"
+  
+
+
+    }
+    ,
+  {
+    "name":"Input/Output (Runtime)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Systems/Products",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_IT_SYSTEM_ELEMENTS_CS",
+    
+
+    "label":"Referenced applications/IT system elements",
+    "targets":
+    [
+    
+      {
+        text:"Calculadora de estimaciones a detalle",
+        artefactId:"{9f6ffced-d779-454d-aaaa-81e11a507930}",
+        id:"{9f6ffced-d779-454d-aaaa-81e11a507930}",
+        relInstId:"{5d0e2f6d-a3bb-4951-916b-947b2f9c5744}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Risks",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Controls",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Object properties",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Task relevance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Object references",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Object definition",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Import details",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Standard (loop)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Multi-instances (loop)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Trigger events",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Details",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Implementation (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Service (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Send/Receive (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"User (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Script (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Call (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Representation",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v0", "ind":"v0@v1", "constraint":"inside@below"},
+          
+    "type":"attribute",
+    "name":"REPRESENTATION_NAME_TASK",
+    "classname":"Representation (Name)",
+    "idclass":"REPRESENTATION_NAME_TASK",
+    "ctrltype":"ENUM",
+    "id":"{565e3a93-18d2-4518-bbb3-2dcd433e85d0}"
+  
+
+
+    }
+    ,
+  {
+    "name":"Visualisation of attributes",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_RESPONSIBLE_FOR_EXECUTION",
+    "classname":"Show responsible for execution",
+    "idclass":"DISPLAY_RESPONSIBLE_FOR_EXECUTION",
+    "ctrltype":"BOOL",
+    "id":"{7abda636-e481-4d1f-8a8f-debaa7ed8394}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_SYMBOL_IF_DESCRIPTION",
+    "classname":"Show symbol (\"i\") when a description is entered",
+    "idclass":"DISPLAY_SYMBOL_IF_DESCRIPTION",
+    "ctrltype":"BOOL",
+    "id":"{22c826d9-af67-49a0-8cc5-c536b4e9caa9}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":"0"},
+            
+    "type":"attribute",
+    "name":"DISPLAY_COOPERATIONPARTICIPATION",
+    "classname":"Show consulted",
+    "idclass":"DISPLAY_COOPERATIONPARTICIPATION",
+    "ctrltype":"BOOL",
+    "id":"{145982cf-6fa1-4284-bd90-82dd1ecaa983}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":"0"},
+            
+    "type":"attribute",
+    "name":"DISPLAY_TO_INFORM",
+    "classname":"Show to inform",
+    "idclass":"DISPLAY_TO_INFORM",
+    "ctrltype":"BOOL",
+    "id":"{b729cdee-f271-46c5-8d47-0ae4a29ce358}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
+    "classname":"Show symbol when risks exist",
+    "idclass":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c4d83d5-56f7-4eed-b897-6368f9067750}"
+  
+
+
+    }
+    
+    ]
+  }
+  
+    ]
+  }
+        ]
+      }
+    };
+    

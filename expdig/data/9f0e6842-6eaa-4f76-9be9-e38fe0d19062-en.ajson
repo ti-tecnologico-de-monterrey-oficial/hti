@@ -1,0 +1,342 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{9f0e6842-6eaa-4f76-9be9-e38fe0d19062}",
+        "repoid":"{691cfc46-a725-4908-9078-5c0b1cd9e98f}",
+        "name":"Selecciona y adquiere solución comercial",
+        "iconUrl":"C_SUB_PROCESS.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Subprocess",
+        "idclass":"C_SUB_PROCESS",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Selecciona y adquiere solución comercial"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{16656faa-147a-4a46-917b-108016d56c0d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v4", "ind":"v0@v1@v2@v3@v4@v5", "constraint":"Embedded@Event@Ad-Hoc@Transaction@Call activity@No entry"},
+          
+    "type":"attribute",
+    "name":"TYPE_SUB_PROCESS",
+    "classname":"Subprocess type",
+    "idclass":"TYPE_SUB_PROCESS",
+    "ctrltype":"ENUM",
+    "id":"{aef18c98-9ddf-4ae9-a361-0e918b992658}"
+  
+
+
+    }
+    ,
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_SUB_PROCESS",
+    
+
+    "label":"Referenced subprocess",
+    "targets":
+    [
+    
+      {
+        text:"Etapa 3 - Adquisición",
+        artefactId:"{f86f4696-b336-43d1-b975-ee2a0f149508}",
+        id:"{f86f4696-b336-43d1-b975-ee2a0f149508}",
+        relInstId:"{877967ac-c438-4c3f-a447-833c60c27651}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_DIAGRAM,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Input/Output",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Input/Output (Runtime)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Object properties",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Task relevance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Object references",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Object definition",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Import details",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Standard (loop)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Multi-instances (loop)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Trigger Event",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Details",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Ad-Hoc (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Transaction (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Representation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Text representation and alignment",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v0", "ind":"v0@v1", "constraint":"inside@below"},
+          
+    "type":"attribute",
+    "name":"REPRESENTATION_NAME_TASK",
+    "classname":"Representation (Name)",
+    "idclass":"REPRESENTATION_NAME_TASK",
+    "ctrltype":"ENUM",
+    "id":"{565e3a93-18d2-4518-bbb3-2dcd433e85d0}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v0", "ind":"v0@v1@v2", "constraint":"center@top@bottom"},
+          
+    "type":"attribute",
+    "name":"A_ALIGNMENT_VERTICAL",
+    "classname":"Alignment (vertical)",
+    "idclass":"A_ALIGNMENT_VERTICAL",
+    "ctrltype":"ENUM",
+    "id":"{8d8af2b7-e072-4514-9735-55bc07e1648d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v1", "ind":"v0@v1@v2", "constraint":"left@center@right"},
+          
+    "type":"attribute",
+    "name":"A_ALIGNMENT",
+    "classname":"Alignment (horizontal)",
+    "idclass":"A_ALIGNMENT",
+    "ctrltype":"ENUM",
+    "id":"{9d1f4a5c-d5e6-47a2-854b-509752e7e834}"
+  
+
+
+    }
+    
+    ]
+  }
+  ,
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v1", "ind":"v0@v1@v2@v3", "constraint":"Name@Reference@Name and reference@Name as reference (hyperlink)"},
+          
+    "type":"attribute",
+    "name":"VISUALIZED_VALUES",
+    "classname":"Visualised values",
+    "idclass":"VISUALIZED_VALUES",
+    "ctrltype":"ENUM",
+    "id":"{560e795e-4cfa-4afb-8f19-3e3cec683aa9}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_SYMBOL_IF_DESCRIPTION",
+    "classname":"Show symbol (\"i\") when a description is entered",
+    "idclass":"DISPLAY_SYMBOL_IF_DESCRIPTION",
+    "ctrltype":"BOOL",
+    "id":"{22c826d9-af67-49a0-8cc5-c536b4e9caa9}"
+  
+
+
+    }
+    
+    ]
+  }
+        ]
+      }
+    };
+    

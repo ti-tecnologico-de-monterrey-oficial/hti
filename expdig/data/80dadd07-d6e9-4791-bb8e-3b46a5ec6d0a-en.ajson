@@ -1,0 +1,555 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
+        "repoid":"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
+        "name":"Experto funcional (SME)",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Experto funcional (SME)"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@div@@CT@@@@OT@@ol@@CT@@@@OT@@li@@CT@@Apoya al Equipo de Experiencia en encontrar soluciones tecnológicas que cumplan con los principios de agilidad, confianza, autoservicio y garanticen que la experiencia mejora significativamente para el usuario final.@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Se apoyan en su red de contactos en la institución para conectar al equipo de experiencia con la información, procesos o personas que pueden apoyarles a solucionar y proponer mejoras significativas.@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@/ol@@CT@@@@OT@@/div@@CT@@"},
+          
+    "type":"attribute",
+    "name":"A_DESCRIPTION",
+    "classname":"Description",
+    "idclass":"A_DESCRIPTION",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{00371818-34fc-4a9c-8901-b600d280f9f0}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{3be18e09-8a01-43f9-80d3-b41b16be3356}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{e4b48c88-3de1-4d8f-8459-8be72c556c2a}",
+        id:"{e4b48c88-3de1-4d8f-8459-8be72c556c2a}",
+        relInstId: "{09dc6a3b-feae-45f1-bc7e-1314d99969f6}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{bdee0f76-3248-4391-a0f7-f5ee20a2674e}",
+        id:"{bdee0f76-3248-4391-a0f7-f5ee20a2674e}",
+        relInstId: "{f97965ac-473b-4c2a-bd42-bb0d8f724ebb}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{b566d638-caa1-47ca-ad02-15e84d987824}",
+        id:"{b566d638-caa1-47ca-ad02-15e84d987824}",
+        relInstId: "{d00eef3a-13ef-42cd-9fad-480cacf64c4d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Documenta proceso",
+        artefactId:"{faedcf44-c50b-47b9-afa2-e7398b721c5b}",
+        id:"{faedcf44-c50b-47b9-afa2-e7398b721c5b}",
+        relInstId: "{e1f71aef-d0c7-4ff2-826c-07db845a073c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{e1f3f601-b7d5-4e83-a7cf-99c261f92f69}",
+        id:"{e1f3f601-b7d5-4e83-a7cf-99c261f92f69}",
+        relInstId: "{85014194-168b-4683-a3a7-9c7ec2118f03}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{f2efd964-988d-4d74-8a45-b9ba6b485453}",
+        id:"{f2efd964-988d-4d74-8a45-b9ba6b485453}",
+        relInstId: "{4cc0c29e-bc8d-4de9-a962-f05fd85a368c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{981aa6e9-ac08-463a-ad2e-fb1dd9ef6705}",
+        id:"{981aa6e9-ac08-463a-ad2e-fb1dd9ef6705}",
+        relInstId: "{84b1decf-3ed8-4ab9-84b4-bf6d12a4d1be}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{b8bd9d0c-a3c2-470e-8677-ec2ca6ced5e5}",
+        id:"{b8bd9d0c-a3c2-470e-8677-ec2ca6ced5e5}",
+        relInstId: "{7e80af9f-6a6b-4133-af07-2c5899bdd8fa}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{3ff3fc63-f317-459a-9468-619e296af110}",
+        id:"{3ff3fc63-f317-459a-9468-619e296af110}",
+        relInstId: "{9c067018-91e4-4919-8448-8ef1f60abeaf}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{8d4e9650-c65e-44bd-ae73-5c6016d34ac2}",
+        id:"{8d4e9650-c65e-44bd-ae73-5c6016d34ac2}",
+        relInstId: "{5bad5f33-1163-4fec-89fc-07a72a63f861}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{5675864d-10f4-40c3-9278-24855a0d4021}",
+        id:"{5675864d-10f4-40c3-9278-24855a0d4021}",
+        relInstId: "{8265bb9f-6a9b-40c9-811f-00b188fd3905}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{6fdabed9-946b-4b65-8847-1c6176666ba3}",
+        id:"{6fdabed9-946b-4b65-8847-1c6176666ba3}",
+        relInstId: "{de00c042-0b5a-42bc-8a31-d1375ab59460}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera diagrama de casos de uso",
+        artefactId:"{2065c2f2-3dc7-499b-9316-5148eda13127}",
+        id:"{2065c2f2-3dc7-499b-9316-5148eda13127}",
+        relInstId: "{11c0bcae-03f9-4dd9-95c4-1fc81def55af}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{e4b48c88-3de1-4d8f-8459-8be72c556c2a}",
+        id:"{e4b48c88-3de1-4d8f-8459-8be72c556c2a}",
+        relInstId: "{9cea05ec-caa0-4c0f-aba1-a68f3771da89}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{bdee0f76-3248-4391-a0f7-f5ee20a2674e}",
+        id:"{bdee0f76-3248-4391-a0f7-f5ee20a2674e}",
+        relInstId: "{17356024-a248-43f9-9806-a47f911e8d71}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{b566d638-caa1-47ca-ad02-15e84d987824}",
+        id:"{b566d638-caa1-47ca-ad02-15e84d987824}",
+        relInstId: "{6624c017-f952-4e36-bf66-1969019c677e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{2c9f599a-2672-41c3-b22e-b85d1cb2a842}",
+        id:"{2c9f599a-2672-41c3-b22e-b85d1cb2a842}",
+        relInstId: "{07307a1d-b51f-4dce-9c6c-f26a8cf2576e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{e80edbb5-74b5-49d5-9bcd-e0bbdb7901c9}",
+        id:"{e80edbb5-74b5-49d5-9bcd-e0bbdb7901c9}",
+        relInstId: "{e3dd3150-d639-46fe-ab73-7ecf3b42ed4a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{032ba218-a20f-43c1-a5fe-fa83311789ec}",
+        id:"{032ba218-a20f-43c1-a5fe-fa83311789ec}",
+        relInstId: "{35f8bf8e-e92d-4c4e-be22-b741a590e8ad}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta y resuelve dudas del proyecto",
+        artefactId:"{cc16265b-81ba-4a57-9509-9bf8b8dd801f}",
+        id:"{cc16265b-81ba-4a57-9509-9bf8b8dd801f}",
+        relInstId: "{a6efe930-604f-4ead-8739-ab910fde55ae}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta y resuelve dudas del proyecto",
+        artefactId:"{363271c6-769c-4101-95b0-aa7c1a59328f}",
+        id:"{363271c6-769c-4101-95b0-aa7c1a59328f}",
+        relInstId: "{12627b9f-ee7d-4710-b8ee-4a35d2d758e5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta y resuelve dudas del proyecto",
+        artefactId:"{f357db21-d24c-4536-ae80-53a19e87a666}",
+        id:"{f357db21-d24c-4536-ae80-53a19e87a666}",
+        relInstId: "{bb6e822f-54b6-4523-b81f-59a346d3a380}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{2d69d10a-9745-4399-a031-98ccc13a1558}",
+        id:"{2d69d10a-9745-4399-a031-98ccc13a1558}",
+        relInstId: "{b02d2ffa-eee5-41c8-8985-2ac96f74b9ca}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        id:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        relInstId: "{f242493e-84f1-473a-89dc-2efc5de8e067}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{92b42e46-59be-49f0-96ec-bb9b640ab0cc}",
+        id:"{92b42e46-59be-49f0-96ec-bb9b640ab0cc}",
+        relInstId: "{6cd8983b-2394-46a2-b7f0-c509467ec78f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"Informed at",
+    "targets":
+    [
+    
+      {
+        text:"Analiza solución y genera estimación a detalle",
+        artefactId:"{88b879c7-1fb4-4b9a-85c1-c0be329d7c58}",
+        id:"{88b879c7-1fb4-4b9a-85c1-c0be329d7c58}",
+        relInstId: "{3e9078c8-f231-41cf-9b3c-14f41776c209}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        id:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        relInstId: "{1491c8d7-ff1f-40b6-aafb-5040c632f7bb}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
+        id:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
+        relInstId: "{659e4f29-cb85-421d-80de-592378b22f3f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    

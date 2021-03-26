@@ -1,0 +1,328 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{68637ead-0e7f-4d22-b211-8341441eec5b}",
+        "repoid":"{68637ead-0e7f-4d22-b211-8341441eec5b}",
+        "name":"Líder de soporte TI",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Líder de soporte TI"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{d945f776-f963-43d2-a062-f13de7fb08ea}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
+    
+
+    "label":"Accountable for",
+    "targets":
+    [
+    
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{3ff3fc63-f317-459a-9468-619e296af110}",
+        id:"{3ff3fc63-f317-459a-9468-619e296af110}",
+        relInstId: "{93ed1dd1-9479-4e84-b8d5-b9359e9829ae}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{6fdabed9-946b-4b65-8847-1c6176666ba3}",
+        id:"{6fdabed9-946b-4b65-8847-1c6176666ba3}",
+        relInstId: "{189218be-823a-452f-83a3-50f5f9ed7d80}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{8d4e9650-c65e-44bd-ae73-5c6016d34ac2}",
+        id:"{8d4e9650-c65e-44bd-ae73-5c6016d34ac2}",
+        relInstId: "{a736af01-7f0b-464f-ba93-4f954a58d2d1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{5675864d-10f4-40c3-9278-24855a0d4021}",
+        id:"{5675864d-10f4-40c3-9278-24855a0d4021}",
+        relInstId: "{5a13693d-1d0d-4434-8f11-348940e5ae4d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Genera orden de magnitud",
+        artefactId:"{b8d3c124-e49b-470b-ba83-6163760e6511}",
+        id:"{b8d3c124-e49b-470b-ba83-6163760e6511}",
+        relInstId: "{d77a4c92-0a81-48ae-8168-f8f5fd96d6c0}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera orden de magnitud",
+        artefactId:"{6a847778-ea91-4f97-8955-f4683c3ee77f}",
+        id:"{6a847778-ea91-4f97-8955-f4683c3ee77f}",
+        relInstId: "{66dc410d-d74f-4964-96d1-88471f34d877}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera orden de magnitud",
+        artefactId:"{aa25386a-ad4d-4ee8-8fc8-040864728708}",
+        id:"{aa25386a-ad4d-4ee8-8fc8-040864728708}",
+        relInstId: "{98416e7a-00ea-4aa7-92d6-21d4bd4a57ca}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera orden de magnitud",
+        artefactId:"{7a25d98a-3896-42b8-a4a9-f2f6a5fbb203}",
+        id:"{7a25d98a-3896-42b8-a4a9-f2f6a5fbb203}",
+        relInstId: "{77549712-3ca9-46c5-951c-b454c6ebf625}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera y actualiza equipo de trabajo TI",
+        artefactId:"{5e30ebe4-f907-4632-8ba2-b7da1c6f3662}",
+        id:"{5e30ebe4-f907-4632-8ba2-b7da1c6f3662}",
+        relInstId: "{18e49f90-807f-4684-82d1-5065a31ac0a6}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Junta de entendimiento",
+        artefactId:"{b8cb2b87-5a3e-4378-ac1a-3cf47d501761}",
+        id:"{b8cb2b87-5a3e-4378-ac1a-3cf47d501761}",
+        relInstId: "{f72e0aa9-6fd0-4af9-af43-5f37b887f69a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    

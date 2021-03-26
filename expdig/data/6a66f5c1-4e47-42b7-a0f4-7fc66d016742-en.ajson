@@ -1,0 +1,329 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{6a66f5c1-4e47-42b7-a0f4-7fc66d016742}",
+        "repoid":"{6a66f5c1-4e47-42b7-a0f4-7fc66d016742}",
+        "name":"Responsable de ciberseguridad",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Responsable de ciberseguridad"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{f9118410-57f9-4d56-b6ca-b77c619c9f0d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Estima pruebas de seguridad",
+        artefactId:"{f13842e9-affc-47d5-99e8-02615754972f}",
+        id:"{f13842e9-affc-47d5-99e8-02615754972f}",
+        relInstId: "{a8f91bb0-2a7e-49bc-8596-78f1a0ddecdd}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima pruebas de seguridad",
+        artefactId:"{3d80e942-03ba-4b8e-ae89-cd67f40e3821}",
+        id:"{3d80e942-03ba-4b8e-ae89-cd67f40e3821}",
+        relInstId: "{12c8e7b6-71f0-46ad-8ef9-b0bd887ce57f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza pruebas de seguridad",
+        artefactId:"{d8270ed3-c7df-49ca-8710-1bb0f0a68c2d}",
+        id:"{d8270ed3-c7df-49ca-8710-1bb0f0a68c2d}",
+        relInstId: "{a2996046-3058-4050-a2b6-9f0cbe7a57a5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza pruebas de seguridad",
+        artefactId:"{03dc3df0-987b-4a8f-b6fc-8bd3fa763bd7}",
+        id:"{03dc3df0-987b-4a8f-b6fc-8bd3fa763bd7}",
+        relInstId: "{00ae6642-9da9-46ae-b6c2-73345d032d7c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Documenta lecciones aprendidas",
+        artefactId:"{2acb86a3-fe04-403a-828b-c45116aaf747}",
+        id:"{2acb86a3-fe04-403a-828b-c45116aaf747}",
+        relInstId: "{9524c2f6-1bb2-4d08-9753-0418b060f30b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documento de evaluación",
+        artefactId:"{79eac5a0-e1c5-4ff8-b90d-1de55d9621ae}",
+        id:"{79eac5a0-e1c5-4ff8-b90d-1de55d9621ae}",
+        relInstId: "{9f90d30a-0cbf-4057-baca-eed8c65be68d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza análisis preliminar del RFP",
+        artefactId:"{e5cd3087-e927-4755-a708-f7a58539d5cc}",
+        id:"{e5cd3087-e927-4755-a708-f7a58539d5cc}",
+        relInstId: "{e9b5918b-24db-4493-ae4e-7dce09f27531}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza sesiones con proveedores para clarificar dudas",
+        artefactId:"{42231e63-5e5f-4367-b3e5-3da411ca02f5}",
+        id:"{42231e63-5e5f-4367-b3e5-3da411ca02f5}",
+        relInstId: "{10cb4fad-4dd7-4d01-964f-d64ef71d33ac}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"Informed at",
+    "targets":
+    [
+    
+      {
+        text:"Solicita accesos y gestiona sesiones",
+        artefactId:"{5b0f9054-506e-43ef-b823-4b180debb16f}",
+        id:"{5b0f9054-506e-43ef-b823-4b180debb16f}",
+        relInstId: "{355d23c9-a63b-4a2f-b6cd-85428753dc87}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    
