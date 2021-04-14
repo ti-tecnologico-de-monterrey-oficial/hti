@@ -129,6 +129,29 @@
       
   {
     "type":"relation",
+    "relClassInd":"RC_REFERENCED_INPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Activity input",
+    "targets":
+    [
+    
+      {
+        text:"Consolida estimación y propuesta de solución",
+        artefactId:"{3d802832-1439-40fb-b7d6-b34da94d199f}",
+        id:"{3d802832-1439-40fb-b7d6-b34da94d199f}",
+        relInstId: "{420d1dd0-eb49-40bc-8ad9-c2a3f30809a0}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
     "relClassInd":"RC_REFERENCED_OUTPUT_DATA_OPTIONAL_M",
     
 
@@ -149,6 +172,17 @@
       },
       {
         text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        id:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        relInstId: "{21a61896-81fd-459c-97d7-b562c39f92dc}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
         artefactId:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
         id:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
         relInstId: "{85d20ac7-4bd1-4f5b-9903-ce04304dcc87}",
@@ -159,10 +193,10 @@
         incoming:true
       },
       {
-        text:"Analiza solución y genera estimación a detalle (cotización)",
-        artefactId:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
-        id:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
-        relInstId: "{21a61896-81fd-459c-97d7-b562c39f92dc}",
+        text:"Consolida estimación y propuesta de solución",
+        artefactId:"{3d802832-1439-40fb-b7d6-b34da94d199f}",
+        id:"{3d802832-1439-40fb-b7d6-b34da94d199f}",
+        relInstId: "{bd8cdcaf-3277-4159-83cc-b472a639f16b}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -182,9 +216,9 @@
       },
       {
         text:"Estima a detalle Aplicación",
-        artefactId:"{f2efd964-988d-4d74-8a45-b9ba6b485453}",
-        id:"{f2efd964-988d-4d74-8a45-b9ba6b485453}",
-        relInstId: "{ee674f98-bb18-4a72-96d0-c0ee801e1dc1}",
+        artefactId:"{ccdb871a-0dbd-4cb7-99ef-1d0f4fb3314b}",
+        id:"{ccdb871a-0dbd-4cb7-99ef-1d0f4fb3314b}",
+        relInstId: "{b9b6a3b7-fb8b-4a3d-a363-bd687dc0b806}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -204,20 +238,9 @@
       },
       {
         text:"Estima a detalle Aplicación",
-        artefactId:"{b8bd9d0c-a3c2-470e-8677-ec2ca6ced5e5}",
-        id:"{b8bd9d0c-a3c2-470e-8677-ec2ca6ced5e5}",
-        relInstId: "{c71d5c01-3972-42cc-9e28-2078b59d6269}",
-        leaf: true,
-        artefactType:AIT_ARTEFACT_OBJECT,
-        broken:false,
-        trgmissing:false,
-        incoming:true
-      },
-      {
-        text:"Estima a detalle infraestructura",
-        artefactId:"{d203d0c2-477a-465e-8198-f337c26916ee}",
-        id:"{d203d0c2-477a-465e-8198-f337c26916ee}",
-        relInstId: "{2a350bbd-478f-4a93-b10f-ed4ede74ef21}",
+        artefactId:"{f2efd964-988d-4d74-8a45-b9ba6b485453}",
+        id:"{f2efd964-988d-4d74-8a45-b9ba6b485453}",
+        relInstId: "{ee674f98-bb18-4a72-96d0-c0ee801e1dc1}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -237,6 +260,17 @@
       },
       {
         text:"Estima a detalle infraestructura",
+        artefactId:"{d203d0c2-477a-465e-8198-f337c26916ee}",
+        id:"{d203d0c2-477a-465e-8198-f337c26916ee}",
+        relInstId: "{2a350bbd-478f-4a93-b10f-ed4ede74ef21}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle infraestructura",
         artefactId:"{c15e7def-8118-474f-a27f-e0291bc4d387}",
         id:"{c15e7def-8118-474f-a27f-e0291bc4d387}",
         relInstId: "{0c37da64-ed9a-4d56-beba-7e77224fe5ca}",
@@ -248,9 +282,20 @@
       },
       {
         text:"Estima a detalle infraestructura",
-        artefactId:"{6b59c682-615d-402f-861f-22aaf9322968}",
-        id:"{6b59c682-615d-402f-861f-22aaf9322968}",
-        relInstId: "{8c6a554d-1999-47d4-ac16-fb2e61b7eb34}",
+        artefactId:"{9088e7f5-767f-45e3-854f-2274806adc25}",
+        id:"{9088e7f5-767f-45e3-854f-2274806adc25}",
+        relInstId: "{c5eb6eb9-a2c8-4241-8098-030852c58009}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle pruebas de QA",
+        artefactId:"{c3e8a598-0b75-4349-b1f9-dfb15832b6ea}",
+        id:"{c3e8a598-0b75-4349-b1f9-dfb15832b6ea}",
+        relInstId: "{865af7f5-419f-4313-9035-afff996e4af9}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -259,20 +304,9 @@
       },
       {
         text:"Estima a detalle soporte",
-        artefactId:"{8d4e9650-c65e-44bd-ae73-5c6016d34ac2}",
-        id:"{8d4e9650-c65e-44bd-ae73-5c6016d34ac2}",
-        relInstId: "{589767b6-c347-4b78-8b27-22cb36d6e1bd}",
-        leaf: true,
-        artefactType:AIT_ARTEFACT_OBJECT,
-        broken:false,
-        trgmissing:false,
-        incoming:true
-      },
-      {
-        text:"Estima a detalle soporte",
-        artefactId:"{5675864d-10f4-40c3-9278-24855a0d4021}",
-        id:"{5675864d-10f4-40c3-9278-24855a0d4021}",
-        relInstId: "{61241e5b-7944-4b97-8550-d69be5c4ed9f}",
+        artefactId:"{5c0f7585-6483-404f-9b6e-1a93a9babf63}",
+        id:"{5c0f7585-6483-404f-9b6e-1a93a9babf63}",
+        relInstId: "{fa158407-4b1b-4458-be5e-82dc505ec96a}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -292,9 +326,31 @@
       },
       {
         text:"Estima a detalle soporte",
-        artefactId:"{6fdabed9-946b-4b65-8847-1c6176666ba3}",
-        id:"{6fdabed9-946b-4b65-8847-1c6176666ba3}",
-        relInstId: "{648ded73-3aed-48a0-8193-d1a232e334a5}",
+        artefactId:"{5675864d-10f4-40c3-9278-24855a0d4021}",
+        id:"{5675864d-10f4-40c3-9278-24855a0d4021}",
+        relInstId: "{61241e5b-7944-4b97-8550-d69be5c4ed9f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle soporte",
+        artefactId:"{8d4e9650-c65e-44bd-ae73-5c6016d34ac2}",
+        id:"{8d4e9650-c65e-44bd-ae73-5c6016d34ac2}",
+        relInstId: "{589767b6-c347-4b78-8b27-22cb36d6e1bd}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima pruebas de seguridad",
+        artefactId:"{2aa93a4b-20f4-4c6e-b2b5-fa168446ca68}",
+        id:"{2aa93a4b-20f4-4c6e-b2b5-fa168446ca68}",
+        relInstId: "{e1e4d67a-4ab8-477c-b3b9-2f023d6a188f}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,

@@ -40,9 +40,43 @@
     ,
     {
       
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@Todas las liberaciones (habilitadores nuevos y continuidades operativas) deben pasar por Seguridad.@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@El equipo de seguridad tendrá sus criterios para decidir qué escanear y qué no. Por ejemplo, todo habilitador nuevo se debe escanear, una liberación por cambios de etiquetas no es necesario escanear.@@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"A_DESCRIPTION_CS",
+    "classname":"Description",
+    "idclass":"A_DESCRIPTION_CS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{2fcdce9b-4a60-4011-a3fb-b435ba8d2a6a}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v4", "ind":"v0@v5@v4@v2@v3@v1@v7@v6@v8", "constraint":"Not specified@Manual@User@Send@Receive@Service@Script@Business rule@Call activity"},
+          
+    "type":"attribute",
+    "name":"TYPE_TASK",
+    "classname":"Task type",
+    "idclass":"TYPE_TASK",
+    "ctrltype":"ENUM",
+    "id":"{e3e748c7-93e9-4538-a5c0-9b9c158043fb}"
+  
+
+
+    }
+    ,
+    {
+      
           "attrtype":"ENUMLIST",
           "complex":false,
-          "value":{"val":"", "ind":"v0@v1@v2@v3@v4@v5@v6@v7@v8@v9", "constraint":"manual@automatic@semi-automatic@planning@checking@administrating@executing@value adding@communicating@external"},
+          "value":{"val":"v2", "ind":"v0@v1@v2@v3@v4@v5@v6@v7@v8@v9", "constraint":"manual@automatic@semi-automatic@planning@checking@administrating@executing@value adding@communicating@external"},
           
     "type":"attribute",
     "name":"CLASSIFICATION",
@@ -77,6 +111,52 @@
         artefactId:"{6a66f5c1-4e47-42b7-a0f4-7fc66d016742}",
         id:"{6a66f5c1-4e47-42b7-a0f4-7fc66d016742}",
         relInstId:"{00ae6642-9da9-46ae-b6c2-73345d032d7c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
+    
+
+    "label":"Accountable for approving results",
+    "targets":
+    [
+    
+      {
+        text:"Arquitecto de solución TI",
+        artefactId:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
+        id:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
+        relInstId:"{8fe84c18-666e-49a1-ad8d-5e34eeb2b0b3}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted",
+    "targets":
+    [
+    
+      {
+        text:"Desarrollador de solución TI",
+        artefactId:"{484b6e91-ecae-443e-affc-360789e0d1ac}",
+        id:"{484b6e91-ecae-443e-affc-360789e0d1ac}",
+        relInstId:"{b45dba15-601f-4e2a-add3-cb363422dadc}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,

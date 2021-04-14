@@ -153,6 +153,29 @@
       }
     ]
   }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"To inform",
+    "targets":
+    [
+    
+      {
+        text:"Business Partner TI",
+        artefactId:"{accf3502-2963-4218-a5d7-8bd185202db7}",
+        id:"{accf3502-2963-4218-a5d7-8bd185202db7}",
+        relInstId:"{48c17423-22d0-4677-83ec-a1ed40925874}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
   
     ]
   },
@@ -162,6 +185,29 @@
     "children":
     [
       
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_INPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data input",
+    "targets":
+    [
+    
+      {
+        text:"Resultado de evaluación de proveedores",
+        artefactId:"{027eb80e-c5c7-44b3-98f0-c6e6577d6f60}",
+        id:"{027eb80e-c5c7-44b3-98f0-c6e6577d6f60}",
+        relInstId:"{0ff74d70-c97e-4ffe-a20a-02999083f7d1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  ,
   {
     "name":"Input/Output (Runtime)",
     "type":"group",

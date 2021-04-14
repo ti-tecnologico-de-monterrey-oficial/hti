@@ -7,7 +7,7 @@
         "edit":true,
         "id":"{82fb6af6-e2ac-44e9-ae51-0bc28c7ad4c3}",
         "repoid":"{00630613-cf31-48c7-94d1-be18dc18828b}",
-        "name":"Valida código",
+        "name":"Validación automátizada de código",
         "iconUrl":"C_TASK.tmp",
         "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
         "classname":"Task",
@@ -25,7 +25,7 @@
       
           "attrtype":"ADOSTRING",
           "complex":false,
-          "value":{"val":"Valida código"},
+          "value":{"val":"Validación automátizada de código"},
           
     "type":"attribute",
     "name":"NAME",
@@ -102,6 +102,29 @@
       }
     ]
   }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
+    
+
+    "label":"Accountable for approving results",
+    "targets":
+    [
+    
+      {
+        text:"Arquitecto de solución TI",
+        artefactId:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
+        id:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
+        relInstId:"{1a2af0d8-6460-46ab-89a2-df59b751a007}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
   
     ]
   },
@@ -137,6 +160,17 @@
     "targets":
     [
     
+      {
+        text:"Code inspector",
+        artefactId:"{e731155f-e0cd-4f6d-903d-9be45b6d7db5}",
+        id:"{e731155f-e0cd-4f6d-903d-9be45b6d7db5}",
+        relInstId:"{0ecf78c3-5fe4-4dd8-9fd3-00a7cae7c4ce}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
       {
         text:"GitHub",
         artefactId:"{e765fff7-5760-497c-9f1c-f642e2e48275}",

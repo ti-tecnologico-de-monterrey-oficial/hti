@@ -90,33 +90,10 @@
     [
     
       {
-        text:"Desarrollador de solución TI",
-        artefactId:"{484b6e91-ecae-443e-affc-360789e0d1ac}",
-        id:"{484b6e91-ecae-443e-affc-360789e0d1ac}",
-        relInstId:"{655a8d41-4d40-4fd5-b916-68d345968e09}",
-        leaf: true,
-        artefactType:AIT_ARTEFACT_OBJECT,
-        broken:false,
-        trgmissing:false,
-        incoming:false
-      }
-    ]
-  }
-  ,
-  {
-    "type":"relation",
-    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
-    
-
-    "label":"Accountable for approving results",
-    "targets":
-    [
-    
-      {
         text:"Arquitecto de solución TI",
         artefactId:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
         id:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
-        relInstId:"{ccd0a8df-28cd-4d06-979f-5bbafe03f6bd}",
+        relInstId:"{0b53e7ed-6856-43b0-b1d1-693972af7364}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -168,6 +145,40 @@
     ]
   }
   ,
+    {
+      
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"INPUT_QUALITY_REQUIREMENTS",
+    "classname":"Input - quality requirements",
+    "idclass":"INPUT_QUALITY_REQUIREMENTS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{598a534c-876b-496e-ba22-3cf45cbf4eea}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@Documentos adicionales de diseño adecuados por el tipo de solución, por ejemplo otros diagramas de UML o especificaciones para la plataforma de desarrollo / implementación.@@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"OUTPUT_QUALITY_REQUIREMENTS",
+    "classname":"Output - quality requirements",
+    "idclass":"OUTPUT_QUALITY_REQUIREMENTS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{f72b7e22-bad0-4258-a424-352fbe6ce5df}"
+  
+
+
+    }
+    ,
   {
     "name":"Input/Output (Runtime)",
     "type":"group",

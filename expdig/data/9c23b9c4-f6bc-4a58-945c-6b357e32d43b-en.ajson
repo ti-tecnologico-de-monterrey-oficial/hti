@@ -136,6 +136,17 @@
     [
     
       {
+        text:"Comité de experiencias digitales",
+        artefactId:"{e083fdf7-f10e-49fa-a373-24504729f11d}",
+        id:"{e083fdf7-f10e-49fa-a373-24504729f11d}",
+        relInstId:"{70ba3329-f07d-4469-b341-4c0990b4f34a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
         text:"Líder funcional",
         artefactId:"{a44e537a-86db-4f3f-98ff-b1ff807fde28}",
         id:"{a44e537a-86db-4f3f-98ff-b1ff807fde28}",
@@ -168,6 +179,29 @@
     "children":
     [
       
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_INPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data input",
+    "targets":
+    [
+    
+      {
+        text:"Calendarización del proyecto",
+        artefactId:"{6fb93507-03ff-4fba-8ca7-0edb59d4873a}",
+        id:"{6fb93507-03ff-4fba-8ca7-0edb59d4873a}",
+        relInstId:"{2a50fd76-1b27-4aa5-ba9b-6092250a261b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  ,
   {
     "name":"Input/Output (Runtime)",
     "type":"group",
