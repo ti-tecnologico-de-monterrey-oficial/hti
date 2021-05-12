@@ -40,6 +40,23 @@
     ,
     {
       
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@Incluye la validación del diseño de pruebas unitarias, no se ejecutan, solo se valida qué haya un conjunto de pruebas definidas@@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"A_DESCRIPTION_CS",
+    "classname":"Description",
+    "idclass":"A_DESCRIPTION_CS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{2fcdce9b-4a60-4011-a3fb-b435ba8d2a6a}"
+  
+
+
+    }
+    ,
+    {
+      
           "attrtype":"ENUM",
           "complex":false,
           "value":{"val":"v1", "ind":"v0@v5@v4@v2@v3@v1@v7@v6@v8", "constraint":"Not specified@Manual@User@Send@Receive@Service@Script@Business rule@Call activity"},
@@ -134,6 +151,46 @@
     "children":
     [
       
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_OUTPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data output",
+    "targets":
+    [
+    
+      {
+        text:"Resultados de validación automática de código",
+        artefactId:"{b5cd2536-021d-48ea-9786-4534b45b3c2c}",
+        id:"{b5cd2536-021d-48ea-9786-4534b45b3c2c}",
+        relInstId:"{ce93f00f-1029-4851-ba1f-d96ff740a956}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+    {
+      
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"OUTPUT_QUALITY_REQUIREMENTS",
+    "classname":"Output - quality requirements",
+    "idclass":"OUTPUT_QUALITY_REQUIREMENTS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{f72b7e22-bad0-4258-a424-352fbe6ce5df}"
+  
+
+
+    }
+    ,
   {
     "name":"Input/Output (Runtime)",
     "type":"group",

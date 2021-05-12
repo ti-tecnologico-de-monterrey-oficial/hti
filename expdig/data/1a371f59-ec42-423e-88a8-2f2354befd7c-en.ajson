@@ -141,6 +141,17 @@
         incoming:false
       },
       {
+        text:"Responsable de ciberseguridad",
+        artefactId:"{6a66f5c1-4e47-42b7-a0f4-7fc66d016742}",
+        id:"{6a66f5c1-4e47-42b7-a0f4-7fc66d016742}",
+        relInstId:"{abea8cd5-91a0-4e28-9707-aa1b8414f6dd}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
         text:"Responsable de operación TI",
         artefactId:"{a1ea8513-6677-4563-b52d-de8290a6efb2}",
         id:"{a1ea8513-6677-4563-b52d-de8290a6efb2}",
@@ -173,6 +184,29 @@
     "children":
     [
       
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_OUTPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data output",
+    "targets":
+    [
+    
+      {
+        text:"Reporte de escaneo de seguridad",
+        artefactId:"{32b41b26-47f9-451c-9386-c30e992bd7ec}",
+        id:"{32b41b26-47f9-451c-9386-c30e992bd7ec}",
+        relInstId:"{2d4d3ffe-badb-4097-85f3-0f3f394a2209}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
   {
     "name":"Input/Output (Runtime)",
     "type":"group",
