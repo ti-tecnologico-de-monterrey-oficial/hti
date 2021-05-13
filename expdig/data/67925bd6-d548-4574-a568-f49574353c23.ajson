@@ -273,7 +273,7 @@
         height: "100",
         artefactType:AIT_ARTEFACT_OBJECT,
         name: "¿Contiene issues críticos?",
-        description: "Se refiere a issues críticos reportados por las herramientas de validación de código y que el desarrollador no haya corregido."
+        description: "Se refiere a issues críticos reportados por las herramientas de validación de código (ej. github) y que el desarrollador no haya corregido."
       },
     
       {
@@ -284,7 +284,7 @@
         height: "119",
         artefactType:AIT_ARTEFACT_OBJECT,
         name: "Prepara documentación para pruebas de seguridad",
-        description: "  Proporcionar:  • URL  • Cuenta de acceso (No necesariamente admin, pero que pueda acceder todos los apartados de la aplicación)  • Para obtener resultados más exactos, proporcionar los siguientes datos (No mandatorio, pero recomendado):  - Arquitectura del sitio (dirección IP, SO, web server, application server, frameworks adicionales, base de datos. Ej. Linux CentOS 2.6.18, Apache 2.2.24, Tomcat 8.0, JavaScript framework, MySQL 5.7.18, etc.)  Se recomienda generar los respaldos que se consideren necesarios."
+        description: "  Proporcionar:  • URL  • Cuenta de acceso (No necesariamente admin, pero que pueda acceder todos los apartados de la aplicación)  • Para obtener resultados más exactos, proporcionar los siguientes datos (No mandatorio, pero recomendado):  - Arquitectura del sitio (dirección IP, SO, web server, application server, frameworks adicionales, base de datos. Ej. Linux CentOS 2.6.18, Apache 2.2.24, Tomcat 8.0, JavaScript framework, MySQL 5.7.18, etc.)  Dado que el escaneo puede llegar a corromper la aplicación, se recomienda generar los respaldos que se consideren necesarios, por ejemplo base de datos."
       },
     
       {
@@ -356,12 +356,12 @@
       {
         id: "{b32e7cbf-fa3b-4910-9969-3664f17f71c3}",
         x: "417",
-        y: "246",
-        width: "151",
-        height: "106",
+        y: "239",
+        width: "158",
+        height: "113",
         artefactType:AIT_ARTEFACT_OBJECT,
-        name: "Solicita revisión en Mesa de servicio",
-        description: ""
+        name: "Solicita escaneo de seguridad",
+        description: "  El proceso de escaneo de seguridad se ejecuta bajo demanda, por lo que el equipo de desarrollo debe solicitar el servicio generando un ticket en la mesa de servicio."
       },
     
       {
@@ -372,7 +372,7 @@
         height: "87",
         artefactType:AIT_ARTEFACT_OBJECT,
         name: "¿Información completa?",
-        description: "  Contiene la información necesaria para el escaneo.   El reporte de validación automática de código no incluye issues críticos."
+        description: "  Se requiere la información necesaria para ejecutar el escaneo.   El reporte de validación automática de código no debe incluir issues críticos."
       },
     
       {
