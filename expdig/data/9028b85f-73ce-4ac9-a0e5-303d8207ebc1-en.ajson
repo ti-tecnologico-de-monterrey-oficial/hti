@@ -40,6 +40,23 @@
     ,
     {
       
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@Son sesiones de entendimiento donde se revisa el documento y se aclaran dudas y se cierran acuerdos.@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@Es una actividad que puede llevarse en varias sesiones@@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"A_DESCRIPTION_CS",
+    "classname":"Description",
+    "idclass":"A_DESCRIPTION_CS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{2fcdce9b-4a60-4011-a3fb-b435ba8d2a6a}"
+  
+
+
+    }
+    ,
+    {
+      
           "attrtype":"ENUM",
           "complex":false,
           "value":{"val":"v5", "ind":"v0@v5@v4@v2@v3@v1@v7@v6@v8", "constraint":"Not specified@Manual@User@Send@Receive@Service@Script@Business rule@Call activity"},
@@ -195,6 +212,17 @@
         artefactId:"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
         id:"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
         relInstId:"{f242493e-84f1-473a-89dc-2efc5de8e067}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Fábrica de software",
+        artefactId:"{180181dc-bb6f-41b6-abf9-68ba7f3c9746}",
+        id:"{180181dc-bb6f-41b6-abf9-68ba7f3c9746}",
+        relInstId:"{c0207490-75dc-4ec3-87bd-941c88510a1f}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -729,6 +757,24 @@
     "idclass":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
     "ctrltype":"BOOL",
     "id":"{0c4d83d5-56f7-4eed-b897-6368f9067750}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "classname":"Show symbol when implementing controls exist",
+    "idclass":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c3ce853-5264-48f7-9eba-acc0aba17528}"
   
 
 

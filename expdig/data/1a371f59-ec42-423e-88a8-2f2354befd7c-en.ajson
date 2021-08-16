@@ -40,6 +40,23 @@
     ,
     {
       
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@En caso de habilitadores nuevos se debe solicitar el alta en el inventario de habilitadores a la cuenta dl-hti-habilitadores@servicios.itesm.mx@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@Es necesario actualizar el repositorio de documentos con los cambios generados en las etapas de desarrollo y pruebas del habilitador.@@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"A_DESCRIPTION_CS",
+    "classname":"Description",
+    "idclass":"A_DESCRIPTION_CS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{2fcdce9b-4a60-4011-a3fb-b435ba8d2a6a}"
+  
+
+
+    }
+    ,
+    {
+      
           "attrtype":"ENUMLIST",
           "complex":false,
           "value":{"val":"", "ind":"v0@v1@v2@v3@v4@v5@v6@v7@v8@v9", "constraint":"manual@automatic@semi-automatic@planning@checking@administrating@executing@value adding@communicating@external"},
@@ -134,6 +151,17 @@
         artefactId:"{accf3502-2963-4218-a5d7-8bd185202db7}",
         id:"{accf3502-2963-4218-a5d7-8bd185202db7}",
         relInstId:"{bbbd687e-2160-44b6-b9e8-c8e73403f2f9}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Fábrica de software",
+        artefactId:"{180181dc-bb6f-41b6-abf9-68ba7f3c9746}",
+        id:"{180181dc-bb6f-41b6-abf9-68ba7f3c9746}",
+        relInstId:"{cbe10475-a06c-44d6-85fd-f4b181509007}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -550,6 +578,24 @@
     "idclass":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
     "ctrltype":"BOOL",
     "id":"{0c4d83d5-56f7-4eed-b897-6368f9067750}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "classname":"Show symbol when implementing controls exist",
+    "idclass":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c3ce853-5264-48f7-9eba-acc0aba17528}"
   
 
 
