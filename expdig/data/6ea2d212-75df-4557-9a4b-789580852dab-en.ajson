@@ -1,0 +1,562 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{6ea2d212-75df-4557-9a4b-789580852dab}",
+        "repoid":"{00630613-cf31-48c7-94d1-be18dc18828b}",
+        "name":"Selecciona Fábrica de software",
+        "iconUrl":"C_TASK.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Task",
+        "idclass":"C_TASK",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Selecciona Fábrica de software"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{16656faa-147a-4a46-917b-108016d56c0d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUMLIST",
+          "complex":false,
+          "value":{"val":"", "ind":"v0@v1@v2@v3@v4@v5@v6@v7@v8@v9", "constraint":"manual@automatic@semi-automatic@planning@checking@administrating@executing@value adding@communicating@external"},
+          
+    "type":"attribute",
+    "name":"CLASSIFICATION",
+    "classname":"Classification",
+    "idclass":"CLASSIFICATION",
+    "ctrltype":"ENUM_LIST",
+    "id":"{b660c5a1-b535-4186-8a6b-c03d05634952}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"RACI",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for execution",
+    "targets":
+    [
+    
+      {
+        text:"Arquitecto de solución TI",
+        artefactId:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
+        id:"{4398a8cb-6c8f-4c38-a443-1796995cf865}",
+        relInstId:"{d2d06627-4344-49df-8739-e0b0d2a92a60}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted",
+    "targets":
+    [
+    
+      {
+        text:"Proveedor",
+        artefactId:"{859c4f27-11b5-4347-bf73-8cbb9f2fd7be}",
+        id:"{859c4f27-11b5-4347-bf73-8cbb9f2fd7be}",
+        relInstId:"{e95e92dc-297f-4263-b270-27a9b3b6c8f5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Responsable de abasto",
+        artefactId:"{651b5b18-ca46-4a6a-adeb-125d6eb3ccba}",
+        id:"{651b5b18-ca46-4a6a-adeb-125d6eb3ccba}",
+        relInstId:"{40b40463-4b78-4d94-b577-0cf8c222656f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"To inform",
+    "targets":
+    [
+    
+      {
+        text:"Responsable de QA",
+        artefactId:"{1390f55f-1d51-4f19-b37d-c6aef7c22f83}",
+        id:"{1390f55f-1d51-4f19-b37d-c6aef7c22f83}",
+        relInstId:"{b8d55e01-4f65-4b35-8976-473cedba3180}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Responsable de ciberseguridad",
+        artefactId:"{6a66f5c1-4e47-42b7-a0f4-7fc66d016742}",
+        id:"{6a66f5c1-4e47-42b7-a0f4-7fc66d016742}",
+        relInstId:"{3f811f7b-4707-4ab1-9cfc-c19de8190a6a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Responsable de operación TI",
+        artefactId:"{a1ea8513-6677-4563-b52d-de8290a6efb2}",
+        id:"{a1ea8513-6677-4563-b52d-de8290a6efb2}",
+        relInstId:"{0a3e2a4a-ad5b-4e74-a9eb-54fbdeb976a0}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Responsable de soporte TI",
+        artefactId:"{41e9c2e3-6a60-4462-9b0c-64527a441599}",
+        id:"{41e9c2e3-6a60-4462-9b0c-64527a441599}",
+        relInstId:"{fd078f5e-fbe9-451b-b550-d14c48f51e83}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Input/Output",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_INPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data input",
+    "targets":
+    [
+    
+      {
+        text:"Catálogo de fábricas de software",
+        artefactId:"{6bad34a5-8823-4d57-a38d-967f76e39a1c}",
+        id:"{6bad34a5-8823-4d57-a38d-967f76e39a1c}",
+        relInstId:"{3cfc811f-2bb2-42ed-af29-b2f2a38b061b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
+  {
+    "name":"Input/Output (Runtime)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Systems/Products",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Risks",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Controls",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Object properties",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Task relevance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Object references",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Object definition",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Import details",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Standard (loop)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Multi-instances (loop)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Trigger events",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Details",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Implementation (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Service (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Send/Receive (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"User (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Script (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Call (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Representation",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v0", "ind":"v0@v1", "constraint":"inside@below"},
+          
+    "type":"attribute",
+    "name":"REPRESENTATION_NAME_TASK",
+    "classname":"Representation (Name)",
+    "idclass":"REPRESENTATION_NAME_TASK",
+    "ctrltype":"ENUM",
+    "id":"{565e3a93-18d2-4518-bbb3-2dcd433e85d0}"
+  
+
+
+    }
+    ,
+  {
+    "name":"Visualisation of attributes",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_RESPONSIBLE_FOR_EXECUTION",
+    "classname":"Show responsible for execution",
+    "idclass":"DISPLAY_RESPONSIBLE_FOR_EXECUTION",
+    "ctrltype":"BOOL",
+    "id":"{7abda636-e481-4d1f-8a8f-debaa7ed8394}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_SYMBOL_IF_DESCRIPTION",
+    "classname":"Show symbol (\"i\") when a description is entered",
+    "idclass":"DISPLAY_SYMBOL_IF_DESCRIPTION",
+    "ctrltype":"BOOL",
+    "id":"{22c826d9-af67-49a0-8cc5-c536b4e9caa9}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":"0"},
+            
+    "type":"attribute",
+    "name":"DISPLAY_COOPERATIONPARTICIPATION",
+    "classname":"Show consulted",
+    "idclass":"DISPLAY_COOPERATIONPARTICIPATION",
+    "ctrltype":"BOOL",
+    "id":"{145982cf-6fa1-4284-bd90-82dd1ecaa983}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":"0"},
+            
+    "type":"attribute",
+    "name":"DISPLAY_TO_INFORM",
+    "classname":"Show to inform",
+    "idclass":"DISPLAY_TO_INFORM",
+    "ctrltype":"BOOL",
+    "id":"{b729cdee-f271-46c5-8d47-0ae4a29ce358}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
+    "classname":"Show symbol when risks exist",
+    "idclass":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c4d83d5-56f7-4eed-b897-6368f9067750}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "classname":"Show symbol when implementing controls exist",
+    "idclass":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c3ce853-5264-48f7-9eba-acc0aba17528}"
+  
+
+
+    }
+    
+    ]
+  }
+  
+    ]
+  }
+        ]
+      }
+    };
+    

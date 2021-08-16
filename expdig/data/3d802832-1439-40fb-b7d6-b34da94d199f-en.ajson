@@ -184,6 +184,50 @@
         broken:false,
         trgmissing:false,
         incoming:false
+      },
+      {
+        text:"Champion de experiencia digital",
+        artefactId:"{5375703d-ab6c-4c1a-8f5b-445bfe125a79}",
+        id:"{5375703d-ab6c-4c1a-8f5b-445bfe125a79}",
+        relInstId:"{d8f26951-9cff-4dee-9cf0-ebc280ed01c5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Coordinador de equipo de experiencia digital",
+        artefactId:"{23c72e36-53b1-4a56-98f7-fda8e720cb85}",
+        id:"{23c72e36-53b1-4a56-98f7-fda8e720cb85}",
+        relInstId:"{0f696ae9-6895-43f9-bb7f-e5f5a61f0b5b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Experto funcional (SME)",
+        artefactId:"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
+        id:"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
+        relInstId:"{08488657-271e-414a-9e9d-474b5182c2bf}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Líder funcional",
+        artefactId:"{a44e537a-86db-4f3f-98ff-b1ff807fde28}",
+        id:"{a44e537a-86db-4f3f-98ff-b1ff807fde28}",
+        relInstId:"{93db895e-0434-4fea-b8b2-883f2979fa37}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
       }
     ]
   }
@@ -213,7 +257,7 @@
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
-        trgmissing:false,
+        trgmissing:true,
         incoming:false
       }
     ]
@@ -236,7 +280,18 @@
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
-        trgmissing:false,
+        trgmissing:true,
+        incoming:false
+      },
+      {
+        text:"Firma de aceptación de propuesta",
+        artefactId:"{3b80218c-17ff-445c-bd0a-223172989f9b}",
+        id:"{3b80218c-17ff-445c-bd0a-223172989f9b}",
+        relInstId:"{c0287b8f-76b3-48ce-82c6-8ee1af96f5a2}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
         incoming:false
       }
     ]
@@ -580,6 +635,24 @@
     "idclass":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
     "ctrltype":"BOOL",
     "id":"{0c4d83d5-56f7-4eed-b897-6368f9067750}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "classname":"Show symbol when implementing controls exist",
+    "idclass":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c3ce853-5264-48f7-9eba-acc0aba17528}"
   
 
 

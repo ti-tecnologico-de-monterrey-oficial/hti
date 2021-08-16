@@ -42,7 +42,7 @@
       
           "attrtype":"LONGSTRING",
           "complex":false,
-          "value":{"val":"@@OT@@x@@CT@@Otros documentos técnicos útiles de acuerdo al tipo de solución o herramienta utilizada en la construcción, por ejemplo otros diagramas uml.@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@"},
+          "value":{"val":"@@OT@@x@@CT@@Otros documentos técnicos útiles de acuerdo al tipo de solución o herramienta utilizada en la construcción, por ejemplo otros diagramas uml.@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@"},
           
     "type":"attribute",
     "name":"A_DESCRIPTION_CS",
@@ -162,6 +162,40 @@
 
     }
     ,
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_OUTPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Data output",
+    "targets":
+    [
+    
+      {
+        text:"Diseño de componentes",
+        artefactId:"{9d5a334a-36cf-46e7-a9cd-0c6200bcbd92}",
+        id:"{9d5a334a-36cf-46e7-a9cd-0c6200bcbd92}",
+        relInstId:"{64634390-6dc9-4366-a17c-f9cdaf53dbb6}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Diseño de la solución",
+        artefactId:"{c43c1749-0530-4cd3-9ef1-1a4f05debb09}",
+        id:"{c43c1749-0530-4cd3-9ef1-1a4f05debb09}",
+        relInstId:"{14bb77f0-0962-461f-a242-2402e61243c5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      }
+    ]
+  }
+  ,
     {
       
           "attrtype":"LONGSTRING",
@@ -500,6 +534,24 @@
     "idclass":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
     "ctrltype":"BOOL",
     "id":"{0c4d83d5-56f7-4eed-b897-6368f9067750}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "classname":"Show symbol when implementing controls exist",
+    "idclass":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c3ce853-5264-48f7-9eba-acc0aba17528}"
   
 
 

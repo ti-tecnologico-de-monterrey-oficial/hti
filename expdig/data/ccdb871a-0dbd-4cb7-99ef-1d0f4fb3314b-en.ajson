@@ -42,7 +42,7 @@
       
           "attrtype":"LONGSTRING",
           "complex":false,
-          "value":{"val":"@@OT@@x@@CT@@Toma de decisiones, como:@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@ol@@CT@@@@OT@@li@@CT@@Uso de datos (gobierno)@@OT@@ol@@CT@@@@OT@@li@@CT@@Fuentes de datos@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Entrega de datos@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@/ol@@CT@@@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Tipo de integraciones@@OT@@ol@@CT@@@@OT@@li@@CT@@API Manager@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Bus de integración@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@ETL@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@/ol@@CT@@@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Seguridad requerida@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Uso de matriz de trazabilidad basada en:@@OT@@br/@@CT@@4.1. Requerimientos@@OT@@br/@@CT@@4.2. Casos de uso@@OT@@br/@@CT@@4.3. Proceso@@OT@@br/@@CT@@4.4. Modelo arquitectura en SparxSystems EA@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@/ol@@CT@@"},
+          "value":{"val":"@@OT@@x@@CT@@Toma de decisiones, como:@@OT@@/x@@CT@@@@OT@@br/@@CT@@@@OT@@ol@@CT@@@@OT@@li@@CT@@Uso de datos (gobierno)@@OT@@ol@@CT@@@@OT@@li@@CT@@Fuentes de datos@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Entrega de datos@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@/ol@@CT@@@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Tipo de integraciones@@OT@@ol@@CT@@@@OT@@li@@CT@@API Manager@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Bus de integración@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@ETL@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@/ol@@CT@@@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Seguridad requerida@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Uso de matriz de trazabilidad basada en:@@OT@@br/@@CT@@4.1. Requerimientos@@OT@@br/@@CT@@4.2. Casos de uso@@OT@@br/@@CT@@4.3. Proceso@@OT@@br/@@CT@@4.4. Modelo arquitectura en SparxSystems EA@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@/ol@@CT@@@@OT@@x@@CT@@ @@OT@@/x@@CT@@"},
           
     "type":"attribute",
     "name":"A_DESCRIPTION_CS",
@@ -153,6 +153,28 @@
     [
     
       {
+        text:"Arquitecto institucional",
+        artefactId:"{15604ad7-2726-4205-90d4-92de3d5164a8}",
+        id:"{15604ad7-2726-4205-90d4-92de3d5164a8}",
+        relInstId:"{8a44cc75-63aa-497d-8627-01edd11115c1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Business Partner TI",
+        artefactId:"{accf3502-2963-4218-a5d7-8bd185202db7}",
+        id:"{accf3502-2963-4218-a5d7-8bd185202db7}",
+        relInstId:"{9f144c07-cd86-4f51-97d3-7a1f4323d1d0}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
         text:"Desarrollador de solución TI",
         artefactId:"{484b6e91-ecae-443e-affc-360789e0d1ac}",
         id:"{484b6e91-ecae-443e-affc-360789e0d1ac}",
@@ -168,6 +190,17 @@
         artefactId:"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
         id:"{80dadd07-d6e9-4791-bb8e-3b46a5ec6d0a}",
         relInstId:"{196c3170-b136-4f94-a747-171520343615}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:false
+      },
+      {
+        text:"Fábrica de software",
+        artefactId:"{180181dc-bb6f-41b6-abf9-68ba7f3c9746}",
+        id:"{180181dc-bb6f-41b6-abf9-68ba7f3c9746}",
+        relInstId:"{4cf6100c-2957-4ba5-8d69-b8d2fc3a0147}",
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
@@ -313,7 +346,7 @@
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
-        trgmissing:false,
+        trgmissing:true,
         incoming:false
       }
     ]
@@ -353,7 +386,7 @@
         leaf: true,
         artefactType:AIT_ARTEFACT_OBJECT,
         broken:false,
-        trgmissing:false,
+        trgmissing:true,
         incoming:false
       }
     ]
@@ -663,6 +696,24 @@
     "idclass":"DISPLAY_SYMBOLS_IF_RISKS_OR_CONTROLS",
     "ctrltype":"BOOL",
     "id":"{0c4d83d5-56f7-4eed-b897-6368f9067750}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "classname":"Show symbol when implementing controls exist",
+    "idclass":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c3ce853-5264-48f7-9eba-acc0aba17528}"
   
 
 
