@@ -1,0 +1,781 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{96150c2c-f114-4385-9e75-b850c088b5a6}",
+        "repoid":"{96150c2c-f114-4385-9e75-b850c088b5a6}",
+        "name":"Líder de Arquitectura y Soluciones",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Líder de Arquitectura y Soluciones"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{b00bb4d5-e632-4b53-93c3-8e26db209b14}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Genera documentación para adquisición de solución comercial",
+        artefactId:"{589a25ce-8b67-4040-a4e1-7d7389afab83}",
+        id:"{589a25ce-8b67-4040-a4e1-7d7389afab83}",
+        relInstId: "{549bc10c-14c3-4355-be6f-9ff57dea5cd0}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para desarrollo a la medida Cascada",
+        artefactId:"{102130e2-6d65-4ef5-ac85-85ee98ee9052}",
+        id:"{102130e2-6d65-4ef5-ac85-85ee98ee9052}",
+        relInstId: "{ea5af962-09bf-4f39-af95-0f4f67d7fbda}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para el desarrollo a la medida Agile",
+        artefactId:"{864f30a7-e4a0-41ad-aee1-f0ce94fcea7f}",
+        id:"{864f30a7-e4a0-41ad-aee1-f0ce94fcea7f}",
+        relInstId: "{2ce7b39e-ed29-4918-9433-e6a1c474add9}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para mejora o configuración sobre plataforma existente",
+        artefactId:"{8cb15b80-f298-464b-b898-cbdd855ea729}",
+        id:"{8cb15b80-f298-464b-b898-cbdd855ea729}",
+        relInstId: "{cae56220-e996-4dcf-87d5-67bbd6e65d83}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera estimación a detalle",
+        artefactId:"{48d3cb25-453d-4861-a2e9-8cefef765715}",
+        id:"{48d3cb25-453d-4861-a2e9-8cefef765715}",
+        relInstId: "{3a7b4302-3bf9-4856-9ddb-664bf0c9dcc6}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera orden de magnitud",
+        artefactId:"{7a25d98a-3896-42b8-a4a9-f2f6a5fbb203}",
+        id:"{7a25d98a-3896-42b8-a4a9-f2f6a5fbb203}",
+        relInstId: "{ceb866cd-fb8b-4b3c-b988-ff8ac31cd57d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
+    
+
+    "label":"Accountable for",
+    "targets":
+    [
+    
+      {
+        text:"Analiza solución y genera estimación a detalle",
+        artefactId:"{88b879c7-1fb4-4b9a-85c1-c0be329d7c58}",
+        id:"{88b879c7-1fb4-4b9a-85c1-c0be329d7c58}",
+        relInstId: "{8563fb6e-974e-48b5-ac8c-d2accb056419}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
+        id:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
+        relInstId: "{e8170049-bb80-42f3-9c01-4e3d84177c91}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        id:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        relInstId: "{885d455f-4e7b-434e-a348-add5a71eb18d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Consolida estimación y propuesta de solución",
+        artefactId:"{3d802832-1439-40fb-b7d6-b34da94d199f}",
+        id:"{3d802832-1439-40fb-b7d6-b34da94d199f}",
+        relInstId: "{0bbf9492-b615-4f9d-a83c-137409443758}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{ccdb871a-0dbd-4cb7-99ef-1d0f4fb3314b}",
+        id:"{ccdb871a-0dbd-4cb7-99ef-1d0f4fb3314b}",
+        relInstId: "{8df47cc0-8777-4fa3-8ba1-0ee5be9f7c25}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{981aa6e9-ac08-463a-ad2e-fb1dd9ef6705}",
+        id:"{981aa6e9-ac08-463a-ad2e-fb1dd9ef6705}",
+        relInstId: "{ca578f52-f6fe-41e5-84ce-00489e35f854}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{f2efd964-988d-4d74-8a45-b9ba6b485453}",
+        id:"{f2efd964-988d-4d74-8a45-b9ba6b485453}",
+        relInstId: "{82364d6d-e978-458d-a8a7-f5627c719893}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{e1f3f601-b7d5-4e83-a7cf-99c261f92f69}",
+        id:"{e1f3f601-b7d5-4e83-a7cf-99c261f92f69}",
+        relInstId: "{c17fd3aa-9028-4b19-bda7-6b4372e82f2f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera estimación a detalle (cotización)",
+        artefactId:"{82c28731-6ac7-4892-b19a-88009204e1f1}",
+        id:"{82c28731-6ac7-4892-b19a-88009204e1f1}",
+        relInstId: "{d59525b4-7d96-4e36-8567-67ca8bcc9740}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Junta de entendimiento",
+        artefactId:"{b8cb2b87-5a3e-4378-ac1a-3cf47d501761}",
+        id:"{b8cb2b87-5a3e-4378-ac1a-3cf47d501761}",
+        relInstId: "{fe41c586-e58a-489d-9101-f739caddbfc8}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta a Comité de arquitectura",
+        artefactId:"{874972e2-3323-438d-923f-f168521dcf15}",
+        id:"{874972e2-3323-438d-923f-f168521dcf15}",
+        relInstId: "{faa9d305-3905-47bd-9604-704e54973613}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Recibe RFP",
+        artefactId:"{e981714d-308f-45c7-9b12-d6ca00af7e06}",
+        id:"{e981714d-308f-45c7-9b12-d6ca00af7e06}",
+        relInstId: "{3d9f8a1a-708f-4aa5-beb0-415486f6af57}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Recibe RFP de Proveedores",
+        artefactId:"{29a8c73f-378b-4777-b288-693fbbe9365d}",
+        id:"{29a8c73f-378b-4777-b288-693fbbe9365d}",
+        relInstId: "{f6656b1e-d4aa-4559-aef2-7c4353a23d10}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Recibe RFP de Proveedores",
+        artefactId:"{9e991620-747e-4780-a7fa-276c9c7c337b}",
+        id:"{9e991620-747e-4780-a7fa-276c9c7c337b}",
+        relInstId: "{9218aa99-5246-4ba9-b2c5-e66e3f38396c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{92b42e46-59be-49f0-96ec-bb9b640ab0cc}",
+        id:"{92b42e46-59be-49f0-96ec-bb9b640ab0cc}",
+        relInstId: "{755a16a8-6852-424b-8e13-8416b65a2b36}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{2d69d10a-9745-4399-a031-98ccc13a1558}",
+        id:"{2d69d10a-9745-4399-a031-98ccc13a1558}",
+        relInstId: "{4d9a32b9-c42e-4384-8eb7-41af8dd043f7}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        id:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        relInstId: "{d8e66c9a-3d73-4e91-96ae-31521e23e306}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Selecciona Solución",
+        artefactId:"{825620a5-8250-4cee-8ecb-e0a2ffa9b514}",
+        id:"{825620a5-8250-4cee-8ecb-e0a2ffa9b514}",
+        relInstId: "{f4409c8e-f103-475f-9ae4-e31a178c5074}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{e4b48c88-3de1-4d8f-8459-8be72c556c2a}",
+        id:"{e4b48c88-3de1-4d8f-8459-8be72c556c2a}",
+        relInstId: "{b2ef42da-44c8-4428-af94-eb7b23604a4f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{bdee0f76-3248-4391-a0f7-f5ee20a2674e}",
+        id:"{bdee0f76-3248-4391-a0f7-f5ee20a2674e}",
+        relInstId: "{b09cb117-28f6-42ec-8685-bec3f337400f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{b566d638-caa1-47ca-ad02-15e84d987824}",
+        id:"{b566d638-caa1-47ca-ad02-15e84d987824}",
+        relInstId: "{d3f66c7a-5376-4201-989e-70516385fc9f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{816ec35c-4940-4e42-87e2-db1d01574a0d}",
+        id:"{816ec35c-4940-4e42-87e2-db1d01574a0d}",
+        relInstId: "{02cf06c3-dbf8-4ec5-a33b-30890f69df68}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia",
+        artefactId:"{dde29ec4-b462-43cb-adff-b9519311f0c0}",
+        id:"{dde29ec4-b462-43cb-adff-b9519311f0c0}",
+        relInstId: "{47b02edc-2c76-485f-a80f-637a1d0d558c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{178e2993-e26e-467e-af70-80c1820ec128}",
+        id:"{178e2993-e26e-467e-af70-80c1820ec128}",
+        relInstId: "{fe7d585c-e87f-40cf-8b33-73c2d2df107a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{cc483002-eea1-4f31-b6f8-e83621d6783f}",
+        id:"{cc483002-eea1-4f31-b6f8-e83621d6783f}",
+        relInstId: "{0a1b2eca-58f3-41fc-9147-2416e55674aa}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{4fc673b4-838e-4d3d-975b-870601af006e}",
+        id:"{4fc673b4-838e-4d3d-975b-870601af006e}",
+        relInstId: "{89a91d20-2adc-45ab-8591-6ff56c567509}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{e80edbb5-74b5-49d5-9bcd-e0bbdb7901c9}",
+        id:"{e80edbb5-74b5-49d5-9bcd-e0bbdb7901c9}",
+        relInstId: "{a2d4b4b5-047f-48be-9042-e082cd5d1220}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{2c9f599a-2672-41c3-b22e-b85d1cb2a842}",
+        id:"{2c9f599a-2672-41c3-b22e-b85d1cb2a842}",
+        relInstId: "{be880ff4-977e-4dd9-8ea7-ff19b51c3abd}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{af9d2956-60d2-470d-b352-68149f90ac47}",
+        id:"{af9d2956-60d2-470d-b352-68149f90ac47}",
+        relInstId: "{3e2d60eb-1c48-4fbe-873a-348d16d70552}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{032ba218-a20f-43c1-a5fe-fa83311789ec}",
+        id:"{032ba218-a20f-43c1-a5fe-fa83311789ec}",
+        relInstId: "{cda53b3e-96be-48bf-ac28-09d6833b1ac5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{d07048f7-d0a9-48f9-a322-004fdf2ce9b8}",
+        id:"{d07048f7-d0a9-48f9-a322-004fdf2ce9b8}",
+        relInstId: "{1158d80c-0fb2-4d96-b22f-6b8fad153a72}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{5dc11405-4662-4ad1-a626-3257e2519b87}",
+        id:"{5dc11405-4662-4ad1-a626-3257e2519b87}",
+        relInstId: "{7303ce55-eda8-4a75-8be7-2d0306a02115}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{c9adfe23-e5df-4632-8ba5-e813f17fd42f}",
+        id:"{c9adfe23-e5df-4632-8ba5-e813f17fd42f}",
+        relInstId: "{cfe825b1-013e-4a9f-979c-3d2d10edcdec}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{6b258fb2-19e8-4d09-8798-3fc6a6807c8d}",
+        id:"{6b258fb2-19e8-4d09-8798-3fc6a6807c8d}",
+        relInstId: "{4ce111bc-b50c-4c3f-8df4-2fda39d828f4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{cd9c1387-5c36-4941-8e2b-f90713277ac5}",
+        id:"{cd9c1387-5c36-4941-8e2b-f90713277ac5}",
+        relInstId: "{3e5abefe-bd6f-490c-91c1-49e7b6ac2378}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{31391244-0bc9-4d75-92df-56899cb3ed49}",
+        id:"{31391244-0bc9-4d75-92df-56899cb3ed49}",
+        relInstId: "{fa5280d4-1977-4df7-b193-cdda3ef4f8f7}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{fa4ec609-13d6-446c-ab6a-39d77b83cc13}",
+        id:"{fa4ec609-13d6-446c-ab6a-39d77b83cc13}",
+        relInstId: "{aab4db17-9408-4ccc-87b8-c05cfe665c87}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{86b63242-d8a9-48ba-8efa-7cb97c154804}",
+        id:"{86b63242-d8a9-48ba-8efa-7cb97c154804}",
+        relInstId: "{9f0cf151-a063-4a8b-b0b6-9aaa416190a4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"Informed at",
+    "targets":
+    [
+    
+      {
+        text:"Genera orden de magnitud",
+        artefactId:"{b8d3c124-e49b-470b-ba83-6163760e6511}",
+        id:"{b8d3c124-e49b-470b-ba83-6163760e6511}",
+        relInstId: "{a3f9b9c0-1a7f-4b5c-a949-1d0a7fbe6eba}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera orden de magnitud",
+        artefactId:"{6a847778-ea91-4f97-8955-f4683c3ee77f}",
+        id:"{6a847778-ea91-4f97-8955-f4683c3ee77f}",
+        relInstId: "{d8df965d-0a75-48a8-9562-da85eca78a8a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera orden de magnitud",
+        artefactId:"{aa25386a-ad4d-4ee8-8fc8-040864728708}",
+        id:"{aa25386a-ad4d-4ee8-8fc8-040864728708}",
+        relInstId: "{30d57ba8-b689-44da-8495-14183ef714a5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida necesidad de nuevo habilitador vs habilitadores objetivo 2023",
+        artefactId:"{240bcde0-ba01-4114-8a9b-defc4c232943}",
+        id:"{240bcde0-ba01-4114-8a9b-defc4c232943}",
+        relInstId: "{cf32473a-cb45-4b6a-83fa-48275122ba79}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida necesidad de nuevo habilitador vs habilitadores objetivo 2023",
+        artefactId:"{8729b803-4e72-4731-8087-a2ed45008118}",
+        id:"{8729b803-4e72-4731-8087-a2ed45008118}",
+        relInstId: "{fe94c463-f1e8-4b43-b645-abea8f8ba445}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    

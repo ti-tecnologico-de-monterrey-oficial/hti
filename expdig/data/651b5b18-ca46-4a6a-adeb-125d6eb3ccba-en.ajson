@@ -1,0 +1,450 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{651b5b18-ca46-4a6a-adeb-125d6eb3ccba}",
+        "repoid":"{651b5b18-ca46-4a6a-adeb-125d6eb3ccba}",
+        "name":"Responsable de abasto",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Responsable de abasto"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{340a4163-89e7-46b8-bda2-a98de2c3f65d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Busca proveedores",
+        artefactId:"{13d3d69f-1f38-473a-a0f1-a6b26dcc4ffb}",
+        id:"{13d3d69f-1f38-473a-a0f1-a6b26dcc4ffb}",
+        relInstId: "{8c4bc9c0-710f-4c14-897a-76e5f5f2b4ab}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Envía RFP a proveedores",
+        artefactId:"{280abf51-8482-4f85-afcd-9d67c997a059}",
+        id:"{280abf51-8482-4f85-afcd-9d67c997a059}",
+        relInstId: "{c689d5af-99dd-4c47-9c53-25048ec3964e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Negocía contrato con proveedor",
+        artefactId:"{68251f55-35e1-47ea-8ab7-cd7d228cbe97}",
+        id:"{68251f55-35e1-47ea-8ab7-cd7d228cbe97}",
+        relInstId: "{68d8c6be-3c96-4229-89ca-ae12d2fd8c01}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Recibe respuesta al RFP",
+        artefactId:"{cf3a6e32-9995-4a3b-8269-7245c06bc2be}",
+        id:"{cf3a6e32-9995-4a3b-8269-7245c06bc2be}",
+        relInstId: "{a3354ff5-94f4-4ce7-8e6c-2fb4572a1f20}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Solicita accesos y gestiona sesiones",
+        artefactId:"{5b0f9054-506e-43ef-b823-4b180debb16f}",
+        id:"{5b0f9054-506e-43ef-b823-4b180debb16f}",
+        relInstId: "{8a7a6c47-c592-49b3-ae57-478a7cad9720}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Evalúa resultados y decide",
+        artefactId:"{5e8af948-7921-422a-8bfa-52244fccb478}",
+        id:"{5e8af948-7921-422a-8bfa-52244fccb478}",
+        relInstId: "{b0879567-af50-4289-bc13-42a8978059a4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para adquisición de solución comercial",
+        artefactId:"{f098f907-bba0-4830-9685-bd2b914dc6b7}",
+        id:"{f098f907-bba0-4830-9685-bd2b914dc6b7}",
+        relInstId: "{07dcbeb1-5aec-46af-b206-5c87bca65f3c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para adquisición de solución comercial",
+        artefactId:"{7a4fd561-6afa-47ab-a894-3374e4db2b61}",
+        id:"{7a4fd561-6afa-47ab-a894-3374e4db2b61}",
+        relInstId: "{9838fc36-3ac3-4d3e-962f-83499b7a9426}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para adquisición de solución comercial",
+        artefactId:"{3a684d1a-c44a-4c24-85d2-786b06d34910}",
+        id:"{3a684d1a-c44a-4c24-85d2-786b06d34910}",
+        relInstId: "{04f1c384-0d8f-406e-bf0e-7ebf7a3df5af}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para adquisición de solución comercial",
+        artefactId:"{589a25ce-8b67-4040-a4e1-7d7389afab83}",
+        id:"{589a25ce-8b67-4040-a4e1-7d7389afab83}",
+        relInstId: "{eaeb7c4a-bd80-448f-870e-dca03d905de3}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera estimación a detalle (cotización)",
+        artefactId:"{82c28731-6ac7-4892-b19a-88009204e1f1}",
+        id:"{82c28731-6ac7-4892-b19a-88009204e1f1}",
+        relInstId: "{ff248031-77c3-4a10-aa2c-fad836fcd216}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta a Comité de arquitectura",
+        artefactId:"{874972e2-3323-438d-923f-f168521dcf15}",
+        id:"{874972e2-3323-438d-923f-f168521dcf15}",
+        relInstId: "{9b46da4e-f1b2-4907-8a3f-27e80ffba4db}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Recibe RFP",
+        artefactId:"{e981714d-308f-45c7-9b12-d6ca00af7e06}",
+        id:"{e981714d-308f-45c7-9b12-d6ca00af7e06}",
+        relInstId: "{f57fb958-f3cc-409a-80f3-ae7e035839f8}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"Informed at",
+    "targets":
+    [
+    
+      {
+        text:"Conctacta a proveedores",
+        artefactId:"{4ae77f05-cb05-4e4f-8f1d-5faf6981cdff}",
+        id:"{4ae77f05-cb05-4e4f-8f1d-5faf6981cdff}",
+        relInstId: "{3cbad49e-3767-423f-a9c8-003991501b3c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Informa lista de proveedores",
+        artefactId:"{b600c35d-524e-4cc0-a8b6-8a7bc0ddd12f}",
+        id:"{b600c35d-524e-4cc0-a8b6-8a7bc0ddd12f}",
+        relInstId: "{4f3417e0-d95e-435f-943e-11121bfd78ea}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta calendaraización",
+        artefactId:"{9c23b9c4-f6bc-4a58-945c-6b357e32d43b}",
+        id:"{9c23b9c4-f6bc-4a58-945c-6b357e32d43b}",
+        relInstId: "{50cf9150-aee6-4bb2-8457-3b960c5fa443}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Recibe RFP de Proveedores",
+        artefactId:"{9e991620-747e-4780-a7fa-276c9c7c337b}",
+        id:"{9e991620-747e-4780-a7fa-276c9c7c337b}",
+        relInstId: "{c8262c00-e660-40e0-b601-66eda0cc8ea0}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Recibe RFP de Proveedores",
+        artefactId:"{29a8c73f-378b-4777-b288-693fbbe9365d}",
+        id:"{29a8c73f-378b-4777-b288-693fbbe9365d}",
+        relInstId: "{3a384ffd-c19c-4127-86d7-8715bae764d6}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa y complementa RFP",
+        artefactId:"{6ee4e00b-7dff-4587-a033-6f0fab7a716b}",
+        id:"{6ee4e00b-7dff-4587-a033-6f0fab7a716b}",
+        relInstId: "{8f32944a-32ee-4bf1-b7c9-7dbac13cf4ff}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Selecciona Solución",
+        artefactId:"{825620a5-8250-4cee-8ecb-e0a2ffa9b514}",
+        id:"{825620a5-8250-4cee-8ecb-e0a2ffa9b514}",
+        relInstId: "{f5017857-51c3-41cb-b1dd-0c9c3edb1874}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    
