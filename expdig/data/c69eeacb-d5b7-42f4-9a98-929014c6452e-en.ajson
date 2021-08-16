@@ -1,0 +1,306 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{c69eeacb-d5b7-42f4-9a98-929014c6452e}",
+        "repoid":"{5b695937-f06a-45e2-ae6d-c8ebbbc895a6}",
+        "name":"En espera de respuesta de proveedores",
+        "iconUrl":"C_INTERMEDIATE_EVENT.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Intermediate Event (sequence flow)",
+        "idclass":"C_INTERMEDIATE_EVENT",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"En espera de respuesta de proveedores"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{16656faa-147a-4a46-917b-108016d56c0d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@x@@CT@@Todos los proveedores cuentan con el mismo tiempo para llenarlo.@@OT@@/x@@CT@@"},
+          
+    "type":"attribute",
+    "name":"A_DESCRIPTION_CS",
+    "classname":"Description",
+    "idclass":"A_DESCRIPTION_CS",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{2fcdce9b-4a60-4011-a3fb-b435ba8d2a6a}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Event type",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v0", "ind":"v0@v1", "constraint":"catching@throwing"},
+          
+    "type":"attribute",
+    "name":"TYPE_INTERMEDIATE_EVENT",
+    "classname":"Type",
+    "idclass":"TYPE_INTERMEDIATE_EVENT",
+    "ctrltype":"ENUM",
+    "id":"{489da931-e059-458f-88e8-4ecf24a63377}"
+  
+
+
+    }
+    ,
+  {
+    "name":"Trigger",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"TRIGGER_TIMER",
+    "classname":"Timer",
+    "idclass":"TRIGGER_TIMER",
+    "ctrltype":"BOOL",
+    "id":"{28d4000c-b573-4bd3-bb49-d965500dd9f0}"
+  
+
+
+    }
+    
+    ]
+  }
+  ,
+  {
+    "name":"Multiple trigger",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Input/Output",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Input/Output (Runtime)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Object properties",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Object relevance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Import details",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Details",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Message (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Timer (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Condition (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Link (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Signal (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Escalation (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Compensation (details)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Representation",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"DISPLAY_NAME",
+    "classname":"Display name",
+    "idclass":"DISPLAY_NAME",
+    "ctrltype":"BOOL",
+    "id":"{e9ce8c1f-1e31-454a-b3a0-701b490c92ec}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"ENUM",
+          "complex":false,
+          "value":{"val":"v0", "ind":"v0@v1@v2", "constraint":"Name@Reference@Name and reference"},
+          
+    "type":"attribute",
+    "name":"A_VISUALIZED_VALUES_EVENT",
+    "classname":"Visualised values",
+    "idclass":"A_VISUALIZED_VALUES_EVENT",
+    "ctrltype":"ENUM",
+    "id":"{9f298a8d-afa0-40fb-bad5-03d2e4502059}"
+  
+
+
+    }
+    
+    ]
+  }
+        ]
+      }
+    };
+    

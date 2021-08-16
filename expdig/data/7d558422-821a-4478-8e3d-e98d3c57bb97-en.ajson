@@ -1,0 +1,533 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{7d558422-821a-4478-8e3d-e98d3c57bb97}",
+        "repoid":"{7d558422-821a-4478-8e3d-e98d3c57bb97}",
+        "name":"Project Manager",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Project Manager"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"LONGSTRING",
+          "complex":false,
+          "value":{"val":"@@OT@@div@@CT@@@@OT@@ol@@CT@@@@OT@@li@@CT@@Genera plan de trabajo del programa TI/proyecto TI e identifica dependencias y coordinación con otros proyectos.@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Da seguimiento a las tareas del proyecto TI y, en conjunto con el Coordinador de Equipo, identifica y registra problemas y riesgos, dando seguimiento y promoviendo la colaboración para su resolución oportuna.@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Se asegura del alinemaiento a metodología tanto de documentación como de entregables@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Apoya en el Procesos de controles de cambio y verifica el seguimiento a al decisión sobre los Controles de Cambio@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@li@@CT@@Coordina y participa en las decisiones clave de continuidad del proyecto y su ejecución@@OT@@/li@@CT@@@@OT@@br/@@CT@@@@OT@@/ol@@CT@@@@OT@@/div@@CT@@"},
+          
+    "type":"attribute",
+    "name":"A_DESCRIPTION",
+    "classname":"Description",
+    "idclass":"A_DESCRIPTION",
+    "ctrltype":"STRING_MULTILINE",
+    "id":"{00371818-34fc-4a9c-8901-b600d280f9f0}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{f6e24721-7420-47d7-8495-ea80d4aacaaa}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Capacita en metodología",
+        artefactId:"{ef135a00-4010-4cf9-b56f-cb152f7e8f58}",
+        id:"{ef135a00-4010-4cf9-b56f-cb152f7e8f58}",
+        relInstId: "{717e3883-3638-4eed-90bc-5a7c63b4aab9}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Capacita en metodología",
+        artefactId:"{93838ac0-f537-41e1-83c5-4921a0ff267a}",
+        id:"{93838ac0-f537-41e1-83c5-4921a0ff267a}",
+        relInstId: "{d8273441-e0dd-4b2b-abd9-998030963693}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Capacita en metodología",
+        artefactId:"{2223d5d5-75b6-4ccb-b2cd-69133264bfd9}",
+        id:"{2223d5d5-75b6-4ccb-b2cd-69133264bfd9}",
+        relInstId: "{f1a4e580-d3eb-453b-935e-bc452b4443b9}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Capacita en metodología",
+        artefactId:"{29c548c2-58d4-488c-9196-822a07c9c401}",
+        id:"{29c548c2-58d4-488c-9196-822a07c9c401}",
+        relInstId: "{a5717c4b-24fc-42c6-bbac-3d684d467203}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera plan de trabajo",
+        artefactId:"{f22b679f-0556-40f1-a525-b1bb0c7d91da}",
+        id:"{f22b679f-0556-40f1-a525-b1bb0c7d91da}",
+        relInstId: "{0bfb5c62-aa87-4f25-b51f-36ebc77f896a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera plan de trabajo",
+        artefactId:"{971b009c-e73e-49df-bf1b-288cf2ef890e}",
+        id:"{971b009c-e73e-49df-bf1b-288cf2ef890e}",
+        relInstId: "{f8c82752-584d-431c-a48d-f0d738927e60}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera plan de trabajo",
+        artefactId:"{3a862df0-6bf8-4514-96df-4196dc1f7155}",
+        id:"{3a862df0-6bf8-4514-96df-4196dc1f7155}",
+        relInstId: "{f0ad5916-60bd-453b-b322-c052691e9422}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera plan de trabajo",
+        artefactId:"{6d5a64b2-ff44-4362-959c-58a2261f7595}",
+        id:"{6d5a64b2-ff44-4362-959c-58a2261f7595}",
+        relInstId: "{60f01251-ebae-44b9-9435-8388fad378ac}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera plan de trabajo a detalle",
+        artefactId:"{5d54c153-2278-45e9-8c95-fcbfac8a82d2}",
+        id:"{5d54c153-2278-45e9-8c95-fcbfac8a82d2}",
+        relInstId: "{8f562ef9-0503-4b81-b397-bc03289663fe}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica de Quick Hits / Mejoras",
+        artefactId:"{816ec35c-4940-4e42-87e2-db1d01574a0d}",
+        id:"{816ec35c-4940-4e42-87e2-db1d01574a0d}",
+        relInstId: "{5eb28eaf-0602-4925-a529-c559f4a533bf}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Indica condiciones del proyecto",
+        artefactId:"{bffdc7c1-b4cc-4b11-b451-4ea00b2ded5a}",
+        id:"{bffdc7c1-b4cc-4b11-b451-4ea00b2ded5a}",
+        relInstId: "{96637a98-74c2-4f6e-904a-cceadd43c1c8}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Indica condiciones del proyecto",
+        artefactId:"{d72ffcd3-ef3c-403b-acbd-62deb2c27de6}",
+        id:"{d72ffcd3-ef3c-403b-acbd-62deb2c27de6}",
+        relInstId: "{cccf4808-05e8-476a-83dd-59e3e2cda004}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Indica condiciones del proyecto",
+        artefactId:"{90177b2f-05dc-4aeb-9898-2ebf413970f6}",
+        id:"{90177b2f-05dc-4aeb-9898-2ebf413970f6}",
+        relInstId: "{520d6091-4c1b-4ddd-b069-4d9e9c97a14e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{af9d2956-60d2-470d-b352-68149f90ac47}",
+        id:"{af9d2956-60d2-470d-b352-68149f90ac47}",
+        relInstId: "{831b2b65-0c10-4c60-aa08-27a8fb534fae}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Analiza a detalle la solución",
+        artefactId:"{e08dcf98-b2cf-48cd-8677-793cff07002f}",
+        id:"{e08dcf98-b2cf-48cd-8677-793cff07002f}",
+        relInstId: "{8094ebff-6697-4866-b26a-8bec23718369}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"Informed at",
+    "targets":
+    [
+    
+      {
+        text:"Documenta proceso",
+        artefactId:"{faedcf44-c50b-47b9-afa2-e7398b721c5b}",
+        id:"{faedcf44-c50b-47b9-afa2-e7398b721c5b}",
+        relInstId: "{2b9d9faf-8f12-4538-9d3b-bfaeec65f3d6}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera casos de prueba",
+        artefactId:"{e01607d9-0f0c-45ab-b09f-bafedf4fa168}",
+        id:"{e01607d9-0f0c-45ab-b09f-bafedf4fa168}",
+        relInstId: "{cccd4218-909d-4758-a299-b176d09b8b33}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera casos de prueba",
+        artefactId:"{0e904938-7dfa-4873-ad22-294746b81195}",
+        id:"{0e904938-7dfa-4873-ad22-294746b81195}",
+        relInstId: "{ce6cc8d3-a447-4983-8d60-2c3ebaef807a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera casos de prueba",
+        artefactId:"{3847e587-2131-43c4-9a0c-0fd1a38b49e3}",
+        id:"{3847e587-2131-43c4-9a0c-0fd1a38b49e3}",
+        relInstId: "{7f8cdb7d-68dc-4feb-a56a-9cd96a3f2de1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera casos de prueba",
+        artefactId:"{e6684716-f498-44b7-b106-d889535bee0f}",
+        id:"{e6684716-f498-44b7-b106-d889535bee0f}",
+        relInstId: "{6cbb347d-6469-4095-ae21-316b48e4ee03}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera diagrama de casos de uso",
+        artefactId:"{2065c2f2-3dc7-499b-9316-5148eda13127}",
+        id:"{2065c2f2-3dc7-499b-9316-5148eda13127}",
+        relInstId: "{ca86381e-7afb-4e72-9769-be648590f5cb}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera y actualiza equipo de trabajo TI",
+        artefactId:"{5e30ebe4-f907-4632-8ba2-b7da1c6f3662}",
+        id:"{5e30ebe4-f907-4632-8ba2-b7da1c6f3662}",
+        relInstId: "{c67839f9-2039-4255-ad98-cda02e81e780}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Informa cambio de tiempos o costos",
+        artefactId:"{e110e53e-424c-418f-986c-19c531b01fc2}",
+        id:"{e110e53e-424c-418f-986c-19c531b01fc2}",
+        relInstId: "{07146cb5-6538-49b5-849c-36cccd81716d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{032ba218-a20f-43c1-a5fe-fa83311789ec}",
+        id:"{032ba218-a20f-43c1-a5fe-fa83311789ec}",
+        relInstId: "{bab8cb13-cb2a-430e-a8b7-bfa90941d40b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{e80edbb5-74b5-49d5-9bcd-e0bbdb7901c9}",
+        id:"{e80edbb5-74b5-49d5-9bcd-e0bbdb7901c9}",
+        relInstId: "{6e4f812a-a291-4c3b-9a17-ebf166ae4aaf}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea interacciones",
+        artefactId:"{2c9f599a-2672-41c3-b22e-b85d1cb2a842}",
+        id:"{2c9f599a-2672-41c3-b22e-b85d1cb2a842}",
+        relInstId: "{800cdd83-db82-470e-91d2-3e0829b08753}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    

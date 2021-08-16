@@ -1,0 +1,495 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{8af5d490-f66d-4723-bb59-567a87f5b846}",
+        "repoid":"{8af5d490-f66d-4723-bb59-567a87f5b846}",
+        "name":"Sponsor",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Sponsor"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{cd9d5498-47f3-4e57-bc1d-c09a93cb33d7}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Forma equipo de experiencia / one page",
+        artefactId:"{b4c39610-f593-40a1-a87e-c54c057c367e}",
+        id:"{b4c39610-f593-40a1-a87e-c54c057c367e}",
+        relInstId: "{41f7ac86-d1e7-465c-9684-e14156d72b09}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Forma equipo de experiencia / one page",
+        artefactId:"{760e8214-c466-4511-bb18-d7581bb520f8}",
+        id:"{760e8214-c466-4511-bb18-d7581bb520f8}",
+        relInstId: "{3aa7b649-9d31-4069-9776-f0147987de91}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Forma equipo de experiencia / one page",
+        artefactId:"{e293620d-a88f-47c2-a4a6-f309d0be70e8}",
+        id:"{e293620d-a88f-47c2-a4a6-f309d0be70e8}",
+        relInstId: "{4214d660-c247-4491-bab8-63b82b3414f3}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Forma equipo de experiencia / one page",
+        artefactId:"{629a5753-991d-4a7f-b145-33a0cc4c3ce7}",
+        id:"{629a5753-991d-4a7f-b145-33a0cc4c3ce7}",
+        relInstId: "{597f4df5-1db7-4c4f-8de9-ff208814e542}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{fa4ec609-13d6-446c-ab6a-39d77b83cc13}",
+        id:"{fa4ec609-13d6-446c-ab6a-39d77b83cc13}",
+        relInstId: "{c799c1fa-5b36-4772-99cf-338e26920904}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
+    
+
+    "label":"Accountable for",
+    "targets":
+    [
+    
+      {
+        text:"Elabora Journey de experiencia",
+        artefactId:"{3a00fb6f-ccf9-4862-91dd-d67815072814}",
+        id:"{3a00fb6f-ccf9-4862-91dd-d67815072814}",
+        relInstId: "{b1a025a4-9caa-4e19-bc66-4e94fb64a011}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Elabora Journey de experiencia por audiencia por proceso",
+        artefactId:"{edf8313a-e685-4fb5-8fc0-203cc867b6de}",
+        id:"{edf8313a-e685-4fb5-8fc0-203cc867b6de}",
+        relInstId: "{0adea755-9889-4c44-95f2-4692338630d4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Elabora Journey de experiencia por audiencia por proceso",
+        artefactId:"{2ee73b6f-e2be-4f77-acf6-e25678c07330}",
+        id:"{2ee73b6f-e2be-4f77-acf6-e25678c07330}",
+        relInstId: "{9d1c4184-7fb2-4816-a652-186c566e07f2}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Elabora Journey de experiencia por audiencia por proceso",
+        artefactId:"{4de5db83-0399-493e-92ba-c7e3c38078d3}",
+        id:"{4de5db83-0399-493e-92ba-c7e3c38078d3}",
+        relInstId: "{e3226fb2-5db1-45c4-8327-efd6cf5c2345}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia",
+        artefactId:"{dde29ec4-b462-43cb-adff-b9519311f0c0}",
+        id:"{dde29ec4-b462-43cb-adff-b9519311f0c0}",
+        relInstId: "{311af3c9-443a-464d-b130-f8a15c958cd5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{178e2993-e26e-467e-af70-80c1820ec128}",
+        id:"{178e2993-e26e-467e-af70-80c1820ec128}",
+        relInstId: "{45b2b945-52fe-4cd5-8441-4f259e823ab1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{4fc673b4-838e-4d3d-975b-870601af006e}",
+        id:"{4fc673b4-838e-4d3d-975b-870601af006e}",
+        relInstId: "{649bb122-bf90-43d1-b568-55d1c44a2e44}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{cc483002-eea1-4f31-b6f8-e83621d6783f}",
+        id:"{cc483002-eea1-4f31-b6f8-e83621d6783f}",
+        relInstId: "{2baa2bda-508f-40e2-8a5a-c48ea0dbf3c7}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{d07048f7-d0a9-48f9-a322-004fdf2ce9b8}",
+        id:"{d07048f7-d0a9-48f9-a322-004fdf2ce9b8}",
+        relInstId: "{1f6ac908-967f-40ab-8949-aef92be3dd49}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{5dc11405-4662-4ad1-a626-3257e2519b87}",
+        id:"{5dc11405-4662-4ad1-a626-3257e2519b87}",
+        relInstId: "{8af894b9-8479-4809-b3bd-8791ac15d4a3}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{6b258fb2-19e8-4d09-8798-3fc6a6807c8d}",
+        id:"{6b258fb2-19e8-4d09-8798-3fc6a6807c8d}",
+        relInstId: "{9b2caeb3-1c3b-462f-a467-fff9e1b39c92}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{c9adfe23-e5df-4632-8ba5-e813f17fd42f}",
+        id:"{c9adfe23-e5df-4632-8ba5-e813f17fd42f}",
+        relInstId: "{bb27b460-9d5e-4faa-a294-0c306c9b9037}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{cd9c1387-5c36-4941-8e2b-f90713277ac5}",
+        id:"{cd9c1387-5c36-4941-8e2b-f90713277ac5}",
+        relInstId: "{40b7a3e7-22c5-49cc-b053-1fb65d77add3}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{86b63242-d8a9-48ba-8efa-7cb97c154804}",
+        id:"{86b63242-d8a9-48ba-8efa-7cb97c154804}",
+        relInstId: "{c62d327b-5682-4322-ab17-917a54a4235a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{31391244-0bc9-4d75-92df-56899cb3ed49}",
+        id:"{31391244-0bc9-4d75-92df-56899cb3ed49}",
+        relInstId: "{8f12ecc3-670f-470e-aead-cb49eafa17bf}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"Informed at",
+    "targets":
+    [
+    
+      {
+        text:"Soluciona cambiando el proceso",
+        artefactId:"{3e77bab0-3be0-4e86-884b-908e2fd01336}",
+        id:"{3e77bab0-3be0-4e86-884b-908e2fd01336}",
+        relInstId: "{19a163b0-28f5-4e3c-9319-e5047b564f9b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Soluciona cambiando el proceso",
+        artefactId:"{2078ad9a-87a7-4876-b2ec-fa1098f6447f}",
+        id:"{2078ad9a-87a7-4876-b2ec-fa1098f6447f}",
+        relInstId: "{5dc8d42f-1058-451f-b78a-6a022fced962}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Soluciona cambiando el proceso",
+        artefactId:"{a009e139-bf9c-448f-bf1c-6a4d0f770826}",
+        id:"{a009e139-bf9c-448f-bf1c-6a4d0f770826}",
+        relInstId: "{729d406f-0b5c-458e-af27-f445250e9ab9}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    

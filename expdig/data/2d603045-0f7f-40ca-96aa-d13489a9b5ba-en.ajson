@@ -1,0 +1,255 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{2d603045-0f7f-40ca-96aa-d13489a9b5ba}",
+        "repoid":"{2d603045-0f7f-40ca-96aa-d13489a9b5ba}",
+        "name":"Capacity plan",
+        "iconUrl":"C_DOCUMENT.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Document",
+        "idclass":"C_DOCUMENT",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Capacity plan"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Document control",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Document author (Responsible person)",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{d58028d6-dd46-42a1-8548-f9b1a5b9d64e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Risks",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Controls",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Input/Output analysis",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_INPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Activity input",
+    "targets":
+    [
+    
+      {
+        text:"Analiza solución y genera estimación a detalle",
+        artefactId:"{88b879c7-1fb4-4b9a-85c1-c0be329d7c58}",
+        id:"{88b879c7-1fb4-4b9a-85c1-c0be329d7c58}",
+        relInstId: "{87f70dcc-6948-40d4-b972-e34711174289}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
+        id:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
+        relInstId: "{479e3625-7664-4530-b7b8-810fc87bb55e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        id:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        relInstId: "{893ff3b0-9e6d-462f-9c27-f5e81446f119}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera estimación a detalle (cotización)",
+        artefactId:"{82c28731-6ac7-4892-b19a-88009204e1f1}",
+        id:"{82c28731-6ac7-4892-b19a-88009204e1f1}",
+        relInstId: "{0b4e2d44-2f90-4e4b-b010-ae6f2e424c27}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"RC_REFERENCED_OUTPUT_DATA_OPTIONAL_M",
+    
+
+    "label":"Activity output",
+    "targets":
+    [
+    
+      {
+        text:"Genera estimación a detalle",
+        artefactId:"{48d3cb25-453d-4861-a2e9-8cefef765715}",
+        id:"{48d3cb25-453d-4861-a2e9-8cefef765715}",
+        relInstId: "{fb028e6b-b540-4e69-9580-ef28a77f9153}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Representation",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    

@@ -1,0 +1,198 @@
+<style>
+  {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    background-color: #d9d9d9;
+  }
+
+  #pre {
+    width: 95%;
+    height: 95%;
+    background-color: #d9d9d9;
+    position: absolute;
+    display: block;
+    z-index: 999;
+  }
+
+  #wrapper {
+    /*box-shadow: 0 0 30px #999999;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    background-color: #ebecee;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(0%);
+    border: 10px solid #ffffff;
+  }
+
+  .separator {
+    border: 1px solid #0066b0;
+    clear: both;
+    position: relative;
+    z-index: 11;
+    width: 100px;
+    margin-bottom: 15px;
+    /*margin-left: 90px;*/
+  }
+
+  a {
+    color: #0066b0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  p {
+    color: #333333;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    /*padding-left: 90px;*/
+  }
+
+  h1 {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 0 0 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+  }
+
+  h2 {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .divTableCell {
+    border-right: 0px solid #d7d7d7;
+    display: table-cell;
+    padding: 40px 40px;
+    border: 2px solid #d9d9d9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #333333;
+    width: 23%;
+    vertical-align: middle;
+  }
+
+  .divTableSeperator {
+    width: 20px;
+    display: table-cell;
+  }
+
+  topics {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  #iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    scrolling: "no";
+    scrolling: "vertical";
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    overflow: scroll;
+    sandbox: "allow-same-origin allow-scripts allow-forms";
+  }
+</style>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADONIS:Community Edition â Free Cloud BPM</title>
+</head>
+
+<body>
+
+<div id="pre" style="display:none">
+
+  <div id="wrapper">
+    <h1>Discover the whole world of BPM</h1>
+    <div class="separator"></div>
+    <p>Would you like to stay up-to-date and benefit from our services? BOC Group offers not only one of the best BPM suites, but also provides training, seminars and consulting in BPM, EAM and GRC. Stay up-to-date by benefiting from the our free offerings.
+      <a href="https://www.adonis-community.com/newsletter" target="_blank">[Subscribe to the info-feed]</a>
+    </p>
+    <div class="divTableCell">Free Cloud BPM</div>
+    <div class="divTableSeperator"></div>
+    <div class="divTableCell">Free Webinars,
+      <br /> live on-demand</div>
+    <div class="divTableSeperator"></div>
+    <div class="divTableCell">Free expert community</div>
+    <div class="divTableSeperator"></div>
+    <div class="divTableCell">Latest news
+      <br /> on BPM practice</div>
+  </div>
+  <div id="wrapper">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMEIyMUJBM0RBNUUxMUU3OTgwNUJDNUI1MTMzRkNFMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMEIyMUJBNERBNUUxMUU3OTgwNUJDNUI1MTMzRkNFMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUwQjIxQkExREE1RTExRTc5ODA1QkM1QjUxMzNGQ0UzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUwQjIxQkEyREE1RTExRTc5ODA1QkM1QjUxMzNGQ0UzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+OgIFAgAAAzJJREFUeNrkmr9rFEEUx2eHbRQLGxFtDlFRweIEC4tDTaGCP4pDIZjGX4FLeUYsYmNhoVZJ6cGF3FUSUCR/gYkEtAiYQggBAzlQU6rVIQj6fTh3DHu3NzM7s3u344PHkLvdyXzu/Zg3PwKWgtRqtb1oitAz0P3Qasyjq9A16Ar0E3S7Uqn8djmWwCHUETQ3oE8tu1qEPoeuA/bPUAEBRe+fgzaghRScYRLatLFqYAF3Cs2blMCcgQYJwHahWYCOs2ylBS0D8mNqgIA7j+at4cDmFN+XDb2A+pvWjc/AINbuQuumroWBzCv6PoDmm2G/lH0vou+26kGuCfcyARzJlsYz7QT9lqAbIlySA0pwWcebjhR0IFUWHFU4bUg+wHr3RhxOhlwQ3qYHKAK/zvIj4yIJqgHFL/Ge5U/qwjCDpwnhmq6sR+n8muKZ647/31l5jgz7rAJcuial8+8ZWrEkauPlOBd9zPIvDTnh8EiNWfUAsCCs2GPBCeaPPOlJMrDgtoOlzwz0g+E7UynNtweRbHZCad6zXtehw2cJll/rKQFehs5z6Q/f5LYcgxc8BCzBO0IulTo+yj4uJndf5RhnfsthAix6DHgydNkb3H0WzZL0EW3e/hgmYei4v2qk3BuTC99hiO8x+H8AbvoO2PaYb4kAf3oM+IWL/YtVTwG/dpJMw0O4Fp1ddABXPAR8IU8TWx4CvuoCijic8ck9O0aT92Ro2WS7h7lb58xOUc/SmN6xf3ucSaV7LtmtZERRvGgzOFs4yZvWLLtpxpVq9z1wz0n5sgKP/Ho7TH2mPuqx11QV249yDFiOXjXhMXE0lkO4uX5XTHhMoC/nzFXJNR+argenTbOqzq0HzWnitOFrxbhbUIHGgDdYNte1kspRwH2O+zLQtMqoQg6E09qyEEnnkG0RkELMKeG0AKXq4uaI1Ku0dj2hA6flon1cNstrlD3zHG1DmFyUTXRflE5t0Nxi2d2lofCYSrKJbHvjlxLQRIqg5I53dN3ROWDEolehDyyXOZ0EQmfsr11s+weuf3Jh1ePQS9ArGsAtEdN0prEpCn5nEmQRQMLCeyIf/3KxflTJXwEGAOSj/sUvcXkUAAAAAElFTkSuQmCC"
+      style="vertical-align:middle">
+    <p style="display: inline; color: #999999; padding-left: 20px;">You are currently offline, or your network configuration prohibits loading of live content.</p>
+  </div>
+  <div id="wrapper">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA7CAYAAADFJfKzAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGNzhCMkRBN0RBNUUxMUU3OUM0OEI3MDUxNjRGODc5NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGNzhCMkRBOERBNUUxMUU3OUM0OEI3MDUxNjRGODc5NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkY3OEIyREE1REE1RTExRTc5QzQ4QjcwNTE2NEY4Nzk3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY3OEIyREE2REE1RTExRTc5QzQ4QjcwNTE2NEY4Nzk3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+mNf0tQAAAyhJREFUeNrkmj1oFEEUgHeHlZDOVDGnEMFYCiqCKURNJQiigWBIpeDBtYo/EME2p92VHkQlIMiJEO0FDQTEJiksLJIQDiRaCCYg2ij6nr4Nm2Vudmd3Znfe5sG7yWV25vbb9+bNzJsNPMbSbrf7odgPegB0FHQQ9AToKcnltYAZHN7vEdBzoE3N5ncCJpBDUFzJALhDAschR6B40sMtdeVV4PBYnAG9brLfwEHQS1DM2+g7cAgS7+Up6KSln9gKHAHFAPQOdNjiz6wLR4LQhgZoF/Q4qGg0Gj7On6CLKdp990sGvQbFrGazAYDcjPWDHOuqB4YPRjAD7cRBCeRPQuRu4YdgBIryWVG3qahbKAU2ByjKkKJur6LufeGwOUFRJilyy6atlqLdF/zwGYFGZYwi8G/QQ6CvFcFpGsb0/cIWFTS9zBrs8o3GtS/CP/yCQFdKCvpdsOrB8IuwDNpPLlaWXI1+ERZBMZB8tLwETJJFrY0A3DSG9KORf4Xpj6iMlwwlDWLgwr9Sw1JI/+bxk264kNBx41seTxmnJeQO8RPcl6NVWwB6Q1ahsuxDpu57u1el38Oqx6BYYghbA6v23CwICSg+gHmm41S1K5K68UUHp5EkwfXvy6SLhGTFw82qHdAHaS6MW3aGIeiUbJpRBiha3m1UFXTbshSUnlcZNOrGZzwz5ynOgv5zY1r/rjKJwHWAfJS1saD1b+VBw11PkwHoYQBdzdsJWrausRHGfesAtesUtNatmQDdnnoUmb9wwv4Q3whTBH/m2Tt1U+5gMsPSzeO5aIt2O5iRW0uKeAUA24HNKpaBcwclnUxFopD1pyyN4TWTnRnJLloGdgs2BlyvPGwITGOsXnnYCLQp4E/OwxoE/soClmSh8m4ckYldAUuLjeZusew+A31scYE9b2juZgF7L2f7MRZuTJnKrNmPadA9YNW3pu/L1gskJzO0weTABdkbbK7D3tTMRuA5zbLtaOxbcGE8QvmRdr8K+th0ICrSsn1pMhCgdwHyZ5HzrJX3oBQ5LRyXl5OOFrnvero0lZwuC9SaZSMWPuv9f7dwLp6dLEP+CjAA2+8Bl+wKmhEAAAAASUVORK5CYII="
+      style="vertical-align:middle">
+    <h2 style="display: inline; padding-left: 20px;">
+            Visit: <a href="https://www.adonis-community.com/ace-preview" target="_blank">www.adonis-community.com/ace-preview</a>
+        </h2>
+  </div>
+	
+</div>
+
+
+  <script type="text/javascript" charset="utf-8" defer="defer">
+
+		checkStatus = function () {
+			document.getElementById("pre").style.display = "none";
+			if (navigator.onLine) {
+				var iframe = document.createElement("iframe");
+				iframe.setAttribute('id', 'iframe');
+
+				iframe.style.position = "absolute";
+				iframe.src = 'https://www.adonis-community.com/knowledge-centre'; // set src to new url
+				document.body.appendChild(iframe);
+				iframe.onload = function () {
+					document.getElementById("pre").style.display = "none";
+				}
+			} else {
+				document.getElementById("pre").style.display = "block";
+				if (document.getElementById("iframe")) {
+					document.getElementById("iframe").style.display = "block";
+					document.getElementById("pre").style.display = "block";
+				}
+			}
+		}
+
+		checkStatus();
+		window.addEventListener("online", function () {
+			checkStatus();
+		})
+		window.addEventListener("offline", function () {
+			checkStatus();
+		})
+
+	</script>
+</body>
+
+
+</html>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=10,IE=9"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+
+    <link rel="SHORTCUT ICON" href="../images/sys/browserShortcutIcon.ico"/>
+
+    <link rel="stylesheet" href="scripts/slick/slick.grid.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="scripts/slick/css/smoothness/jquery-ui-1.8.5.custom.css" type="text/css" media="screen" charset="utf-8" />
+
+    <link rel="stylesheet" href="scripts/slick/examples/examples.css" type="text/css" media="screen" charset="utf-8" />
+
+    <link rel="stylesheet" href="styleOverrides.css" type="text/css" media="screen" charset="utf-8" />
+
+    <style>
+      .cell-title {
+        font-weight: bold;
+      }
+
+      .cell-effort-driven {
+        text-align: center;
+      }
+
+      .toggle {
+        height: 18px;
+        width: 20px;
+        display: inline-block;
+      }
+
+      .toggle.expand {
+        background: url(scripts/slick/images/expand.gif) no-repeat center center;
+      }
+
+      .toggle.collapse {
+        background: url(scripts/slick/images/collapse.gif) no-repeat center center;
+      }
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="ext/resources/css/ext-all.css" />
+    <link id="theme" rel="stylesheet" type="text/css" href="" />
+    <link id="default_theme" rel="stylesheet" type="text/css" href="ext/resources/css/xtheme-gray-extend.css" />
+    <link rel="stylesheet" type="text/css" href="scripts/ux/treegrid/css/TreeGrid.css" />
+
+    <script src="scripts/slick/lib/firebugx.js" type="text/javascript"></script>
+    <script src="scripts/slick/lib/jquery-1.4.3.min.js" type="text/javascript"></script>
+    <script src="scripts/slick/lib/jquery-ui-1.8.6.custom.min.js" type="text/javascript"></script>
+    <script src="scripts/slick/lib/jquery.event.drag-2.0.min.js" type="text/javascript"></script>
+    <script src="scripts/slick/slick.core.js" type="text/javascript"></script>
+    <script src="scripts/slick/plugins/slick.checkboxselectcolumn.js" type="text/javascript"></script>
+    <script src="scripts/slick/plugins/slick.rowselectionmodel.js" type="text/javascript"></script>
+
+    <script src="scripts/slick/slick.groupitemmetadataprovider.js" type="text/javascript"></script>
+    <script src="scripts/slick/slick.editors.js" type="text/javascript"></script>
+    <script src="scripts/slick/slick.grid.js" type="text/javascript"></script>
+    <script src="scripts/slick/slick.dataview.js" type="text/javascript"></script>
+
+    <!-- Ext Library JS Scripts -->
+    <script type="text/javascript" src="ext/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="ext/ext-all.js"></script>
+
+    <script type="text/javascript" src="scripts/ait_generic_tab.js"></script>
+    <!-- Overrides -->
+    <script type='text/javascript' src='scripts/ext_overrides.js'></script>
+    <!-- LIVE GRID -->
+    <script language="javascript" src="scripts/ux/livegrid/livegrid-all.js"></script>
+
+    <script type='text/javascript' src='scripts/ux/treegrid/TreeGrid.js'></script>
+
+    <script type="text/javascript" src="scripts/util/ait_window_storage.js"></script>
+    <script type="text/javascript" src="scripts/ait_constants.js"></script>
+
+    <!-- Print script -->
+    <script type="text/javascript" src="scripts/print/ait_print.js"></script>
+
+    <script type="text/javascript" src="scripts/ait_event_manager.js"></script>
+    <script type="text/javascript" src="scripts/ait_tab.js"></script>
+    <script type="text/javascript" src="scripts/util/ait_header.js"></script>
+
+    <script type="text/javascript" src="scripts/views/ait_navigator.js"></script>
+    <script type="text/javascript" src="scripts/views/ait_config_window.js"></script>
+    <script type="text/javascript" src="scripts/views/ait_used_in_models_window.js"></script>
+    <script type="text/javascript" src="scripts/ait_tab.js"></script>
+    <script type="text/javascript" src="scripts/axw_htmltab.js"></script>
+    <script type="text/javascript" src="scripts/views/ait_view.js"></script>
+    <script type="text/javascript" src="scripts/views/ait_graphical_view.js"></script>
+
+    <script type="text/javascript" src="scripts/views/ait_bia_view.js"></script>
+    <script type="text/javascript" src="scripts/views/ait_portfolio_view.js"></script>
+    <script type="text/javascript" src="scripts/ait_web_client.js"></script>
+    <script type="text/javascript" src="scripts/ait_debug_box.js"></script>
+    <script type="text/javascript" src="scripts/ait_main_panel.js"></script>
+    <script type="text/javascript" src="scripts/ait_livetreepanel.js"></script>
+    <script type="text/javascript" src="scripts/util/ait_extended_edit_box.js"></script>
+    <script type="text/javascript" src="scripts/util/ait_checkbox_selectionmodel.js"></script>
+    <script type="text/javascript" src="scripts/ait_griddragzone.js"></script>
+
+    <script type="text/javascript" src="scripts/notebook/ait_utc_form_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_active_notebook_functions.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_readmode_representation.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_complex_attr_table.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_file_pointer_list.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_text_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_multiline_text_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_filepointer_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_number_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_integer_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_bool_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_date_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_utc_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_duration_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_time_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_enum_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_enumlist_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_enumlisttree_field.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_record.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_group.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_notebook.js"></script>
+
+    <script type="text/javascript" src="scripts/menu/ait_status_bar.js"></script>
+    <script type="text/javascript" src="scripts/menu/ait_menu_bar.js"></script>
+    <script type="text/javascript" src="scripts/menu/ait_menu.js"></script>
+    <script type="text/javascript" src="scripts/menu/ait_main_menu.js"></script>
+    <script type="text/javascript" src="scripts/menu/ait_report_menu.js"></script>
+    <script type="text/javascript" src="scripts/menu/ait_devtools_menu.js"></script>
+    <script type="text/javascript" src="scripts/menu/ait_theme_menu.js"></script>
+    <script type="text/javascript" src="scripts/ait_metamodel_tree.js"></script>
+    <script type="text/javascript" src="scripts/ait_newobject_dialog.js"></script>
+    <script type="text/javascript" src="scripts/ait_livetree.js"></script>
+    <script type="text/javascript" src="scripts/util/ait_list_box.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_relations_dialog.js"></script>
+    <script type="text/javascript" src="scripts/notebook/ait_relations_control.js"></script>
+
+    <script type="text/javascript" src="scripts/plugins/ait_dockable.js"></script>
+    <script type="text/javascript" src="scripts/plugins/ait_customizable.js"></script>
+    <script type="text/javascript" src="ext/examples/ux/Portal.js"></script>
+    <script type="text/javascript" src="ext/examples/ux/PortalColumn.js"></script>
+    <script type="text/javascript" src="ext/examples/ux/Portlet.js"></script>
+    <script type="text/javascript" src="scripts/portal/ait_portal.js"></script>
+    <script type="text/javascript" src="scripts/portal/ait_portlet.js"></script>
+    <script type="text/javascript" src="scripts/portal/ait_portal_column.js"></script>
+    <script type="text/javascript" src="scripts/ux/iconCombo.js"></script>
+    <script type="text/javascript" src="scripts/search/ait_search_result.js"></script>
+    <script type="text/javascript" src="scripts/search/ait_search_window.js"></script>
+    <script type="text/javascript" src="scripts/ait_start_page.js"></script>
+
+
+    <script language="javascript" src="scripts/ait_shared.js"></script>
+
+    <script type="text/javascript" src="../data/corporate_identity.ajson"></script>
+    <script type="text/javascript" src="locale/langs.js"></script>
+    <script language="javascript" src="scripts/ait_main.js"></script>
+    <script language="javascript">
+      g_aSettings.offline = true;
+    </script>
+    <script language="javascript" src="scripts/tests/ait_test_functions.js"></script>
+    <script type="text/javascript" src="scripts/ait_commands.js"></script>
+
+
+    <!-- Data Scripts -->
+    <script type="text/javascript" src="../data/ait_metaData.ajson"></script>
+
+    <link rel="stylesheet" type="text/css" href="ext/examples/portal/sample.css" />
+    <link rel="stylesheet" type="text/css" href="ext/examples/tabs/tabs-example.css" />
+
+    <link rel="stylesheet" type="text/css" href="ext/examples/portal/sample.css" />
+    <link rel="stylesheet" type="text/css" href="ext/examples/tabs/tabs-example.css" />
+    <!-- LIVE GRID -->
+    <link rel="stylesheet" type="text/css" href="scripts/ux/livegrid/resources/css/ext-ux-livegrid.css" />
+
+    <link rel="stylesheet" type="text/css" href="skin/ait.css"></link>
+
+  </head>
+  <body>
+
+  <div id="loading-mask" style="width:100%;height:100%;background:#c3daf9;position:absolute;z-index:20000;left:0;top:0;">&#160;</div>
+    <div id="loading">
+      <div class="loading-indicator">
+        <img src="ext/resources/images/default/grid/loading.gif" style="width:16px;height:16px;" align="absmiddle"/>&#160;
+        <script>
+          document.writeln(getString("ait_loading"));
+        </script>...
+      </div>
+    </div>
+    <!-- Main div for the viewport of the app -->
+    <div id="container"></div>
+  </body>
+</html>

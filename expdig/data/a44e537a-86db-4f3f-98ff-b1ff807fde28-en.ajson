@@ -1,0 +1,1089 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{a44e537a-86db-4f3f-98ff-b1ff807fde28}",
+        "repoid":"{a44e537a-86db-4f3f-98ff-b1ff807fde28}",
+        "name":"Líder funcional",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Líder funcional"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{c30b8458-d9f1-42a1-9501-5f23cce2fec7}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Acude con champion para definir prioridad y posibilidades de habilitación",
+        artefactId:"{ecf00c1b-ddce-4778-aa31-df39058d562b}",
+        id:"{ecf00c1b-ddce-4778-aa31-df39058d562b}",
+        relInstId: "{9240c79e-f483-41e3-a0dc-51c02605c77b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Acude con champion para validar posibilidades de habilitación",
+        artefactId:"{01f36fea-8d66-472e-b296-f24ad0a25263}",
+        id:"{01f36fea-8d66-472e-b296-f24ad0a25263}",
+        relInstId: "{6be65863-957e-49d9-8472-b50c5339181f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Acude con champion para validar posibilidades de habilitación",
+        artefactId:"{4a7b3382-3e90-4a8a-9010-386b2575511e}",
+        id:"{4a7b3382-3e90-4a8a-9010-386b2575511e}",
+        relInstId: "{9fe54007-52cb-4d81-a0a1-ab9645476171}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Documenta idea / proyecto (genera idea / necesidad)",
+        artefactId:"{8252c2af-5d02-4e7b-970e-11434f1070af}",
+        id:"{8252c2af-5d02-4e7b-970e-11434f1070af}",
+        relInstId: "{54252fdc-bdff-4208-80dc-2cd138cb77d8}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Elabora RFP",
+        artefactId:"{4fb145ec-cd65-4806-baf8-edf5b188278e}",
+        id:"{4fb145ec-cd65-4806-baf8-edf5b188278e}",
+        relInstId: "{4ea25787-1a56-48e0-ae15-d5d93d301556}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Evalúa criterios de aceptación",
+        artefactId:"{40bde132-a128-4629-a2ec-4d540cf06a39}",
+        id:"{40bde132-a128-4629-a2ec-4d540cf06a39}",
+        relInstId: "{f00b2e28-01db-4549-910c-11c813d8fe0f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Evalúa criterios de aceptación",
+        artefactId:"{a0621074-295f-4375-b7e9-614c4aad9c70}",
+        id:"{a0621074-295f-4375-b7e9-614c4aad9c70}",
+        relInstId: "{841d44df-7e6e-457a-9217-9276bae597f4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Evalúa criterios de aceptación",
+        artefactId:"{0ebec3e1-65f4-4005-928d-b734bb834bda}",
+        id:"{0ebec3e1-65f4-4005-928d-b734bb834bda}",
+        relInstId: "{d21ce047-4546-4c98-9c32-ef7850ff347a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Evalúa criterios de aceptación",
+        artefactId:"{1e64dd0b-a4ed-426f-8eaf-d89ab6f58b21}",
+        id:"{1e64dd0b-a4ed-426f-8eaf-d89ab6f58b21}",
+        relInstId: "{758a6b7b-8911-4aed-a3ee-704a0215bbbd}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Evalúa resultados y decide",
+        artefactId:"{5e8af948-7921-422a-8bfa-52244fccb478}",
+        id:"{5e8af948-7921-422a-8bfa-52244fccb478}",
+        relInstId: "{1c3459e7-828a-49af-b867-3ba8307d8ba2}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia",
+        artefactId:"{dde29ec4-b462-43cb-adff-b9519311f0c0}",
+        id:"{dde29ec4-b462-43cb-adff-b9519311f0c0}",
+        relInstId: "{96d02da4-5085-457d-ba79-8484e9d77f73}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{178e2993-e26e-467e-af70-80c1820ec128}",
+        id:"{178e2993-e26e-467e-af70-80c1820ec128}",
+        relInstId: "{ff2506b8-87f5-47c0-9f18-24458278960c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{4fc673b4-838e-4d3d-975b-870601af006e}",
+        id:"{4fc673b4-838e-4d3d-975b-870601af006e}",
+        relInstId: "{4d9fa091-31ba-4bf1-9ae7-d58967b40277}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Identifica pain points por audiencia por proceso",
+        artefactId:"{cc483002-eea1-4f31-b6f8-e83621d6783f}",
+        id:"{cc483002-eea1-4f31-b6f8-e83621d6783f}",
+        relInstId: "{6264ab6d-61b8-463d-a608-2b61da589d2b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{6b258fb2-19e8-4d09-8798-3fc6a6807c8d}",
+        id:"{6b258fb2-19e8-4d09-8798-3fc6a6807c8d}",
+        relInstId: "{a26a2d92-c791-49ed-8404-30706355feee}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza prueba UAT",
+        artefactId:"{c12d0442-04c1-4f66-bc29-13e9b02dcefc}",
+        id:"{c12d0442-04c1-4f66-bc29-13e9b02dcefc}",
+        relInstId: "{9ab61ba7-3002-43da-90b6-9662fd87da51}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza prueba UAT",
+        artefactId:"{70dc6d52-4361-4c86-81fe-c246df98e216}",
+        id:"{70dc6d52-4361-4c86-81fe-c246df98e216}",
+        relInstId: "{1cde3997-781f-4f12-8bd3-5a4761a26e43}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza pruebas UAT e PPRD",
+        artefactId:"{5376b9f5-96f4-4210-876d-4371e5d20e34}",
+        id:"{5376b9f5-96f4-4210-876d-4371e5d20e34}",
+        relInstId: "{9ad9bca6-b33f-466b-aba6-8372290d2bef}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza pruebas UAT e PPRD",
+        artefactId:"{ef32870c-2c4e-4474-84e8-2a42ab1a5780}",
+        id:"{ef32870c-2c4e-4474-84e8-2a42ab1a5780}",
+        relInstId: "{61ab60d8-d57e-4275-9bef-e14906a13caf}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Soluciona cambiando el proceso",
+        artefactId:"{a009e139-bf9c-448f-bf1c-6a4d0f770826}",
+        id:"{a009e139-bf9c-448f-bf1c-6a4d0f770826}",
+        relInstId: "{a499efdc-35f7-4206-b8c2-b490052f4cb4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Soluciona cambiando el proceso",
+        artefactId:"{3e77bab0-3be0-4e86-884b-908e2fd01336}",
+        id:"{3e77bab0-3be0-4e86-884b-908e2fd01336}",
+        relInstId: "{7ac77ccc-1aae-49d2-8a0f-402f90a7023d}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Soluciona cambiando el proceso",
+        artefactId:"{2078ad9a-87a7-4876-b2ec-fa1098f6447f}",
+        id:"{2078ad9a-87a7-4876-b2ec-fa1098f6447f}",
+        relInstId: "{e48802a5-02b2-45fe-a988-5d978fc7caac}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida BPP",
+        artefactId:"{d3bb4971-f894-4d78-be91-da2cc35ec251}",
+        id:"{d3bb4971-f894-4d78-be91-da2cc35ec251}",
+        relInstId: "{eacbe055-f9e1-4a3d-b75e-eb01f6599774}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida documentación",
+        artefactId:"{8a7d55cc-1316-48c1-852f-e198a6dd6dd9}",
+        id:"{8a7d55cc-1316-48c1-852f-e198a6dd6dd9}",
+        relInstId: "{d6827446-e4f0-4cf4-ba17-c20f0d44fce9}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"ACCOUNTABLE_FOR_APPROVING_RESULTS",
+    
+
+    "label":"Accountable for",
+    "targets":
+    [
+    
+      {
+        text:"Forma equipo de experiencia / one page",
+        artefactId:"{b4c39610-f593-40a1-a87e-c54c057c367e}",
+        id:"{b4c39610-f593-40a1-a87e-c54c057c367e}",
+        relInstId: "{164f312d-4362-42a9-8a77-6ff813678ddb}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Forma equipo de experiencia / one page",
+        artefactId:"{629a5753-991d-4a7f-b145-33a0cc4c3ce7}",
+        id:"{629a5753-991d-4a7f-b145-33a0cc4c3ce7}",
+        relInstId: "{420d69ff-76a6-4541-8981-96e4d5137896}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Forma equipo de experiencia / one page",
+        artefactId:"{760e8214-c466-4511-bb18-d7581bb520f8}",
+        id:"{760e8214-c466-4511-bb18-d7581bb520f8}",
+        relInstId: "{bd96f651-1540-4361-9e20-49866f755e0e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Forma equipo de experiencia / one page",
+        artefactId:"{e293620d-a88f-47c2-a4a6-f309d0be70e8}",
+        id:"{e293620d-a88f-47c2-a4a6-f309d0be70e8}",
+        relInstId: "{47e29994-1d14-4b9b-998b-46219ed50d1c}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{31391244-0bc9-4d75-92df-56899cb3ed49}",
+        id:"{31391244-0bc9-4d75-92df-56899cb3ed49}",
+        relInstId: "{1a23d353-0c16-4456-93f9-a21963d89cb2}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{cd9c1387-5c36-4941-8e2b-f90713277ac5}",
+        id:"{cd9c1387-5c36-4941-8e2b-f90713277ac5}",
+        relInstId: "{44b5f350-a961-4804-a825-fe061b2f58ab}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{fa4ec609-13d6-446c-ab6a-39d77b83cc13}",
+        id:"{fa4ec609-13d6-446c-ab6a-39d77b83cc13}",
+        relInstId: "{f520532d-9908-4c24-946c-bc00e349a3ed}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta Etapa 1 a Comité",
+        artefactId:"{86b63242-d8a9-48ba-8efa-7cb97c154804}",
+        id:"{86b63242-d8a9-48ba-8efa-7cb97c154804}",
+        relInstId: "{8a11b0de-0f2d-456e-863c-52a8c0c86429}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Asegura impacto en procesos y alineción a plan estratégico",
+        artefactId:"{696238cd-e3b1-4d2e-a132-909eb7045c2a}",
+        id:"{696238cd-e3b1-4d2e-a132-909eb7045c2a}",
+        relInstId: "{1f2f9d46-8ffd-4026-80d6-15e28900d5c5}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Elabora RFP",
+        artefactId:"{7f0ac13f-91e2-4d46-8a36-0b088d6a5bf3}",
+        id:"{7f0ac13f-91e2-4d46-8a36-0b088d6a5bf3}",
+        relInstId: "{12fae138-2a87-422a-aee4-36803410c99a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Entiende necesidad",
+        artefactId:"{d82ea38d-9364-4dcb-a63b-04fa58536988}",
+        id:"{d82ea38d-9364-4dcb-a63b-04fa58536988}",
+        relInstId: "{ad1dce79-b26c-469b-9c19-18b1daaa3a32}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estabilización",
+        artefactId:"{6e1e6e3a-4ec7-465b-9a74-02d29ffbc849}",
+        id:"{6e1e6e3a-4ec7-465b-9a74-02d29ffbc849}",
+        relInstId: "{2adca067-8dec-4ae3-8046-5a65d9452eb4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Estabilización",
+        artefactId:"{c76345fc-7b89-4687-ae8c-689fd0224427}",
+        id:"{c76345fc-7b89-4687-ae8c-689fd0224427}",
+        relInstId: "{5f34f36a-22f8-4985-919e-c70dad021993}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación funcional",
+        artefactId:"{0aa791bd-1a81-4c49-b30e-cc5cbd981a5c}",
+        id:"{0aa791bd-1a81-4c49-b30e-cc5cbd981a5c}",
+        relInstId: "{57ce8397-5c6c-480b-8687-d80d641cdeac}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación para adquisición de solución comercial",
+        artefactId:"{f098f907-bba0-4830-9685-bd2b914dc6b7}",
+        id:"{f098f907-bba0-4830-9685-bd2b914dc6b7}",
+        relInstId: "{24bf9e42-0117-4fec-9a29-1d2f75629e82}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera propuesta de UX",
+        artefactId:"{1fe58633-46df-4bc9-825a-3398e43c9c20}",
+        id:"{1fe58633-46df-4bc9-825a-3398e43c9c20}",
+        relInstId: "{79a07d0c-bbe9-49b8-a942-39991227dfa7}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera propuesta de UX",
+        artefactId:"{dc84ebbd-22b0-48fd-901f-8d1d5027eba2}",
+        id:"{dc84ebbd-22b0-48fd-901f-8d1d5027eba2}",
+        relInstId: "{517e2905-5262-42ed-92f5-9f50e82f6fda}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera propuesta de UX",
+        artefactId:"{73a17309-7b3f-48bc-858e-f1d1ff5b4c46}",
+        id:"{73a17309-7b3f-48bc-858e-f1d1ff5b4c46}",
+        relInstId: "{5ce319cb-dacd-47b7-bd2e-be06817a5b5f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Libera en producción",
+        artefactId:"{db4bca2b-bc7c-4b69-9435-12ecd9f4b07e}",
+        id:"{db4bca2b-bc7c-4b69-9435-12ecd9f4b07e}",
+        relInstId: "{def90ea6-8ac8-4627-922b-f07198fda338}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{d07048f7-d0a9-48f9-a322-004fdf2ce9b8}",
+        id:"{d07048f7-d0a9-48f9-a322-004fdf2ce9b8}",
+        relInstId: "{0014eadb-965c-4cfb-8af7-2a07cc94461a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{c9adfe23-e5df-4632-8ba5-e813f17fd42f}",
+        id:"{c9adfe23-e5df-4632-8ba5-e813f17fd42f}",
+        relInstId: "{1e9eb05e-97b2-4e9d-aed8-66ef9b2b175a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Mapea proyectos y prioridades",
+        artefactId:"{5dc11405-4662-4ad1-a626-3257e2519b87}",
+        id:"{5dc11405-4662-4ad1-a626-3257e2519b87}",
+        relInstId: "{a243794e-d470-4112-82af-22ac29ba53a6}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza conjunto de pruebas QA (incluye UAT)",
+        artefactId:"{44f1eb71-f3c0-4f84-bdd9-dcc0af78784f}",
+        id:"{44f1eb71-f3c0-4f84-bdd9-dcc0af78784f}",
+        relInstId: "{d0f5a00a-e5c1-44b5-8d58-49572fbeb4a7}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Realiza conjunto de pruebas QA (incluye UAT)",
+        artefactId:"{a48c48d4-7dcc-49c1-b0ae-0fd13d66f5aa}",
+        id:"{a48c48d4-7dcc-49c1-b0ae-0fd13d66f5aa}",
+        relInstId: "{cfbb45cd-39de-4977-93c6-cedf766e7e21}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Recibe RFP",
+        artefactId:"{e981714d-308f-45c7-9b12-d6ca00af7e06}",
+        id:"{e981714d-308f-45c7-9b12-d6ca00af7e06}",
+        relInstId: "{0afaecdb-e157-4eb4-bf4a-2b14574ec6ef}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        id:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        relInstId: "{47df8548-4f23-49cb-8b7a-3e75d84c29ce}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{2d69d10a-9745-4399-a031-98ccc13a1558}",
+        id:"{2d69d10a-9745-4399-a031-98ccc13a1558}",
+        relInstId: "{68c34c05-fa89-4643-b1de-b62f8c23af1a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{92b42e46-59be-49f0-96ec-bb9b640ab0cc}",
+        id:"{92b42e46-59be-49f0-96ec-bb9b640ab0cc}",
+        relInstId: "{7ab906d4-6bc4-4469-967f-ca1b255b0d98}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa prioridades",
+        artefactId:"{93a934ee-e4b9-4d7e-b9c0-5a1c4d2b9711}",
+        id:"{93a934ee-e4b9-4d7e-b9c0-5a1c4d2b9711}",
+        relInstId: "{25d537bc-de3c-493f-bb41-73e72e9246d2}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa prioridades",
+        artefactId:"{40205fc2-0791-4595-b673-2eba067b67d2}",
+        id:"{40205fc2-0791-4595-b673-2eba067b67d2}",
+        relInstId: "{8568c030-fdbb-4582-9545-f5ad6c81c54b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa prioridades",
+        artefactId:"{cb21a043-ef73-4bd7-b52a-dafc47a21d2d}",
+        id:"{cb21a043-ef73-4bd7-b52a-dafc47a21d2d}",
+        relInstId: "{4af5c6a4-a7e1-452e-aea3-093701ae7fed}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa y complementa RFP",
+        artefactId:"{6ee4e00b-7dff-4587-a033-6f0fab7a716b}",
+        id:"{6ee4e00b-7dff-4587-a033-6f0fab7a716b}",
+        relInstId: "{92e5cebe-c560-4db5-a45b-d2ef02f6c311}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida necesidad de nuevo habilitador vs habilitadores objetivo 2023",
+        artefactId:"{8729b803-4e72-4731-8087-a2ed45008118}",
+        id:"{8729b803-4e72-4731-8087-a2ed45008118}",
+        relInstId: "{59cf02c1-1aa2-466e-81df-430d3cca3bc1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida necesidad de nuevo habilitador vs habilitadores objetivo 2023",
+        artefactId:"{240bcde0-ba01-4114-8a9b-defc4c232943}",
+        id:"{240bcde0-ba01-4114-8a9b-defc4c232943}",
+        relInstId: "{14b12e60-b4b2-4f60-b4e3-e6574cc3e22b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida plan de trabajo",
+        artefactId:"{195c6e8c-4ac9-4854-8325-44bafaa35043}",
+        id:"{195c6e8c-4ac9-4854-8325-44bafaa35043}",
+        relInstId: "{d253549c-d6ff-4447-a54f-6a32b0567def}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida plan de trabajo",
+        artefactId:"{9b9f4a94-f627-42cb-9df8-4f50b29ccfc3}",
+        id:"{9b9f4a94-f627-42cb-9df8-4f50b29ccfc3}",
+        relInstId: "{ddfcfd6a-630f-47b7-9912-9c9cea9399fb}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Valida plan de trabajo",
+        artefactId:"{27d4d8ff-e809-4c7d-851a-0c9c8e19fc1a}",
+        id:"{27d4d8ff-e809-4c7d-851a-0c9c8e19fc1a}",
+        relInstId: "{032b8c52-0c7a-4173-a4b8-1a910064408b}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"TO_INFORM",
+    
+
+    "label":"Informed at",
+    "targets":
+    [
+    
+      {
+        text:"Agenda reuniones para definir alcance y tiempos",
+        artefactId:"{020daa4c-fa4b-467e-920e-91f4e1ffed44}",
+        id:"{020daa4c-fa4b-467e-920e-91f4e1ffed44}",
+        relInstId: "{6cf617b1-f722-4344-b6a2-2a5b3151d469}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle",
+        artefactId:"{88b879c7-1fb4-4b9a-85c1-c0be329d7c58}",
+        id:"{88b879c7-1fb4-4b9a-85c1-c0be329d7c58}",
+        relInstId: "{66ca1727-3b75-4c5f-8d18-e3c18b057c7e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        id:"{9ea26685-b540-4329-a0f8-6425ae14e78e}",
+        relInstId: "{6d1ce319-3a28-40fe-bba0-66569cea0974}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Analiza solución y genera estimación a detalle (cotización)",
+        artefactId:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
+        id:"{87f36bd9-3159-485a-aca0-0aa9187e452b}",
+        relInstId: "{5f3a1ea5-15b8-47bb-afa8-6950b1e293c4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Define equipo de trabajo",
+        artefactId:"{ed61f8de-03c9-490e-b597-38aa04a887bf}",
+        id:"{ed61f8de-03c9-490e-b597-38aa04a887bf}",
+        relInstId: "{1f04aac1-d0f1-43de-a515-75aa7900c229}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Define equipo de trabajo",
+        artefactId:"{24a01f71-862c-4415-987d-2599e3c86149}",
+        id:"{24a01f71-862c-4415-987d-2599e3c86149}",
+        relInstId: "{f03a220a-906b-43e7-bff2-55997020a2ad}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera BPP\'s",
+        artefactId:"{32ac7c61-fb7a-47b1-8262-4c907c872a2c}",
+        id:"{32ac7c61-fb7a-47b1-8262-4c907c872a2c}",
+        relInstId: "{6946e963-8c8e-4de4-a058-186df0848fd4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera documentación funcional",
+        artefactId:"{0aa791bd-1a81-4c49-b30e-cc5cbd981a5c}",
+        id:"{0aa791bd-1a81-4c49-b30e-cc5cbd981a5c}",
+        relInstId: "{05bef379-be09-48bb-bacd-f3f41439035e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Genera estimación a detalle (cotización)",
+        artefactId:"{82c28731-6ac7-4892-b19a-88009204e1f1}",
+        id:"{82c28731-6ac7-4892-b19a-88009204e1f1}",
+        relInstId: "{5f1ff3f8-6943-49e3-9ca5-6ebef09ce407}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Libera en producción",
+        artefactId:"{2a40b449-eec0-47b8-ac71-34156a2193b2}",
+        id:"{2a40b449-eec0-47b8-ac71-34156a2193b2}",
+        relInstId: "{7547cc76-9b44-405a-ae1f-d8b979b1d90e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta calendaraización",
+        artefactId:"{9c23b9c4-f6bc-4a58-945c-6b357e32d43b}",
+        id:"{9c23b9c4-f6bc-4a58-945c-6b357e32d43b}",
+        relInstId: "{808f681f-3eaf-44b0-8747-b4d5b1a0627a}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Presenta resultados de evaluación",
+        artefactId:"{2497063a-1f84-4a77-b4c6-f9517db17f95}",
+        id:"{2497063a-1f84-4a77-b4c6-f9517db17f95}",
+        relInstId: "{ca27954a-c2dd-4eed-aa13-3703533c8735}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa prioridades",
+        artefactId:"{93a934ee-e4b9-4d7e-b9c0-5a1c4d2b9711}",
+        id:"{93a934ee-e4b9-4d7e-b9c0-5a1c4d2b9711}",
+        relInstId: "{9887f61f-8991-4799-a4da-fe37f6fbc3e1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa prioridades",
+        artefactId:"{cb21a043-ef73-4bd7-b52a-dafc47a21d2d}",
+        id:"{cb21a043-ef73-4bd7-b52a-dafc47a21d2d}",
+        relInstId: "{8a09aedb-a140-4581-985f-dfc832ef81cf}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa prioridades",
+        artefactId:"{40205fc2-0791-4595-b673-2eba067b67d2}",
+        id:"{40205fc2-0791-4595-b673-2eba067b67d2}",
+        relInstId: "{7e3cf69f-6530-4f7b-8e80-9ae71b1ae008}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Transfiere a Soporte",
+        artefactId:"{2b029cbe-86fd-4dac-aa16-db30abbb9bcf}",
+        id:"{2b029cbe-86fd-4dac-aa16-db30abbb9bcf}",
+        relInstId: "{b40ebbab-ff99-4951-b323-d306a0736552}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    
