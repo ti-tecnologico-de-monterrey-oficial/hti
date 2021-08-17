@@ -1,0 +1,350 @@
+
+    g_aOfflineData.notebookData = {
+      "error":false,
+      "errString":null,
+      "payload":
+      {
+        "edit":true,
+        "id":"{180181dc-bb6f-41b6-abf9-68ba7f3c9746}",
+        "repoid":"{180181dc-bb6f-41b6-abf9-68ba7f3c9746}",
+        "name":"Fábrica de software",
+        "iconUrl":"C_ROLE.tmp",
+        "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
+        "classname":"Role",
+        "idclass":"C_ROLE",
+        "children":
+        [
+          
+  {
+    "name":"General information",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"ADOSTRING",
+          "complex":false,
+          "value":{"val":"Fábrica de software"},
+          
+    "type":"attribute",
+    "name":"NAME",
+    "classname":"Name",
+    "idclass":"NAME",
+    "ctrltype":"NAME",
+    "id":"{f9a0c671-68d2-4703-bb93-aa466860b06d}"
+  
+
+
+    }
+    ,
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "classname":"Available for reader assignment",
+    "idclass":"A_AVAILABLE_FOR_READER_ASSIGNMENT",
+    "ctrltype":"BOOL",
+    "id":"{90c353f5-c9f7-4219-bff0-99fc2d0edec7}"
+  
+
+
+    }
+    
+    ]
+  },
+  {
+    "name":"Organisation",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RC_IS_APPLICATION_OWNER",
+    
+
+    "label":"Responsible person",
+    "targets":
+    [
+    
+      {
+        text:"Velásquez Ciro (ciro@​tec.mx)",
+        artefactId:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        id:"{31bfe8ea-ab65-4a79-b6c6-4119819e24dd}",
+        relInstId:"{8fca56d8-52a1-43c4-9b47-fbfb276319aa}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:true,
+        incoming:false
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Competencies",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Tasks (RACI)",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "type":"relation",
+    "relClassInd":"RESPONSIBLE_FOR_EXECUTION",
+    
+
+    "label":"Responsible for",
+    "targets":
+    [
+    
+      {
+        text:"Aseguramiento de funcionalidad",
+        artefactId:"{480a49d4-5be2-4e15-a4d3-8ba353957d4c}",
+        id:"{480a49d4-5be2-4e15-a4d3-8ba353957d4c}",
+        relInstId: "{779368f0-6a65-4914-85e4-35d0865ce12e}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Diseña pruebas unitarias",
+        artefactId:"{9eea411e-864d-464d-813a-b0cc40810cd7}",
+        id:"{9eea411e-864d-464d-813a-b0cc40810cd7}",
+        relInstId: "{d658bdbd-84b7-44fc-9e90-1584dca3d3c1}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Escribe código",
+        artefactId:"{56ba168c-b502-4673-ae09-10efbfe19fa4}",
+        id:"{56ba168c-b502-4673-ae09-10efbfe19fa4}",
+        relInstId: "{c57a7c76-4a51-4607-808e-57c472bc44fb}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Solicita liberar en ambiente de desarrollo",
+        artefactId:"{168eb348-a0ba-4e1a-95e7-5be1ccd61338}",
+        id:"{168eb348-a0ba-4e1a-95e7-5be1ccd61338}",
+        relInstId: "{a5926387-bd6e-4da9-8c73-cb5a475c9f70}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  ,
+  {
+    "type":"relation",
+    "relClassInd":"COOPERATIONPARTICIPATION",
+    
+
+    "label":"Consulted at",
+    "targets":
+    [
+    
+      {
+        text:"Estima a detalle Aplicación",
+        artefactId:"{ccdb871a-0dbd-4cb7-99ef-1d0f4fb3314b}",
+        id:"{ccdb871a-0dbd-4cb7-99ef-1d0f4fb3314b}",
+        relInstId: "{4cf6100c-2957-4ba5-8d69-b8d2fc3a0147}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Prepara documentación para liberación",
+        artefactId:"{1a371f59-ec42-423e-88a8-2f2354befd7c}",
+        id:"{1a371f59-ec42-423e-88a8-2f2354befd7c}",
+        relInstId: "{cbe10475-a06c-44d6-85fd-f4b181509007}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Pruebas integrales con otras arquitecturas",
+        artefactId:"{3b2b91ca-cee7-4e7a-8e15-2270c0b081b6}",
+        id:"{3b2b91ca-cee7-4e7a-8e15-2270c0b081b6}",
+        relInstId: "{c67a0667-3dea-47fb-9cb0-c2567de5df5f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Resuelve dudas y define la solución a estimar",
+        artefactId:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        id:"{9028b85f-73ce-4ac9-a0e5-303d8207ebc1}",
+        relInstId: "{c0207490-75dc-4ec3-87bd-941c88510a1f}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa Diseño y/o Code Version",
+        artefactId:"{aa219e3a-408f-4adc-9674-3dc8dbd21ba2}",
+        id:"{aa219e3a-408f-4adc-9674-3dc8dbd21ba2}",
+        relInstId: "{fca8a3dc-b88a-4e85-af9f-bf4bdac19931}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa documentación del habilitador",
+        artefactId:"{03a1363e-c8e3-4679-91c3-1e156c9fd5e4}",
+        id:"{03a1363e-c8e3-4679-91c3-1e156c9fd5e4}",
+        relInstId: "{a19b5cce-d4d4-4b61-b7cd-5bf466d153b4}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Revisa resultados de validación",
+        artefactId:"{5437be29-7e7a-4e8a-a542-e7f441ea199b}",
+        id:"{5437be29-7e7a-4e8a-a542-e7f441ea199b}",
+        relInstId: "{cf262436-6a18-4633-b926-068ac75514a8}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      },
+      {
+        text:"Solicita estimación a Fábrica de software",
+        artefactId:"{28aac2aa-db35-4d8e-99a0-2a779ccf4b93}",
+        id:"{28aac2aa-db35-4d8e-99a0-2a779ccf4b93}",
+        relInstId: "{5839bce7-b448-46de-a4af-e955accfac23}",
+        leaf: true,
+        artefactType:AIT_ARTEFACT_OBJECT,
+        broken:false,
+        trgmissing:false,
+        incoming:true
+      }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Model responsibilities",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Continuous improvement",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Action required",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Compliance",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Changes",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"System information",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"Lifecycle",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Attachments",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  },
+  {
+    "name":"Simulation data",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+        ]
+      }
+    };
+    

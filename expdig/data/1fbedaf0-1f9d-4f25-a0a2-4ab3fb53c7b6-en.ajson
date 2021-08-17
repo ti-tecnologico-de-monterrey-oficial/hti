@@ -10,7 +10,7 @@
         "name":"SonarCloud",
         "iconUrl":"C_SERVICE.tmp",
         "version":"@boc-eu.com/boc-is/ado.attributetype.notebook;1",
-        "classname":"Service",
+        "classname":"Application Service",
         "idclass":"C_SERVICE",
         "children":
         [
@@ -66,6 +66,32 @@
         trgmissing:true,
         incoming:false
       }
+    ]
+  }
+  
+    ]
+  },
+  {
+    "name":"IT elements",
+    "type":"group",
+    "children":
+    [
+      
+  {
+    "name":"Relations (outgoing)",
+    "type":"group",
+    "children":
+    [
+      
+    ]
+  }
+  ,
+  {
+    "name":"Relations (incoming)",
+    "type":"group",
+    "children":
+    [
+      
     ]
   }
   
@@ -167,6 +193,32 @@
     "children":
     [
       
+    ]
+  },
+  {
+    "name":"Representation",
+    "type":"group",
+    "children":
+    [
+      
+    {
+      
+          "attrtype":"BOOL",
+          "complex":false,
+          
+              "value":{"val":1},
+            
+    "type":"attribute",
+    "name":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "classname":"Show symbol when implementing controls exist",
+    "idclass":"A_GRC_DISPLAY_SYMBOLS_IF_IMPLEMENTED_CONTROLS",
+    "ctrltype":"BOOL",
+    "id":"{0c3ce853-5264-48f7-9eba-acc0aba17528}"
+  
+
+
+    }
+    
     ]
   }
         ]

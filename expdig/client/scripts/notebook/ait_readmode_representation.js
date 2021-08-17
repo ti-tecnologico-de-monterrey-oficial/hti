@@ -120,7 +120,7 @@ boc.ait.notebook.ReadModeRepresentation = function (aConfig)
   	  var sStyle = "vertical-align: text-top; ";
 
       // Does a fix for long attribute names which are not linebreaked
-  	  sStyle += "word-break: break-all; width: 35% !important;";
+  	  sStyle += "word-break: break-all; width: 35% !important; min-width:200px";
 
       // Create the name cell
       var aNameCell =
