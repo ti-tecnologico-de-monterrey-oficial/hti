@@ -1,0 +1,1208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gestor Cobro</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Gestor Cobro", " : "))</script>  : Public   Actor</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/15/2020 4:06:08 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/15/2020 4:37:50 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Claudio Fabricio Chávez Maradiaga</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{BA249C9E-C127-4b2e-9620-69552FF430DA}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../../EA8/EA1/EA3/EA5233.htm">15-consultaTareasUtilizandoFiltrado</a>, <a href="../../EA8/EA1/EA3/EA5223.htm">10-validaciónSemaforizaciónClienteTipoDeuda</a>, <a href="../../EA8/EA1/EA2/EA5101.htm">10-validaciónSemaforizaciónClienteTipoDeuda</a>, <a href="../../EA8/EA1/EA3/EA5225.htm">11-gestionarNegociaciónClienteAltaNuevaTarea</a>, <a href="../../EA8/EA1/EA2/EA5103.htm">11-gestionarNegociaciónClienteAltaNuevaTarea</a>, <a href="../../EA8/EA1/EA2/EA5111.htm">15- filtradoPorGestorDeCobranza</a>, <a href="../../EA8/EA1/EA3/EA5229.htm">13-nuevaTareaEjecuciónCobranza</a>, <a href="../../EA8/EA1/EA2/EA5107.htm">13-nuevaTareaEjecuciónCobranza</a>, <a href="../../EA8/EA1/EA3/EA5231.htm">14-actualizaciónDatosEgresado/Aval</a>, <a href="../../EA8/EA1/EA2/EA5109.htm">14-actualizaciónDatosEgresado/Aval</a>, <a href="../../EA8/EA1/EA3/EA5235.htm">16-ingresarCuentaCliente </a>, <a href="../../EA8/EA1/EA2/EA5115.htm">16-ingresarConCuentaDeCliente</a>, <a href="../../EA8/EA1/EA3/EA5243.htm">1-validaciónClienteAdeudo</a>, <a href="../../EA8/EA1/EA3/EA5239.htm">18-configuraciónEnvíoEstadoCuenta</a>, <a href="../../EA8/EA1/EA2/EA5127.htm">1-validaciónClienteAdeudo</a>, <a href="../../EA8/EA1/EA2/EA5119.htm">18- envíoDeEstadoDeCuenta</a>, <a href="../../EA8/EA1/EA3/EA5241.htm">19-configuraciónEnvíoComunicados</a>, <a href="../../EA8/EA1/EA2/EA5123.htm">19- envíoDeComunicados</a>, <a href="../../EA8/EA1/EA3/EA5263.htm">2-validaciónPagosRealesCliente</a>, <a href="../../EA8/EA1/EA2/EA5179.htm">2-validaciónPagosRealesCliente</a>, <a href="../../EA8/EA1/EA2/EA5181.htm">3-validaciónDatosEgresado</a>, <a href="../../EA8/EA1/EA3/EA5265.htm">3-validaciónDatosEgresado</a>, <a href="../../EA8/EA1/EA3/EA5267.htm">4-validaciónContactoAval</a>, <a href="../../EA8/EA1/EA2/EA5183.htm">4-validaciónContactoAval</a>, <a href="../../EA8/EA1/EA2/EA5185.htm">5-cambioSaldoAdeudo</a>, <a href="../../EA8/EA1/EA3/EA5269.htm">5-cambioSaldoAdeudo</a>, <a href="../../EA8/EA1/EA2/EA5187.htm">6-consultaDashboard</a>, <a href="../../EA8/EA1/EA3/EA5271.htm">6-consultaDashboard</a>, <a href="../../EA8/EA1/EA3/EA5247.htm">21-consultaReportesOfrecidosHerramienta</a>, <a href="../../EA8/EA1/EA2/EA5137.htm">21-consultaReportes</a>, <a href="../../EA8/EA1/EA3/EA5249.htm">22-consultaEstadoCuenta</a>, <a href="../../EA8/EA1/EA2/EA5145.htm">22-consultaEstadoCuenta</a>, <a href="../../EA8/EA1/EA2/EA5149.htm">22-redirecciónPortalWeb</a>, <a href="../../EA8/EA1/EA3/EA5259.htm">27-flujoAprobaciónReestructura</a>, <a href="../../EA8/EA1/EA2/EA5171.htm">27-descargarFormatoPDF</a>, <a href="../../EA8/EA1/EA2/EA5147.htm">22-portalExterno</a>, <a href="../../EA8/EA1/EA3/EA5257.htm">26-flujoRechazoLiquidación</a>, <a href="../../EA8/EA1/EA3/EA5251.htm">23-autorizaciónPropuestaLiquidación</a>, <a href="../../EA8/EA1/EA2/EA5169.htm">26-visualizaciónComentariosRechazoLiquidación</a>, <a href="../../EA8/EA1/EA3/EA5261.htm">28-flujoRechazoReestructura </a>, <a href="../../EA8/EA1/EA2/EA5155.htm">23-propuestaComité</a>, <a href="../../EA8/EA1/EA2/EA5153.htm">23-botónEnvíoAutorización</a>, <a href="../../EA8/EA1/EA2/EA5177.htm">28-visualizaciónComentarioRechazoReestructura</a>, <a href="../../EA8/EA1/EA2/EA5151.htm">23-aprobaciónLiquidación</a>, <a href="../../EA8/EA1/EA3/EA5255.htm">25-flujoAprobaciónLiquidación</a>, <a href="../../EA8/EA1/EA3/EA5253.htm">24-autorizaciónPropuestaReestructura</a>, <a href="../../EA8/EA1/EA2/EA5159.htm">24-botónEnvíoAutorización</a>, <a href="../../EA8/EA1/EA2/EA5161.htm">24-propuestaReestructura</a>, <a href="../../EA8/EA1/EA2/EA5163.htm">25-descargaFormatoPDFLiquidaciónAprobada</a>, <a href="../../EA8/EA1/EA2/EA5157.htm">24-aprobaciónReestructura</a>, <a href="../../EA8/EA1/EA2/EA5113.htm">15-consultaTareas</a>, <a href="../../EA8/EA1/EA2/EA5121.htm">18-configuraciónEstadoDeCuenta</a>, <a href="../../EA8/EA1/EA2/EA5125.htm">19-configuraciónDeComunicados</a>, Gestor de cobro</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">El Gestor de cobro es la figura que le da seguimiento a la cartera de clientes-egresados para la recuperaci&#243;n de los montos en mora de su pr&#233;stamo educativo.&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5291.htm">Configurar Comunicados</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24365" onclick="parent.toggleDiv('detailsDIVLink24365','DetailsImageLink24365')" />Details:
+							<div id="detailsDIVLink24365" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5289.htm">Cambiar CML Saldo Adeudado Egresado</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24366" onclick="parent.toggleDiv('detailsDIVLink24366','DetailsImageLink24366')" />Details:
+							<div id="detailsDIVLink24366" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5292.htm">Configurar Estado de Cuenta</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24367" onclick="parent.toggleDiv('detailsDIVLink24367','DetailsImageLink24367')" />Details:
+							<div id="detailsDIVLink24367" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5300.htm">Consultar Cartera por Semáforo</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24368" onclick="parent.toggleDiv('detailsDIVLink24368','DetailsImageLink24368')" />Details:
+							<div id="detailsDIVLink24368" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5301.htm">Consultar Egresado</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24369" onclick="parent.toggleDiv('detailsDIVLink24369','DetailsImageLink24369')" />Details:
+							<div id="detailsDIVLink24369" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5294.htm">Consultar Aval</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24370" onclick="parent.toggleDiv('detailsDIVLink24370','DetailsImageLink24370')" />Details:
+							<div id="detailsDIVLink24370" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5297.htm">Consultar Cartera Documentada con Cuenta Cliente</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24371" onclick="parent.toggleDiv('detailsDIVLink24371','DetailsImageLink24371')" />Details:
+							<div id="detailsDIVLink24371" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5339.htm">Descargar Formato PDF (Reestructura)</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24372" onclick="parent.toggleDiv('detailsDIVLink24372','DetailsImageLink24372')" />Details:
+							<div id="detailsDIVLink24372" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5304.htm">Consultar Pagos Realizados</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24373" onclick="parent.toggleDiv('detailsDIVLink24373','DetailsImageLink24373')" />Details:
+							<div id="detailsDIVLink24373" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5296.htm">Consultar Cartera Documentada</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24374" onclick="parent.toggleDiv('detailsDIVLink24374','DetailsImageLink24374')" />Details:
+							<div id="detailsDIVLink24374" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5347.htm">Generar Propuesta Reestructura</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24375" onclick="parent.toggleDiv('detailsDIVLink24375','DetailsImageLink24375')" />Details:
+							<div id="detailsDIVLink24375" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5302.htm">Consultar Estado de Cuenta</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24376" onclick="parent.toggleDiv('detailsDIVLink24376','DetailsImageLink24376')" />Details:
+							<div id="detailsDIVLink24376" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5298.htm">Consultar Cartera Documentada con Datos Egresado </a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24377" onclick="parent.toggleDiv('detailsDIVLink24377','DetailsImageLink24377')" />Details:
+							<div id="detailsDIVLink24377" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5338.htm">Descargar Formato PDF (Liquidación)</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24378" onclick="parent.toggleDiv('detailsDIVLink24378','DetailsImageLink24378')" />Details:
+							<div id="detailsDIVLink24378" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5355.htm">Visualizar Comentarios de Rechazo (Liquidación) </a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24379" onclick="parent.toggleDiv('detailsDIVLink24379','DetailsImageLink24379')" />Details:
+							<div id="detailsDIVLink24379" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5299.htm">Consultar Cartera Documentada SAP-CML</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24380" onclick="parent.toggleDiv('detailsDIVLink24380','DetailsImageLink24380')" />Details:
+							<div id="detailsDIVLink24380" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5305.htm">Consultar Reportes</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24381" onclick="parent.toggleDiv('detailsDIVLink24381','DetailsImageLink24381')" />Details:
+							<div id="detailsDIVLink24381" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5303.htm">Consultar Home Dashboard</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24382" onclick="parent.toggleDiv('detailsDIVLink24382','DetailsImageLink24382')" />Details:
+							<div id="detailsDIVLink24382" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5306.htm">Consultar Tareas</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24383" onclick="parent.toggleDiv('detailsDIVLink24383','DetailsImageLink24383')" />Details:
+							<div id="detailsDIVLink24383" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5356.htm">Visualizar Comentarios de Rechazo (Reestructuración)</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24384" onclick="parent.toggleDiv('detailsDIVLink24384','DetailsImageLink24384')" />Details:
+							<div id="detailsDIVLink24384" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA8/EA1/EA3/EA5346.htm">Generar Propuesta Liquidación</a><br />
+						UseCase &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24385" onclick="parent.toggleDiv('detailsDIVLink24385','DetailsImageLink24385')" />Details:
+							<div id="detailsDIVLink24385" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5212.htm">Propuesta Comité</a></td>
+					<td width="50%" class="TableRow" valign="top">Generar Propuesta de Liquidación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24386" onclick="parent.toggleDiv('detailsDIVMessage24386', 'DetailsImageMessage24386')" />Details:
+							<div id="detailsDIVMessage24386" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5212.htm">Propuesta Comité</a></td>
+					<td width="50%" class="TableRow" valign="top">Generar Propuesta Reestructura</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24387" onclick="parent.toggleDiv('detailsDIVMessage24387', 'DetailsImageMessage24387')" />Details:
+							<div id="detailsDIVMessage24387" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5205.htm">Contrato (Cartera)</a></td>
+					<td width="50%" class="TableRow" valign="top">Elegir Contrato en Vista Carteras Documentadas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24388" onclick="parent.toggleDiv('detailsDIVMessage24388', 'DetailsImageMessage24388')" />Details:
+							<div id="detailsDIVMessage24388" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5222.htm">Vista Reporte</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar Tareas Asignadas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24389" onclick="parent.toggleDiv('detailsDIVMessage24389', 'DetailsImageMessage24389')" />Details:
+							<div id="detailsDIVMessage24389" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5219.htm">Vista Contacto</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar Cartera</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24390" onclick="parent.toggleDiv('detailsDIVMessage24390', 'DetailsImageMessage24390')" />Details:
+							<div id="detailsDIVMessage24390" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5205.htm">Contrato (Cartera)</a></td>
+					<td width="50%" class="TableRow" valign="top">Elegir Contrato en Vista Carteras Documentadas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24391" onclick="parent.toggleDiv('detailsDIVMessage24391', 'DetailsImageMessage24391')" />Details:
+							<div id="detailsDIVMessage24391" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar Contrato</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24392" onclick="parent.toggleDiv('detailsDIVMessage24392', 'DetailsImageMessage24392')" />Details:
+							<div id="detailsDIVMessage24392" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA3704.htm">Gestor Cobro</a></td>
+					<td width="50%" class="TableRow" valign="top">Descargar PDF Propuesta Liquidación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24393" onclick="parent.toggleDiv('detailsDIVMessage24393', 'DetailsImageMessage24393')" />Details:
+							<div id="detailsDIVMessage24393" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5222.htm">Vista Reporte</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar Tareas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24394" onclick="parent.toggleDiv('detailsDIVMessage24394', 'DetailsImageMessage24394')" />Details:
+							<div id="detailsDIVMessage24394" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">1: Consultar Cartera Documentada</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24395" onclick="parent.toggleDiv('detailsDIVMessage24395', 'DetailsImageMessage24395')" />Details:
+							<div id="detailsDIVMessage24395" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5212.htm">Propuesta Comité</a></td>
+					<td width="50%" class="TableRow" valign="top">Generar Propuesta Liquidación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24396" onclick="parent.toggleDiv('detailsDIVMessage24396', 'DetailsImageMessage24396')" />Details:
+							<div id="detailsDIVMessage24396" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5212.htm">Propuesta Comité</a></td>
+					<td width="50%" class="TableRow" valign="top">Generar Propuesta Reestructura</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24397" onclick="parent.toggleDiv('detailsDIVMessage24397', 'DetailsImageMessage24397')" />Details:
+							<div id="detailsDIVMessage24397" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA4/EA3822.htm">CRM</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar Reportes</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24398" onclick="parent.toggleDiv('detailsDIVMessage24398', 'DetailsImageMessage24398')" />Details:
+							<div id="detailsDIVMessage24398" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">1: Consultar Nuevo Saldo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24399" onclick="parent.toggleDiv('detailsDIVMessage24399', 'DetailsImageMessage24399')" />Details:
+							<div id="detailsDIVMessage24399" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5212.htm">Propuesta Comité</a></td>
+					<td width="50%" class="TableRow" valign="top">Generar Propuesta Reestructura</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24400" onclick="parent.toggleDiv('detailsDIVMessage24400', 'DetailsImageMessage24400')" />Details:
+							<div id="detailsDIVMessage24400" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">1: Consultar Egresado</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24401" onclick="parent.toggleDiv('detailsDIVMessage24401', 'DetailsImageMessage24401')" />Details:
+							<div id="detailsDIVMessage24401" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">1: Consultar Pagos Realizados</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24402" onclick="parent.toggleDiv('detailsDIVMessage24402', 'DetailsImageMessage24402')" />Details:
+							<div id="detailsDIVMessage24402" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5212.htm">Propuesta Comité</a></td>
+					<td width="50%" class="TableRow" valign="top">Generar Propuesta de Liquidación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24403" onclick="parent.toggleDiv('detailsDIVMessage24403', 'DetailsImageMessage24403')" />Details:
+							<div id="detailsDIVMessage24403" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA3704.htm">Gestor Cobro</a></td>
+					<td width="50%" class="TableRow" valign="top">Descargar PDF Propuesta Liquidación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24404" onclick="parent.toggleDiv('detailsDIVMessage24404', 'DetailsImageMessage24404')" />Details:
+							<div id="detailsDIVMessage24404" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA4/EA3822.htm">CRM</a></td>
+					<td width="50%" class="TableRow" valign="top">Configurar Comunicados</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24405" onclick="parent.toggleDiv('detailsDIVMessage24405', 'DetailsImageMessage24405')" />Details:
+							<div id="detailsDIVMessage24405" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar Contrato</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24406" onclick="parent.toggleDiv('detailsDIVMessage24406', 'DetailsImageMessage24406')" />Details:
+							<div id="detailsDIVMessage24406" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5208.htm">Home Dashboard</a></td>
+					<td width="50%" class="TableRow" valign="top">1: Consultar Dashboard</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24407" onclick="parent.toggleDiv('detailsDIVMessage24407', 'DetailsImageMessage24407')" />Details:
+							<div id="detailsDIVMessage24407" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA4/EA3822.htm">CRM</a></td>
+					<td width="50%" class="TableRow" valign="top">Configurar Estado de Cuenta</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24408" onclick="parent.toggleDiv('detailsDIVMessage24408', 'DetailsImageMessage24408')" />Details:
+							<div id="detailsDIVMessage24408" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar Cartera</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24409" onclick="parent.toggleDiv('detailsDIVMessage24409', 'DetailsImageMessage24409')" />Details:
+							<div id="detailsDIVMessage24409" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5205.htm">Contrato (Cartera)</a></td>
+					<td width="50%" class="TableRow" valign="top">Elegir Contrato en Vista Carteras Documentadas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24410" onclick="parent.toggleDiv('detailsDIVMessage24410', 'DetailsImageMessage24410')" />Details:
+							<div id="detailsDIVMessage24410" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA4/EA3822.htm">CRM</a></td>
+					<td width="50%" class="TableRow" valign="top">Configurar Comunicado</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24411" onclick="parent.toggleDiv('detailsDIVMessage24411', 'DetailsImageMessage24411')" />Details:
+							<div id="detailsDIVMessage24411" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar Cartera</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24412" onclick="parent.toggleDiv('detailsDIVMessage24412', 'DetailsImageMessage24412')" />Details:
+							<div id="detailsDIVMessage24412" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA4/EA3822.htm">CRM</a></td>
+					<td width="50%" class="TableRow" valign="top">Configurar Estado de Cuenta</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24413" onclick="parent.toggleDiv('detailsDIVMessage24413', 'DetailsImageMessage24413')" />Details:
+							<div id="detailsDIVMessage24413" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5221.htm">Vista Lista</a></td>
+					<td width="50%" class="TableRow" valign="top">1: Consultar Aval</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24414" onclick="parent.toggleDiv('detailsDIVMessage24414', 'DetailsImageMessage24414')" />Details:
+							<div id="detailsDIVMessage24414" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5213.htm">Rechazo Liquidación</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar Comentario Rechazo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24415" onclick="parent.toggleDiv('detailsDIVMessage24415', 'DetailsImageMessage24415')" />Details:
+							<div id="detailsDIVMessage24415" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5202.htm">Aprobación Reestructuración</a></td>
+					<td width="50%" class="TableRow" valign="top">Descargar Formato PDF</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24416" onclick="parent.toggleDiv('detailsDIVMessage24416', 'DetailsImageMessage24416')" />Details:
+							<div id="detailsDIVMessage24416" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA3704.htm">Gestor Cobro</a></td>
+					<td width="50%" class="TableRow" valign="top">Descargar PDF Propuesta Liquidación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24417" onclick="parent.toggleDiv('detailsDIVMessage24417', 'DetailsImageMessage24417')" />Details:
+							<div id="detailsDIVMessage24417" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5213.htm">Rechazo Liquidación</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar Comentario Rechazo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24418" onclick="parent.toggleDiv('detailsDIVMessage24418', 'DetailsImageMessage24418')" />Details:
+							<div id="detailsDIVMessage24418" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5214.htm">Rechazo Reestructura</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar Comentario Rechazo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24419" onclick="parent.toggleDiv('detailsDIVMessage24419', 'DetailsImageMessage24419')" />Details:
+							<div id="detailsDIVMessage24419" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5214.htm">Rechazo Reestructura</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar Comentario Rechazo Reestructura</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24420" onclick="parent.toggleDiv('detailsDIVMessage24420', 'DetailsImageMessage24420')" />Details:
+							<div id="detailsDIVMessage24420" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5207.htm">Estado de Cuenta</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar PDF Estado de Cuenta</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24421" onclick="parent.toggleDiv('detailsDIVMessage24421', 'DetailsImageMessage24421')" />Details:
+							<div id="detailsDIVMessage24421" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5202.htm">Aprobación Reestructuración</a></td>
+					<td width="50%" class="TableRow" valign="top">Descargar Formato PDF</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24422" onclick="parent.toggleDiv('detailsDIVMessage24422', 'DetailsImageMessage24422')" />Details:
+							<div id="detailsDIVMessage24422" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA3704.htm">Gestor Cobro</a></td>
+					<td width="50%" class="TableRow" valign="top">Descargar PDF Propuesta Liquidación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24423" onclick="parent.toggleDiv('detailsDIVMessage24423', 'DetailsImageMessage24423')" />Details:
+							<div id="detailsDIVMessage24423" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5201.htm">Aprobación Liquidación</a></td>
+					<td width="50%" class="TableRow" valign="top">Recibir Notificación Aprobación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24424" onclick="parent.toggleDiv('detailsDIVMessage24424', 'DetailsImageMessage24424')" />Details:
+							<div id="detailsDIVMessage24424" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5201.htm">Aprobación Liquidación</a></td>
+					<td width="50%" class="TableRow" valign="top">Recibir Notificación Aprobación Final</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24425" onclick="parent.toggleDiv('detailsDIVMessage24425', 'DetailsImageMessage24425')" />Details:
+							<div id="detailsDIVMessage24425" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA8/EA1/EA2/EA5209.htm">Portal Web Externo</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar Estado de Cuenta Web</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage24426" onclick="parent.toggleDiv('detailsDIVMessage24426', 'DetailsImageMessage24426')" />Details:
+							<div id="detailsDIVMessage24426" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

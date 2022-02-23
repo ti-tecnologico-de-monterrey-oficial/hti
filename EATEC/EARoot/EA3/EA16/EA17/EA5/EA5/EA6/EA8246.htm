@@ -1,0 +1,825 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Otorgamiento de Decisión Screen</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Otorgamiento de Decisión Screen", " : "))</script>  : Public  &lt;&lt;boundary&gt;&gt; Sequence</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/20/2020 3:50:45 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/20/2020 4:50:54 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Loreley  Morales </td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{29E99D4B-E884-4a4f-B458-7421B6CEBB53}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA8208.htm">Configuración de validación de predicción de comité</a>, <a href="EA8198.htm">Aceptar predicción de beca</a>, <a href="EA8216.htm">Rechazar predicción de beca</a>, <a href="EA8200.htm">Aceptar/Declinar la combinación de beca propuesta</a>, <a href="EA8210.htm">Determinar decisión final de beca</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Validar que el comité sea de apoyos educativos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35348" onclick="parent.toggleDiv('detailsDIVMessage35348', 'DetailsImageMessage35348')" />Details:
+							<div id="detailsDIVMessage35348" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8252.htm">«entity» Validación</a></td>
+					<td width="50%" class="TableRow" valign="top">Verificar validaciones</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35349" onclick="parent.toggleDiv('detailsDIVMessage35349', 'DetailsImageMessage35349')" />Details:
+							<div id="detailsDIVMessage35349" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar decisión "Lista de Espera"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35350" onclick="parent.toggleDiv('detailsDIVMessage35350', 'DetailsImageMessage35350')" />Details:
+							<div id="detailsDIVMessage35350" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8237.htm">«entity» Combinación de apoyo educativo</a></td>
+					<td width="50%" class="TableRow" valign="top">Validar combinaciones</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35351" onclick="parent.toggleDiv('detailsDIVMessage35351', 'DetailsImageMessage35351')" />Details:
+							<div id="detailsDIVMessage35351" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Determinar aceptación de beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35352" onclick="parent.toggleDiv('detailsDIVMessage35352', 'DetailsImageMessage35352')" />Details:
+							<div id="detailsDIVMessage35352" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8245.htm">«entity» Otorgamiento de decisión</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar motivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35353" onclick="parent.toggleDiv('detailsDIVMessage35353', 'DetailsImageMessage35353')" />Details:
+							<div id="detailsDIVMessage35353" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar decisiones "No Autorizado"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35354" onclick="parent.toggleDiv('detailsDIVMessage35354', 'DetailsImageMessage35354')" />Details:
+							<div id="detailsDIVMessage35354" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar registros </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35355" onclick="parent.toggleDiv('detailsDIVMessage35355', 'DetailsImageMessage35355')" />Details:
+							<div id="detailsDIVMessage35355" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar mensaje </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35356" onclick="parent.toggleDiv('detailsDIVMessage35356', 'DetailsImageMessage35356')" />Details:
+							<div id="detailsDIVMessage35356" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar la predicción registrada</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35357" onclick="parent.toggleDiv('detailsDIVMessage35357', 'DetailsImageMessage35357')" />Details:
+							<div id="detailsDIVMessage35357" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8245.htm">«entity» Otorgamiento de decisión</a></td>
+					<td width="50%" class="TableRow" valign="top">Determinar decisión "Candidato a otro apoyo educativo"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35358" onclick="parent.toggleDiv('detailsDIVMessage35358', 'DetailsImageMessage35358')" />Details:
+							<div id="detailsDIVMessage35358" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar decisión "Candidato a otra beca"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35359" onclick="parent.toggleDiv('detailsDIVMessage35359', 'DetailsImageMessage35359')" />Details:
+							<div id="detailsDIVMessage35359" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Validar porcentajes de beca y/o préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35360" onclick="parent.toggleDiv('detailsDIVMessage35360', 'DetailsImageMessage35360')" />Details:
+							<div id="detailsDIVMessage35360" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8246.htm">«boundary» Otorgamiento de Decisión Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Redireccionar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35361" onclick="parent.toggleDiv('detailsDIVMessage35361', 'DetailsImageMessage35361')" />Details:
+							<div id="detailsDIVMessage35361" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar decisión "Requisitos Adicionales"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35362" onclick="parent.toggleDiv('detailsDIVMessage35362', 'DetailsImageMessage35362')" />Details:
+							<div id="detailsDIVMessage35362" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Habilitar modificar predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35363" onclick="parent.toggleDiv('detailsDIVMessage35363', 'DetailsImageMessage35363')" />Details:
+							<div id="detailsDIVMessage35363" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar predicción de apoyo educativo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35364" onclick="parent.toggleDiv('detailsDIVMessage35364', 'DetailsImageMessage35364')" />Details:
+							<div id="detailsDIVMessage35364" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8246.htm">«boundary» Otorgamiento de Decisión Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar registros</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35365" onclick="parent.toggleDiv('detailsDIVMessage35365', 'DetailsImageMessage35365')" />Details:
+							<div id="detailsDIVMessage35365" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar estatus de decisión de beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35366" onclick="parent.toggleDiv('detailsDIVMessage35366', 'DetailsImageMessage35366')" />Details:
+							<div id="detailsDIVMessage35366" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar decisión "Comité Nacional"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35367" onclick="parent.toggleDiv('detailsDIVMessage35367', 'DetailsImageMessage35367')" />Details:
+							<div id="detailsDIVMessage35367" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar registro de otorgamiento de decisión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35368" onclick="parent.toggleDiv('detailsDIVMessage35368', 'DetailsImageMessage35368')" />Details:
+							<div id="detailsDIVMessage35368" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8245.htm">«entity» Otorgamiento de decisión</a></td>
+					<td width="50%" class="TableRow" valign="top">Guardar combinación de apoyo educativo / beca pura</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35369" onclick="parent.toggleDiv('detailsDIVMessage35369', 'DetailsImageMessage35369')" />Details:
+							<div id="detailsDIVMessage35369" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Validar porcentaje de beca y/o préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35370" onclick="parent.toggleDiv('detailsDIVMessage35370', 'DetailsImageMessage35370')" />Details:
+							<div id="detailsDIVMessage35370" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8240.htm">«control» Criterios de  Predicción</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar la predicción registrada</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35371" onclick="parent.toggleDiv('detailsDIVMessage35371', 'DetailsImageMessage35371')" />Details:
+							<div id="detailsDIVMessage35371" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar registros </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35372" onclick="parent.toggleDiv('detailsDIVMessage35372', 'DetailsImageMessage35372')" />Details:
+							<div id="detailsDIVMessage35372" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar Información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35373" onclick="parent.toggleDiv('detailsDIVMessage35373', 'DetailsImageMessage35373')" />Details:
+							<div id="detailsDIVMessage35373" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Acceder a la pestaña de otorgamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35374" onclick="parent.toggleDiv('detailsDIVMessage35374', 'DetailsImageMessage35374')" />Details:
+							<div id="detailsDIVMessage35374" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar registro de otorgamiento de decisión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35375" onclick="parent.toggleDiv('detailsDIVMessage35375', 'DetailsImageMessage35375')" />Details:
+							<div id="detailsDIVMessage35375" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Modificar de combinaciones</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35376" onclick="parent.toggleDiv('detailsDIVMessage35376', 'DetailsImageMessage35376')" />Details:
+							<div id="detailsDIVMessage35376" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Modificar porcentajes de apoyos educativos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35377" onclick="parent.toggleDiv('detailsDIVMessage35377', 'DetailsImageMessage35377')" />Details:
+							<div id="detailsDIVMessage35377" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Rechazar combinación de apoyos educativos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35378" onclick="parent.toggleDiv('detailsDIVMessage35378', 'DetailsImageMessage35378')" />Details:
+							<div id="detailsDIVMessage35378" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Autorizar o rechazar predicción de beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35379" onclick="parent.toggleDiv('detailsDIVMessage35379', 'DetailsImageMessage35379')" />Details:
+							<div id="detailsDIVMessage35379" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8246.htm">«boundary» Otorgamiento de Decisión Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Redireccionar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35380" onclick="parent.toggleDiv('detailsDIVMessage35380', 'DetailsImageMessage35380')" />Details:
+							<div id="detailsDIVMessage35380" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Acceder a la pestaña de otorgamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35381" onclick="parent.toggleDiv('detailsDIVMessage35381', 'DetailsImageMessage35381')" />Details:
+							<div id="detailsDIVMessage35381" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Acceder a la pestaña de otorgamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35382" onclick="parent.toggleDiv('detailsDIVMessage35382', 'DetailsImageMessage35382')" />Details:
+							<div id="detailsDIVMessage35382" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en la sección de otorgamiento de decisión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35383" onclick="parent.toggleDiv('detailsDIVMessage35383', 'DetailsImageMessage35383')" />Details:
+							<div id="detailsDIVMessage35383" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8245.htm">«entity» Otorgamiento de decisión</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar mensaje que afecta en una validación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35384" onclick="parent.toggleDiv('detailsDIVMessage35384', 'DetailsImageMessage35384')" />Details:
+							<div id="detailsDIVMessage35384" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8246.htm">«boundary» Otorgamiento de Decisión Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar registros</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35385" onclick="parent.toggleDiv('detailsDIVMessage35385', 'DetailsImageMessage35385')" />Details:
+							<div id="detailsDIVMessage35385" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar apoyo educativo que es candidato</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35386" onclick="parent.toggleDiv('detailsDIVMessage35386', 'DetailsImageMessage35386')" />Details:
+							<div id="detailsDIVMessage35386" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Aceptar combinación de apoyos educativos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35387" onclick="parent.toggleDiv('detailsDIVMessage35387', 'DetailsImageMessage35387')" />Details:
+							<div id="detailsDIVMessage35387" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar decisión de beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35388" onclick="parent.toggleDiv('detailsDIVMessage35388', 'DetailsImageMessage35388')" />Details:
+							<div id="detailsDIVMessage35388" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar motivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35389" onclick="parent.toggleDiv('detailsDIVMessage35389', 'DetailsImageMessage35389')" />Details:
+							<div id="detailsDIVMessage35389" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Modificar porcentaje de beca y/o préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35390" onclick="parent.toggleDiv('detailsDIVMessage35390', 'DetailsImageMessage35390')" />Details:
+							<div id="detailsDIVMessage35390" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar registro de otorgamiento de decisión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35391" onclick="parent.toggleDiv('detailsDIVMessage35391', 'DetailsImageMessage35391')" />Details:
+							<div id="detailsDIVMessage35391" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Rechazar predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35392" onclick="parent.toggleDiv('detailsDIVMessage35392', 'DetailsImageMessage35392')" />Details:
+							<div id="detailsDIVMessage35392" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar decisión de beca "Autorizado"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35393" onclick="parent.toggleDiv('detailsDIVMessage35393', 'DetailsImageMessage35393')" />Details:
+							<div id="detailsDIVMessage35393" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Modificar procentaje de beca y/o préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35394" onclick="parent.toggleDiv('detailsDIVMessage35394', 'DetailsImageMessage35394')" />Details:
+							<div id="detailsDIVMessage35394" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Aceptar predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35395" onclick="parent.toggleDiv('detailsDIVMessage35395', 'DetailsImageMessage35395')" />Details:
+							<div id="detailsDIVMessage35395" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Acceder a la pestaña de otorgamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35396" onclick="parent.toggleDiv('detailsDIVMessage35396', 'DetailsImageMessage35396')" />Details:
+							<div id="detailsDIVMessage35396" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7172.htm">Usuario de Apoyos Educativo Tec de Monterrey</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar / Seleccionar registro de otorgamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35397" onclick="parent.toggleDiv('detailsDIVMessage35397', 'DetailsImageMessage35397')" />Details:
+							<div id="detailsDIVMessage35397" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

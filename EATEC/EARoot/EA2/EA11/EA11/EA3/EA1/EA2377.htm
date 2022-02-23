@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Deployment::Tx. ZTR007 Carga de Extracto Bancario C43 </title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Tx. ZTR007 Carga de Extracto Bancario C43 ", " : "))</script>  : Public   Component</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">1/21/2021 1:17:29 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">8/5/2021 11:28:22 AM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Clarissa Magaña Contreras</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{1A30FD2C-8DDD-45e0-8748-CAD5E42B9AB2}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA2361.htm">HostToHost</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;b&gt;Tablas:&lt;/b&gt;&lt;br/&gt;&lt;b&gt;&lt;i&gt;ZTR001&#160;&#160;&lt;/i&gt;&lt;/b&gt;&lt;i&gt;Activa/Desactiva carga de extracto bancario&lt;/i&gt;&lt;br/&gt;&lt;b&gt;&lt;i&gt;ZTR002&lt;/i&gt;&lt;/b&gt;&#160;&#160;&lt;i&gt;Cabecera Log de Ejecuci&#243;n Carga Extractos H2H&lt;/i&gt;&lt;br/&gt;&lt;b&gt;&lt;i&gt;ZTR003&lt;/i&gt;&lt;/b&gt;&lt;i&gt;&#160;&#160;Detalle log de ejecuci&#243;n Extractos bancarios H2H&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Directorio de trabajo:&lt;/b&gt;&lt;br/&gt;&lt;b&gt;/sftp/H2H/018/CargaExtractoBancario/&#160;&#160;&#160;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;&lt;br/&gt;&lt;/b&gt;&lt;b&gt;Directorio de generaci&#243;n del archivo de instrucciones:&lt;/b&gt;&lt;br/&gt;&lt;b&gt;/sftp/H2H/Configuracion/&#160;&#160;&#160;&#160;&#160;&lt;/b&gt;&lt;br/&gt;&lt;i&gt;&lt;br/&gt;&lt;/i&gt;&lt;b&gt;Comandos:&lt;/b&gt;&lt;br/&gt;&lt;b&gt;Z_SFTP_H2H		&lt;/b&gt;&lt;i&gt;Ejecutar Archivo instr.txt&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Z_GPG_H2H_DES		&lt;/b&gt;&lt;i&gt;Desencriptar archivos&lt;/i&gt;&lt;b&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/b&gt;&lt;br/&gt;&lt;b&gt;Z_GPH_H2H		&lt;/b&gt;&lt;i&gt;Encriptar archivos&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;NOTA IMPORTANTE:&lt;/b&gt; Esta transacci&#243;n no se puede correr en forma simultanea por la manipulaci&#243;n de archivos. Tampoco se puede correr en forma simultanea con la Tx.ZTR008.&lt;br/&gt;Esta transaci&#243;n va procesando cada archivo de Cuenta Bancaria y genera sus archivos Encabezado y Detalle y los manda a resguardar al servidor H2H en la fecha a la que corresponden los archivos, y ya una vez respaldados los archivos se borran en el directorio de trabajo de SAP4H; esto es un ciclo que va procesando de cuenta por cuenta &lt;br/&gt;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../linkdocs/EAID_1A30FD2C_8DDD_45e0_8748_CAD5E42B9AB2.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

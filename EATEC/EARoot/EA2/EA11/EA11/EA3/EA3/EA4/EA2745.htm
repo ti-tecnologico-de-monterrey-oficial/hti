@@ -1,0 +1,966 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Tx. ZTR012 Recepción de archivos de Pagos Urgentes</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Tx. ZTR012 Recepción de archivos de Pagos Urgentes", " : "))</script>  : Public  &lt;&lt;boundary&gt;&gt; Sequence</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/11/2021 1:58:09 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">2/15/2022 9:38:02 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Clarissa Magaña Contreras</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{BB1BE310-C7AE-411c-BF65-F2B78D591366}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA2679.htm">P2177 Urgentes Envío Confirmación Recepción Consultas</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Job que se correr&#225; automaticamente.&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2697.htm">Módulo seguridad SAP4H</a></td>
+					<td width="50%" class="TableRow" valign="top">Desencripta archivo ACUSE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23635" onclick="parent.toggleDiv('detailsDIVMessage23635', 'DetailsImageMessage23635')" />Details:
+							<div id="detailsDIVMessage23635" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2718.htm">Servidor H2H Carpeta S4H Recepción</a></td>
+					<td width="50%" class="TableRow" valign="top">Obtener archivos de respuesta ACUSE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23636" onclick="parent.toggleDiv('detailsDIVMessage23636', 'DetailsImageMessage23636')" />Details:
+							<div id="detailsDIVMessage23636" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2718.htm">Servidor H2H Carpeta S4H Recepción</a></td>
+					<td width="50%" class="TableRow" valign="top">Borra archivos de respuesta RESP y/o COMP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23637" onclick="parent.toggleDiv('detailsDIVMessage23637', 'DetailsImageMessage23637')" />Details:
+							<div id="detailsDIVMessage23637" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23638" onclick="parent.toggleDiv('detailsDIVMessage23638', 'DetailsImageMessage23638')" />Details:
+							<div id="detailsDIVMessage23638" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23639" onclick="parent.toggleDiv('detailsDIVMessage23639', 'DetailsImageMessage23639')" />Details:
+							<div id="detailsDIVMessage23639" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23640" onclick="parent.toggleDiv('detailsDIVMessage23640', 'DetailsImageMessage23640')" />Details:
+							<div id="detailsDIVMessage23640" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2725.htm">«entity» Tabla Consola Archivos Env-Recep Pagos</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra archivo COMP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23641" onclick="parent.toggleDiv('detailsDIVMessage23641', 'DetailsImageMessage23641')" />Details:
+							<div id="detailsDIVMessage23641" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23642" onclick="parent.toggleDiv('detailsDIVMessage23642', 'DetailsImageMessage23642')" />Details:
+							<div id="detailsDIVMessage23642" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2697.htm">Módulo seguridad SAP4H</a></td>
+					<td width="50%" class="TableRow" valign="top">Desencripta archivo RESP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23643" onclick="parent.toggleDiv('detailsDIVMessage23643', 'DetailsImageMessage23643')" />Details:
+							<div id="detailsDIVMessage23643" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23644" onclick="parent.toggleDiv('detailsDIVMessage23644', 'DetailsImageMessage23644')" />Details:
+							<div id="detailsDIVMessage23644" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23645" onclick="parent.toggleDiv('detailsDIVMessage23645', 'DetailsImageMessage23645')" />Details:
+							<div id="detailsDIVMessage23645" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2745.htm">«boundary» Tx. ZTR012 Recepción de archivos de Pagos Urgentes</a></td>
+					<td width="50%" class="TableRow" valign="top">Copia archivo de ACUSE en directorio de trabajo S4H</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23646" onclick="parent.toggleDiv('detailsDIVMessage23646', 'DetailsImageMessage23646')" />Details:
+							<div id="detailsDIVMessage23646" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2725.htm">«entity» Tabla Consola Archivos Env-Recep Pagos</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra archivo RESP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23647" onclick="parent.toggleDiv('detailsDIVMessage23647', 'DetailsImageMessage23647')" />Details:
+							<div id="detailsDIVMessage23647" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23648" onclick="parent.toggleDiv('detailsDIVMessage23648', 'DetailsImageMessage23648')" />Details:
+							<div id="detailsDIVMessage23648" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23649" onclick="parent.toggleDiv('detailsDIVMessage23649', 'DetailsImageMessage23649')" />Details:
+							<div id="detailsDIVMessage23649" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2718.htm">Servidor H2H Carpeta S4H Recepción</a></td>
+					<td width="50%" class="TableRow" valign="top">Obtener archivos de respuesta RESP y/o COMP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23650" onclick="parent.toggleDiv('detailsDIVMessage23650', 'DetailsImageMessage23650')" />Details:
+							<div id="detailsDIVMessage23650" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23651" onclick="parent.toggleDiv('detailsDIVMessage23651', 'DetailsImageMessage23651')" />Details:
+							<div id="detailsDIVMessage23651" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2745.htm">«boundary» Tx. ZTR012 Recepción de archivos de Pagos Urgentes</a></td>
+					<td width="50%" class="TableRow" valign="top">Lee y procesa archivo RESP Tx.ZFIRE013</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23652" onclick="parent.toggleDiv('detailsDIVMessage23652', 'DetailsImageMessage23652')" />Details:
+							<div id="detailsDIVMessage23652" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2718.htm">Servidor H2H Carpeta S4H Recepción</a></td>
+					<td width="50%" class="TableRow" valign="top">Borra archivo de respuesta ACUSE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23653" onclick="parent.toggleDiv('detailsDIVMessage23653', 'DetailsImageMessage23653')" />Details:
+							<div id="detailsDIVMessage23653" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2745.htm">«boundary» Tx. ZTR012 Recepción de archivos de Pagos Urgentes</a></td>
+					<td width="50%" class="TableRow" valign="top">Copia archivo de RESP y/o COMP en directorio de trabajo S4H</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23654" onclick="parent.toggleDiv('detailsDIVMessage23654', 'DetailsImageMessage23654')" />Details:
+							<div id="detailsDIVMessage23654" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2745.htm">«boundary» Tx. ZTR012 Recepción de archivos de Pagos Urgentes</a></td>
+					<td width="50%" class="TableRow" valign="top">Lee archivo de ACUSE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23655" onclick="parent.toggleDiv('detailsDIVMessage23655', 'DetailsImageMessage23655')" />Details:
+							<div id="detailsDIVMessage23655" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2725.htm">«entity» Tabla Consola Archivos Env-Recep Pagos</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra ACUSE EXITOSO se espera archivo RESP y/o COMP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23656" onclick="parent.toggleDiv('detailsDIVMessage23656', 'DetailsImageMessage23656')" />Details:
+							<div id="detailsDIVMessage23656" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23657" onclick="parent.toggleDiv('detailsDIVMessage23657', 'DetailsImageMessage23657')" />Details:
+							<div id="detailsDIVMessage23657" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2725.htm">«entity» Tabla Consola Archivos Env-Recep Pagos</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra ACUSE NO EXITOSO se registra motivo de rechazo y se termina secuencia</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23658" onclick="parent.toggleDiv('detailsDIVMessage23658', 'DetailsImageMessage23658')" />Details:
+							<div id="detailsDIVMessage23658" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23659" onclick="parent.toggleDiv('detailsDIVMessage23659', 'DetailsImageMessage23659')" />Details:
+							<div id="detailsDIVMessage23659" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2733.htm">«entity» Tabla Z Reporte Pagos Urgentes de archivo RESP</a></td>
+					<td width="50%" class="TableRow" valign="top">Genera reporte de archivo RESP para posterior consulta</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23660" onclick="parent.toggleDiv('detailsDIVMessage23660', 'DetailsImageMessage23660')" />Details:
+							<div id="detailsDIVMessage23660" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23661" onclick="parent.toggleDiv('detailsDIVMessage23661', 'DetailsImageMessage23661')" />Details:
+							<div id="detailsDIVMessage23661" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23662" onclick="parent.toggleDiv('detailsDIVMessage23662', 'DetailsImageMessage23662')" />Details:
+							<div id="detailsDIVMessage23662" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23663" onclick="parent.toggleDiv('detailsDIVMessage23663', 'DetailsImageMessage23663')" />Details:
+							<div id="detailsDIVMessage23663" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">Registra en Log de Ejecución</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23664" onclick="parent.toggleDiv('detailsDIVMessage23664', 'DetailsImageMessage23664')" />Details:
+							<div id="detailsDIVMessage23664" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2718.htm">Servidor H2H Carpeta S4H Recepción</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23665" onclick="parent.toggleDiv('detailsDIVMessage23665', 'DetailsImageMessage23665')" />Details:
+							<div id="detailsDIVMessage23665" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2697.htm">Módulo seguridad SAP4H</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23666" onclick="parent.toggleDiv('detailsDIVMessage23666', 'DetailsImageMessage23666')" />Details:
+							<div id="detailsDIVMessage23666" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23667" onclick="parent.toggleDiv('detailsDIVMessage23667', 'DetailsImageMessage23667')" />Details:
+							<div id="detailsDIVMessage23667" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2718.htm">Servidor H2H Carpeta S4H Recepción</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23668" onclick="parent.toggleDiv('detailsDIVMessage23668', 'DetailsImageMessage23668')" />Details:
+							<div id="detailsDIVMessage23668" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23669" onclick="parent.toggleDiv('detailsDIVMessage23669', 'DetailsImageMessage23669')" />Details:
+							<div id="detailsDIVMessage23669" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23670" onclick="parent.toggleDiv('detailsDIVMessage23670', 'DetailsImageMessage23670')" />Details:
+							<div id="detailsDIVMessage23670" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23671" onclick="parent.toggleDiv('detailsDIVMessage23671', 'DetailsImageMessage23671')" />Details:
+							<div id="detailsDIVMessage23671" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2745.htm">«boundary» Tx. ZTR012 Recepción de archivos de Pagos Urgentes</a></td>
+					<td width="50%" class="TableRow" valign="top">Copia archivo de ACUSE en directorio de trabajo S4H</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23672" onclick="parent.toggleDiv('detailsDIVMessage23672', 'DetailsImageMessage23672')" />Details:
+							<div id="detailsDIVMessage23672" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2733.htm">«entity» Tabla Z Reporte Pagos Urgentes de archivo RESP</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23673" onclick="parent.toggleDiv('detailsDIVMessage23673', 'DetailsImageMessage23673')" />Details:
+							<div id="detailsDIVMessage23673" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23674" onclick="parent.toggleDiv('detailsDIVMessage23674', 'DetailsImageMessage23674')" />Details:
+							<div id="detailsDIVMessage23674" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2697.htm">Módulo seguridad SAP4H</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23675" onclick="parent.toggleDiv('detailsDIVMessage23675', 'DetailsImageMessage23675')" />Details:
+							<div id="detailsDIVMessage23675" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23676" onclick="parent.toggleDiv('detailsDIVMessage23676', 'DetailsImageMessage23676')" />Details:
+							<div id="detailsDIVMessage23676" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23677" onclick="parent.toggleDiv('detailsDIVMessage23677', 'DetailsImageMessage23677')" />Details:
+							<div id="detailsDIVMessage23677" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2745.htm">«boundary» Tx. ZTR012 Recepción de archivos de Pagos Urgentes</a></td>
+					<td width="50%" class="TableRow" valign="top">Lee y procesa archivo RESP Tx.ZFIRE013</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23678" onclick="parent.toggleDiv('detailsDIVMessage23678', 'DetailsImageMessage23678')" />Details:
+							<div id="detailsDIVMessage23678" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23679" onclick="parent.toggleDiv('detailsDIVMessage23679', 'DetailsImageMessage23679')" />Details:
+							<div id="detailsDIVMessage23679" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2745.htm">«boundary» Tx. ZTR012 Recepción de archivos de Pagos Urgentes</a></td>
+					<td width="50%" class="TableRow" valign="top">Copia archivo de RESP y/o COMP en directorio de trabajo S4H</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23680" onclick="parent.toggleDiv('detailsDIVMessage23680', 'DetailsImageMessage23680')" />Details:
+							<div id="detailsDIVMessage23680" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2725.htm">«entity» Tabla Consola Archivos Env-Recep Pagos</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23681" onclick="parent.toggleDiv('detailsDIVMessage23681', 'DetailsImageMessage23681')" />Details:
+							<div id="detailsDIVMessage23681" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2718.htm">Servidor H2H Carpeta S4H Recepción</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23682" onclick="parent.toggleDiv('detailsDIVMessage23682', 'DetailsImageMessage23682')" />Details:
+							<div id="detailsDIVMessage23682" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2745.htm">«boundary» Tx. ZTR012 Recepción de archivos de Pagos Urgentes</a></td>
+					<td width="50%" class="TableRow" valign="top">Lee archivo de ACUSE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23683" onclick="parent.toggleDiv('detailsDIVMessage23683', 'DetailsImageMessage23683')" />Details:
+							<div id="detailsDIVMessage23683" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23684" onclick="parent.toggleDiv('detailsDIVMessage23684', 'DetailsImageMessage23684')" />Details:
+							<div id="detailsDIVMessage23684" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2725.htm">«entity» Tabla Consola Archivos Env-Recep Pagos</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23685" onclick="parent.toggleDiv('detailsDIVMessage23685', 'DetailsImageMessage23685')" />Details:
+							<div id="detailsDIVMessage23685" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23686" onclick="parent.toggleDiv('detailsDIVMessage23686', 'DetailsImageMessage23686')" />Details:
+							<div id="detailsDIVMessage23686" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23687" onclick="parent.toggleDiv('detailsDIVMessage23687', 'DetailsImageMessage23687')" />Details:
+							<div id="detailsDIVMessage23687" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23688" onclick="parent.toggleDiv('detailsDIVMessage23688', 'DetailsImageMessage23688')" />Details:
+							<div id="detailsDIVMessage23688" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2725.htm">«entity» Tabla Consola Archivos Env-Recep Pagos</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23689" onclick="parent.toggleDiv('detailsDIVMessage23689', 'DetailsImageMessage23689')" />Details:
+							<div id="detailsDIVMessage23689" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2718.htm">Servidor H2H Carpeta S4H Recepción</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23690" onclick="parent.toggleDiv('detailsDIVMessage23690', 'DetailsImageMessage23690')" />Details:
+							<div id="detailsDIVMessage23690" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23691" onclick="parent.toggleDiv('detailsDIVMessage23691', 'DetailsImageMessage23691')" />Details:
+							<div id="detailsDIVMessage23691" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23692" onclick="parent.toggleDiv('detailsDIVMessage23692', 'DetailsImageMessage23692')" />Details:
+							<div id="detailsDIVMessage23692" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2732.htm">«entity» Tabla Z Log Ejecución de Lectura archivos respuesta BBVA</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23693" onclick="parent.toggleDiv('detailsDIVMessage23693', 'DetailsImageMessage23693')" />Details:
+							<div id="detailsDIVMessage23693" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2725.htm">«entity» Tabla Consola Archivos Env-Recep Pagos</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23694" onclick="parent.toggleDiv('detailsDIVMessage23694', 'DetailsImageMessage23694')" />Details:
+							<div id="detailsDIVMessage23694" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

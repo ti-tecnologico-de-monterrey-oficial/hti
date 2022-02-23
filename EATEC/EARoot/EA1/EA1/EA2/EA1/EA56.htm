@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>BPMN</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA57.png" usemap="#EA57" border="0" />
+
+<MAP NAME="EA57">
+<area shape="rect" coords="918,222,948,252" href="EA76.htm" target="_self">
+<area shape="rect" coords="760,210,870,270" href="EA77.htm" target="_self">
+<area shape="rect" coords="759,115,869,175" href="EA72.htm" target="_self">
+<area shape="rect" coords="604,115,714,175" href="EA74.htm" target="_self">
+<area shape="rect" coords="449,115,559,175" href="EA75.htm" target="_self">
+<area shape="rect" coords="450,19,560,79" href="EA69.htm" target="_self">
+<area shape="rect" coords="301,19,411,79" href="EA68.htm" target="_self">
+<area shape="rect" coords="156,19,266,79" href="EA70.htm" target="_self">
+<area shape="rect" coords="86,34,116,64" href="EA67.htm" target="_self">
+<area shape="rect" coords="30,190,961,284" href="EA64.htm" target="_self">
+<area shape="rect" coords="30,100,961,190" href="EA62.htm" target="_self">
+<area shape="rect" coords="30,10,961,100" href="EA63.htm" target="_self">
+<area shape="rect" coords="10,10,961,284" href="EA65.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">BPMN : Business Process diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">6/9/2021 9:07:37 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">6/9/2021 9:35:24 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Maribel Ríos Gutiérrez</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{401CF158-D0E0-447d-932A-97196E1905F9}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,2211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Definición de Predicción Screen</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Definición de Predicción Screen", " : "))</script>  : Public  &lt;&lt;boundary&gt;&gt; Sequence</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/19/2020 2:34:47 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/19/2020 2:37:25 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Loreley  Morales </td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{39FFDA17-A8C7-4dc9-8040-DDE3C8C949A2}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA8110.htm">Matriz de predicción de BECA (rúbricas y pronóstico de beca)</a>, <a href="EA8126.htm">Subproceso de mostrar predicción y otorgar decisión de admisión o becas</a>, <a href="EA8112.htm">Registro de definición de predicción por Beca Académica</a>, <a href="EA8116.htm">Registro de definición de predicción por Beca Talento Estudiantil / Trayectoria</a>, <a href="EA8122.htm">Registro de definición de presupuestos Beca Emprendedor</a>, <a href="EA8118.htm">Registro de definición de predicción por BSE</a>, <a href="EA8114.htm">Registro de definición de predicción por Beca de Continuidad</a>, <a href="EA8120.htm">Registro de definición de predicción por Prestación</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar la predicción de Beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35002" onclick="parent.toggleDiv('detailsDIVMessage35002', 'DetailsImageMessage35002')" />Details:
+							<div id="detailsDIVMessage35002" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Calcular fórmula para el índice</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35003" onclick="parent.toggleDiv('detailsDIVMessage35003', 'DetailsImageMessage35003')" />Details:
+							<div id="detailsDIVMessage35003" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35004" onclick="parent.toggleDiv('detailsDIVMessage35004', 'DetailsImageMessage35004')" />Details:
+							<div id="detailsDIVMessage35004" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8168.htm">«entity» Comité de Becas</a></td>
+					<td width="50%" class="TableRow" valign="top">Consulta las predicciones</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35005" onclick="parent.toggleDiv('detailsDIVMessage35005', 'DetailsImageMessage35005')" />Details:
+							<div id="detailsDIVMessage35005" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar combinaciones de beca que se pueden realizar</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35006" onclick="parent.toggleDiv('detailsDIVMessage35006', 'DetailsImageMessage35006')" />Details:
+							<div id="detailsDIVMessage35006" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar campos de la página de registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35007" onclick="parent.toggleDiv('detailsDIVMessage35007', 'DetailsImageMessage35007')" />Details:
+							<div id="detailsDIVMessage35007" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar datos del candidato</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35008" onclick="parent.toggleDiv('detailsDIVMessage35008', 'DetailsImageMessage35008')" />Details:
+							<div id="detailsDIVMessage35008" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Calcular la predicción de beca aplicando validaciones</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35009" onclick="parent.toggleDiv('detailsDIVMessage35009', 'DetailsImageMessage35009')" />Details:
+							<div id="detailsDIVMessage35009" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar la predicción de Beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35010" onclick="parent.toggleDiv('detailsDIVMessage35010', 'DetailsImageMessage35010')" />Details:
+							<div id="detailsDIVMessage35010" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Insertar registro de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35011" onclick="parent.toggleDiv('detailsDIVMessage35011', 'DetailsImageMessage35011')" />Details:
+							<div id="detailsDIVMessage35011" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar tipos de registro de becas y préstamos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35012" onclick="parent.toggleDiv('detailsDIVMessage35012', 'DetailsImageMessage35012')" />Details:
+							<div id="detailsDIVMessage35012" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Dejar al candidato en "Pendiente" para el sig. bloque o comité</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35013" onclick="parent.toggleDiv('detailsDIVMessage35013', 'DetailsImageMessage35013')" />Details:
+							<div id="detailsDIVMessage35013" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Configuración de decisiones de becas y validacionespor nivel</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35014" onclick="parent.toggleDiv('detailsDIVMessage35014', 'DetailsImageMessage35014')" />Details:
+							<div id="detailsDIVMessage35014" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar la predicción de préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35015" onclick="parent.toggleDiv('detailsDIVMessage35015', 'DetailsImageMessage35015')" />Details:
+							<div id="detailsDIVMessage35015" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Validar decisión de admisión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35016" onclick="parent.toggleDiv('detailsDIVMessage35016', 'DetailsImageMessage35016')" />Details:
+							<div id="detailsDIVMessage35016" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar campos de la página de registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35017" onclick="parent.toggleDiv('detailsDIVMessage35017', 'DetailsImageMessage35017')" />Details:
+							<div id="detailsDIVMessage35017" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Insertar registro de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35018" onclick="parent.toggleDiv('detailsDIVMessage35018', 'DetailsImageMessage35018')" />Details:
+							<div id="detailsDIVMessage35018" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35019" onclick="parent.toggleDiv('detailsDIVMessage35019', 'DetailsImageMessage35019')" />Details:
+							<div id="detailsDIVMessage35019" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar tipos de registro de becas y préstamos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35020" onclick="parent.toggleDiv('detailsDIVMessage35020', 'DetailsImageMessage35020')" />Details:
+							<div id="detailsDIVMessage35020" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Decisión de beca "No autorizado"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35021" onclick="parent.toggleDiv('detailsDIVMessage35021', 'DetailsImageMessage35021')" />Details:
+							<div id="detailsDIVMessage35021" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Notificar que se necesita una justificación por estar fuera de validación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35022" onclick="parent.toggleDiv('detailsDIVMessage35022', 'DetailsImageMessage35022')" />Details:
+							<div id="detailsDIVMessage35022" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35023" onclick="parent.toggleDiv('detailsDIVMessage35023', 'DetailsImageMessage35023')" />Details:
+							<div id="detailsDIVMessage35023" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar campos de la página de registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35024" onclick="parent.toggleDiv('detailsDIVMessage35024', 'DetailsImageMessage35024')" />Details:
+							<div id="detailsDIVMessage35024" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Calcular la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35025" onclick="parent.toggleDiv('detailsDIVMessage35025', 'DetailsImageMessage35025')" />Details:
+							<div id="detailsDIVMessage35025" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Calcular la predicción de Beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35026" onclick="parent.toggleDiv('detailsDIVMessage35026', 'DetailsImageMessage35026')" />Details:
+							<div id="detailsDIVMessage35026" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar campos de la página de registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35027" onclick="parent.toggleDiv('detailsDIVMessage35027', 'DetailsImageMessage35027')" />Details:
+							<div id="detailsDIVMessage35027" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar tipos de registro de becas y préstamos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35028" onclick="parent.toggleDiv('detailsDIVMessage35028', 'DetailsImageMessage35028')" />Details:
+							<div id="detailsDIVMessage35028" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Enviar al candidato al Comité Nacional</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35029" onclick="parent.toggleDiv('detailsDIVMessage35029', 'DetailsImageMessage35029')" />Details:
+							<div id="detailsDIVMessage35029" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Insertar registro de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35030" onclick="parent.toggleDiv('detailsDIVMessage35030', 'DetailsImageMessage35030')" />Details:
+							<div id="detailsDIVMessage35030" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Recepción de petición por email o por teléfono</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35031" onclick="parent.toggleDiv('detailsDIVMessage35031', 'DetailsImageMessage35031')" />Details:
+							<div id="detailsDIVMessage35031" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar tipos de registro de becas y préstamos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35032" onclick="parent.toggleDiv('detailsDIVMessage35032', 'DetailsImageMessage35032')" />Details:
+							<div id="detailsDIVMessage35032" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Insertar registro de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35033" onclick="parent.toggleDiv('detailsDIVMessage35033', 'DetailsImageMessage35033')" />Details:
+							<div id="detailsDIVMessage35033" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar porcentaje de predicción de beca y/o préstamo para BC</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35034" onclick="parent.toggleDiv('detailsDIVMessage35034', 'DetailsImageMessage35034')" />Details:
+							<div id="detailsDIVMessage35034" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Insertar registro de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35035" onclick="parent.toggleDiv('detailsDIVMessage35035', 'DetailsImageMessage35035')" />Details:
+							<div id="detailsDIVMessage35035" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Otorgamiento de beca al cumplir con el perfil</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35036" onclick="parent.toggleDiv('detailsDIVMessage35036', 'DetailsImageMessage35036')" />Details:
+							<div id="detailsDIVMessage35036" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Insertar registro de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35037" onclick="parent.toggleDiv('detailsDIVMessage35037', 'DetailsImageMessage35037')" />Details:
+							<div id="detailsDIVMessage35037" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Calcular la predicción de beca y préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35038" onclick="parent.toggleDiv('detailsDIVMessage35038', 'DetailsImageMessage35038')" />Details:
+							<div id="detailsDIVMessage35038" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar tipos de registro de becas y préstamos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35039" onclick="parent.toggleDiv('detailsDIVMessage35039', 'DetailsImageMessage35039')" />Details:
+							<div id="detailsDIVMessage35039" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35040" onclick="parent.toggleDiv('detailsDIVMessage35040', 'DetailsImageMessage35040')" />Details:
+							<div id="detailsDIVMessage35040" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar predicción de beca calculado para BTA</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35042" onclick="parent.toggleDiv('detailsDIVMessage35042', 'DetailsImageMessage35042')" />Details:
+							<div id="detailsDIVMessage35042" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar campos de la página de registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35043" onclick="parent.toggleDiv('detailsDIVMessage35043', 'DetailsImageMessage35043')" />Details:
+							<div id="detailsDIVMessage35043" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar porcentaje de predicción de préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35044" onclick="parent.toggleDiv('detailsDIVMessage35044', 'DetailsImageMessage35044')" />Details:
+							<div id="detailsDIVMessage35044" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35045" onclick="parent.toggleDiv('detailsDIVMessage35045', 'DetailsImageMessage35045')" />Details:
+							<div id="detailsDIVMessage35045" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35046" onclick="parent.toggleDiv('detailsDIVMessage35046', 'DetailsImageMessage35046')" />Details:
+							<div id="detailsDIVMessage35046" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar porcentaje de predicción de franquicia / beca BTE/Trayectoria u otra beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35047" onclick="parent.toggleDiv('detailsDIVMessage35047', 'DetailsImageMessage35047')" />Details:
+							<div id="detailsDIVMessage35047" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar tipos de registro de becas y préstamos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35048" onclick="parent.toggleDiv('detailsDIVMessage35048', 'DetailsImageMessage35048')" />Details:
+							<div id="detailsDIVMessage35048" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar mensaje "No es posible combinar las becas actuales con crédito"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35049" onclick="parent.toggleDiv('detailsDIVMessage35049', 'DetailsImageMessage35049')" />Details:
+							<div id="detailsDIVMessage35049" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35050" onclick="parent.toggleDiv('detailsDIVMessage35050', 'DetailsImageMessage35050')" />Details:
+							<div id="detailsDIVMessage35050" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar porcentaje de predicción de franquicia / beca emprendedor</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35051" onclick="parent.toggleDiv('detailsDIVMessage35051', 'DetailsImageMessage35051')" />Details:
+							<div id="detailsDIVMessage35051" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35052" onclick="parent.toggleDiv('detailsDIVMessage35052', 'DetailsImageMessage35052')" />Details:
+							<div id="detailsDIVMessage35052" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar porcentaje de predicción de beca y/o préstamo para BSE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35053" onclick="parent.toggleDiv('detailsDIVMessage35053', 'DetailsImageMessage35053')" />Details:
+							<div id="detailsDIVMessage35053" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar predicción de becas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35054" onclick="parent.toggleDiv('detailsDIVMessage35054', 'DetailsImageMessage35054')" />Details:
+							<div id="detailsDIVMessage35054" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Visualizar campos de la página de registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35055" onclick="parent.toggleDiv('detailsDIVMessage35055', 'DetailsImageMessage35055')" />Details:
+							<div id="detailsDIVMessage35055" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Calcular la predicción de BTE u otra Beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35056" onclick="parent.toggleDiv('detailsDIVMessage35056', 'DetailsImageMessage35056')" />Details:
+							<div id="detailsDIVMessage35056" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Calcular la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35057" onclick="parent.toggleDiv('detailsDIVMessage35057', 'DetailsImageMessage35057')" />Details:
+							<div id="detailsDIVMessage35057" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar campos especificos,  puntaje y promedio</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35058" onclick="parent.toggleDiv('detailsDIVMessage35058', 'DetailsImageMessage35058')" />Details:
+							<div id="detailsDIVMessage35058" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar requisitos adicionales</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35059" onclick="parent.toggleDiv('detailsDIVMessage35059', 'DetailsImageMessage35059')" />Details:
+							<div id="detailsDIVMessage35059" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35060" onclick="parent.toggleDiv('detailsDIVMessage35060', 'DetailsImageMessage35060')" />Details:
+							<div id="detailsDIVMessage35060" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en ficha de definición de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35061" onclick="parent.toggleDiv('detailsDIVMessage35061', 'DetailsImageMessage35061')" />Details:
+							<div id="detailsDIVMessage35061" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar BSCORE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35062" onclick="parent.toggleDiv('detailsDIVMessage35062', 'DetailsImageMessage35062')" />Details:
+							<div id="detailsDIVMessage35062" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar el motivo "No autorizado"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35063" onclick="parent.toggleDiv('detailsDIVMessage35063', 'DetailsImageMessage35063')" />Details:
+							<div id="detailsDIVMessage35063" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar % de beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35064" onclick="parent.toggleDiv('detailsDIVMessage35064', 'DetailsImageMessage35064')" />Details:
+							<div id="detailsDIVMessage35064" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Guardar beca autorizada</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35065" onclick="parent.toggleDiv('detailsDIVMessage35065', 'DetailsImageMessage35065')" />Details:
+							<div id="detailsDIVMessage35065" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar Beca Emprendedor</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35066" onclick="parent.toggleDiv('detailsDIVMessage35066', 'DetailsImageMessage35066')" />Details:
+							<div id="detailsDIVMessage35066" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar justificación </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35067" onclick="parent.toggleDiv('detailsDIVMessage35067', 'DetailsImageMessage35067')" />Details:
+							<div id="detailsDIVMessage35067" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar campos del candidato,  apoyo educativo BC y % activo BSE en prepa</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35068" onclick="parent.toggleDiv('detailsDIVMessage35068', 'DetailsImageMessage35068')" />Details:
+							<div id="detailsDIVMessage35068" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar comentarios (si aplica)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35069" onclick="parent.toggleDiv('detailsDIVMessage35069', 'DetailsImageMessage35069')" />Details:
+							<div id="detailsDIVMessage35069" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Evaluar reglas de distribución de beca y préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35070" onclick="parent.toggleDiv('detailsDIVMessage35070', 'DetailsImageMessage35070')" />Details:
+							<div id="detailsDIVMessage35070" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Verificar si el candidato cuenta con una beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35071" onclick="parent.toggleDiv('detailsDIVMessage35071', 'DetailsImageMessage35071')" />Details:
+							<div id="detailsDIVMessage35071" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar campos del candidato,  apoyo educativo BTE/Trayectoria u otra beca y calificación de desempeño </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35072" onclick="parent.toggleDiv('detailsDIVMessage35072', 'DetailsImageMessage35072')" />Details:
+							<div id="detailsDIVMessage35072" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar % de beca y/o préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35073" onclick="parent.toggleDiv('detailsDIVMessage35073', 'DetailsImageMessage35073')" />Details:
+							<div id="detailsDIVMessage35073" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en el botón nuevo para crear un registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35074" onclick="parent.toggleDiv('detailsDIVMessage35074', 'DetailsImageMessage35074')" />Details:
+							<div id="detailsDIVMessage35074" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Habilitar requisitos adicionales</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35075" onclick="parent.toggleDiv('detailsDIVMessage35075', 'DetailsImageMessage35075')" />Details:
+							<div id="detailsDIVMessage35075" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar combinaciones de becas con becas ya otorgadas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35076" onclick="parent.toggleDiv('detailsDIVMessage35076', 'DetailsImageMessage35076')" />Details:
+							<div id="detailsDIVMessage35076" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar campos específicos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35077" onclick="parent.toggleDiv('detailsDIVMessage35077', 'DetailsImageMessage35077')" />Details:
+							<div id="detailsDIVMessage35077" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar % de franquicia</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35078" onclick="parent.toggleDiv('detailsDIVMessage35078', 'DetailsImageMessage35078')" />Details:
+							<div id="detailsDIVMessage35078" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Elección "No autorizado"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35079" onclick="parent.toggleDiv('detailsDIVMessage35079', 'DetailsImageMessage35079')" />Details:
+							<div id="detailsDIVMessage35079" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Clic en ficha</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35080" onclick="parent.toggleDiv('detailsDIVMessage35080', 'DetailsImageMessage35080')" />Details:
+							<div id="detailsDIVMessage35080" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar % de beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35081" onclick="parent.toggleDiv('detailsDIVMessage35081', 'DetailsImageMessage35081')" />Details:
+							<div id="detailsDIVMessage35081" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar % de franquicia</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35082" onclick="parent.toggleDiv('detailsDIVMessage35082', 'DetailsImageMessage35082')" />Details:
+							<div id="detailsDIVMessage35082" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar BTE/Liderazgo u otra beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35083" onclick="parent.toggleDiv('detailsDIVMessage35083', 'DetailsImageMessage35083')" />Details:
+							<div id="detailsDIVMessage35083" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Clic en ficha</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35084" onclick="parent.toggleDiv('detailsDIVMessage35084', 'DetailsImageMessage35084')" />Details:
+							<div id="detailsDIVMessage35084" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en el botón nuevo para crear un registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35085" onclick="parent.toggleDiv('detailsDIVMessage35085', 'DetailsImageMessage35085')" />Details:
+							<div id="detailsDIVMessage35085" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Guardar Beca Autorizada</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35086" onclick="parent.toggleDiv('detailsDIVMessage35086', 'DetailsImageMessage35086')" />Details:
+							<div id="detailsDIVMessage35086" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar Beca Continuidad</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35087" onclick="parent.toggleDiv('detailsDIVMessage35087', 'DetailsImageMessage35087')" />Details:
+							<div id="detailsDIVMessage35087" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en ficha de definición de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35088" onclick="parent.toggleDiv('detailsDIVMessage35088', 'DetailsImageMessage35088')" />Details:
+							<div id="detailsDIVMessage35088" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar campos específicos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35089" onclick="parent.toggleDiv('detailsDIVMessage35089', 'DetailsImageMessage35089')" />Details:
+							<div id="detailsDIVMessage35089" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar el rango de calificación de desempeño</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35090" onclick="parent.toggleDiv('detailsDIVMessage35090', 'DetailsImageMessage35090')" />Details:
+							<div id="detailsDIVMessage35090" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar campos específicos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35091" onclick="parent.toggleDiv('detailsDIVMessage35091', 'DetailsImageMessage35091')" />Details:
+							<div id="detailsDIVMessage35091" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar Préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35092" onclick="parent.toggleDiv('detailsDIVMessage35092', 'DetailsImageMessage35092')" />Details:
+							<div id="detailsDIVMessage35092" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar campos del candidato,  apoyo educativo BSE,  perfil y promedio</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35093" onclick="parent.toggleDiv('detailsDIVMessage35093', 'DetailsImageMessage35093')" />Details:
+							<div id="detailsDIVMessage35093" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar rangos BCSCORE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35094" onclick="parent.toggleDiv('detailsDIVMessage35094', 'DetailsImageMessage35094')" />Details:
+							<div id="detailsDIVMessage35094" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar campos del candidato,  préstamo y perfil</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35095" onclick="parent.toggleDiv('detailsDIVMessage35095', 'DetailsImageMessage35095')" />Details:
+							<div id="detailsDIVMessage35095" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en ficha de definición de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35096" onclick="parent.toggleDiv('detailsDIVMessage35096', 'DetailsImageMessage35096')" />Details:
+							<div id="detailsDIVMessage35096" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar el comprobante adicional</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35097" onclick="parent.toggleDiv('detailsDIVMessage35097', 'DetailsImageMessage35097')" />Details:
+							<div id="detailsDIVMessage35097" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar Sesión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35098" onclick="parent.toggleDiv('detailsDIVMessage35098', 'DetailsImageMessage35098')" />Details:
+							<div id="detailsDIVMessage35098" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Establecer % de franquicia/beca de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35099" onclick="parent.toggleDiv('detailsDIVMessage35099', 'DetailsImageMessage35099')" />Details:
+							<div id="detailsDIVMessage35099" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Completar la beca con el % de crédito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35100" onclick="parent.toggleDiv('detailsDIVMessage35100', 'DetailsImageMessage35100')" />Details:
+							<div id="detailsDIVMessage35100" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Evaluar reglas de distribución de beca y préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35101" onclick="parent.toggleDiv('detailsDIVMessage35101', 'DetailsImageMessage35101')" />Details:
+							<div id="detailsDIVMessage35101" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en el botón nuevo para crear un registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35102" onclick="parent.toggleDiv('detailsDIVMessage35102', 'DetailsImageMessage35102')" />Details:
+							<div id="detailsDIVMessage35102" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar estatus de beca "En trámite por Requisitos Adicionales"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35103" onclick="parent.toggleDiv('detailsDIVMessage35103', 'DetailsImageMessage35103')" />Details:
+							<div id="detailsDIVMessage35103" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en ficha de definición de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35104" onclick="parent.toggleDiv('detailsDIVMessage35104', 'DetailsImageMessage35104')" />Details:
+							<div id="detailsDIVMessage35104" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar combinaciones de becas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35105" onclick="parent.toggleDiv('detailsDIVMessage35105', 'DetailsImageMessage35105')" />Details:
+							<div id="detailsDIVMessage35105" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar BSCORE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35106" onclick="parent.toggleDiv('detailsDIVMessage35106', 'DetailsImageMessage35106')" />Details:
+							<div id="detailsDIVMessage35106" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar estaus de la decisión de beca "Autorizado"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35107" onclick="parent.toggleDiv('detailsDIVMessage35107', 'DetailsImageMessage35107')" />Details:
+							<div id="detailsDIVMessage35107" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en ficha de definición de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35108" onclick="parent.toggleDiv('detailsDIVMessage35108', 'DetailsImageMessage35108')" />Details:
+							<div id="detailsDIVMessage35108" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar la predicción </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35109" onclick="parent.toggleDiv('detailsDIVMessage35109', 'DetailsImageMessage35109')" />Details:
+							<div id="detailsDIVMessage35109" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Verificar si la beca anterior u otorgada es socioeconomica</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35110" onclick="parent.toggleDiv('detailsDIVMessage35110', 'DetailsImageMessage35110')" />Details:
+							<div id="detailsDIVMessage35110" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar % de beca y/o préstamo </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35111" onclick="parent.toggleDiv('detailsDIVMessage35111', 'DetailsImageMessage35111')" />Details:
+							<div id="detailsDIVMessage35111" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar % de beca y/o préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35112" onclick="parent.toggleDiv('detailsDIVMessage35112', 'DetailsImageMessage35112')" />Details:
+							<div id="detailsDIVMessage35112" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35113" onclick="parent.toggleDiv('detailsDIVMessage35113', 'DetailsImageMessage35113')" />Details:
+							<div id="detailsDIVMessage35113" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar comentarios (si aplica)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35114" onclick="parent.toggleDiv('detailsDIVMessage35114', 'DetailsImageMessage35114')" />Details:
+							<div id="detailsDIVMessage35114" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Aceptar predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35115" onclick="parent.toggleDiv('detailsDIVMessage35115', 'DetailsImageMessage35115')" />Details:
+							<div id="detailsDIVMessage35115" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar % de préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35116" onclick="parent.toggleDiv('detailsDIVMessage35116', 'DetailsImageMessage35116')" />Details:
+							<div id="detailsDIVMessage35116" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Elegir decisión de beca </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35117" onclick="parent.toggleDiv('detailsDIVMessage35117', 'DetailsImageMessage35117')" />Details:
+							<div id="detailsDIVMessage35117" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar campos del candidato,  apoyo educativo Beca Emprendedor,  número de becas y calificación de desempeño </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35118" onclick="parent.toggleDiv('detailsDIVMessage35118', 'DetailsImageMessage35118')" />Details:
+							<div id="detailsDIVMessage35118" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar campos específicos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35119" onclick="parent.toggleDiv('detailsDIVMessage35119', 'DetailsImageMessage35119')" />Details:
+							<div id="detailsDIVMessage35119" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Clic en nuevo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35120" onclick="parent.toggleDiv('detailsDIVMessage35120', 'DetailsImageMessage35120')" />Details:
+							<div id="detailsDIVMessage35120" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en el botón nuevo para crear un registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35121" onclick="parent.toggleDiv('detailsDIVMessage35121', 'DetailsImageMessage35121')" />Details:
+							<div id="detailsDIVMessage35121" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Evaluar reglas de préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35122" onclick="parent.toggleDiv('detailsDIVMessage35122', 'DetailsImageMessage35122')" />Details:
+							<div id="detailsDIVMessage35122" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en el botón nuevo para crear un registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35123" onclick="parent.toggleDiv('detailsDIVMessage35123', 'DetailsImageMessage35123')" />Details:
+							<div id="detailsDIVMessage35123" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35124" onclick="parent.toggleDiv('detailsDIVMessage35124', 'DetailsImageMessage35124')" />Details:
+							<div id="detailsDIVMessage35124" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar opciones o requisitos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35125" onclick="parent.toggleDiv('detailsDIVMessage35125', 'DetailsImageMessage35125')" />Details:
+							<div id="detailsDIVMessage35125" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar campos específicos para la predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35126" onclick="parent.toggleDiv('detailsDIVMessage35126', 'DetailsImageMessage35126')" />Details:
+							<div id="detailsDIVMessage35126" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar de acuerdo con predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35127" onclick="parent.toggleDiv('detailsDIVMessage35127', 'DetailsImageMessage35127')" />Details:
+							<div id="detailsDIVMessage35127" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35128" onclick="parent.toggleDiv('detailsDIVMessage35128', 'DetailsImageMessage35128')" />Details:
+							<div id="detailsDIVMessage35128" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar Beca Académica BTA</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35129" onclick="parent.toggleDiv('detailsDIVMessage35129', 'DetailsImageMessage35129')" />Details:
+							<div id="detailsDIVMessage35129" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar BSCORE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35130" onclick="parent.toggleDiv('detailsDIVMessage35130', 'DetailsImageMessage35130')" />Details:
+							<div id="detailsDIVMessage35130" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar el estatus de decisión de beca "Autorizado"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35131" onclick="parent.toggleDiv('detailsDIVMessage35131', 'DetailsImageMessage35131')" />Details:
+							<div id="detailsDIVMessage35131" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35132" onclick="parent.toggleDiv('detailsDIVMessage35132', 'DetailsImageMessage35132')" />Details:
+							<div id="detailsDIVMessage35132" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8172.htm">«control» Criterios Beca de Continuidad</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar % de franquicia</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35133" onclick="parent.toggleDiv('detailsDIVMessage35133', 'DetailsImageMessage35133')" />Details:
+							<div id="detailsDIVMessage35133" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar el estatus de decisión de beca "Lista de Espera"</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35134" onclick="parent.toggleDiv('detailsDIVMessage35134', 'DetailsImageMessage35134')" />Details:
+							<div id="detailsDIVMessage35134" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar BSE</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35135" onclick="parent.toggleDiv('detailsDIVMessage35135', 'DetailsImageMessage35135')" />Details:
+							<div id="detailsDIVMessage35135" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Habilitar beca a la que es candidato</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35136" onclick="parent.toggleDiv('detailsDIVMessage35136', 'DetailsImageMessage35136')" />Details:
+							<div id="detailsDIVMessage35136" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Establecer % de franquicia máximo para rango de índice (Nivel)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35137" onclick="parent.toggleDiv('detailsDIVMessage35137', 'DetailsImageMessage35137')" />Details:
+							<div id="detailsDIVMessage35137" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA8175.htm">«boundary» Definición de Predicción Screen</a></td>
+					<td width="50%" class="TableRow" valign="top">Actualizar página del navegador</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35138" onclick="parent.toggleDiv('detailsDIVMessage35138', 'DetailsImageMessage35138')" />Details:
+							<div id="detailsDIVMessage35138" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar el requisito adicicional</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35139" onclick="parent.toggleDiv('detailsDIVMessage35139', 'DetailsImageMessage35139')" />Details:
+							<div id="detailsDIVMessage35139" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Matriz de Predicción de Beca</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35140" onclick="parent.toggleDiv('detailsDIVMessage35140', 'DetailsImageMessage35140')" />Details:
+							<div id="detailsDIVMessage35140" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar rubricas para cada apoyo académico</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35141" onclick="parent.toggleDiv('detailsDIVMessage35141', 'DetailsImageMessage35141')" />Details:
+							<div id="detailsDIVMessage35141" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar modificar combinaciones propuestas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35142" onclick="parent.toggleDiv('detailsDIVMessage35142', 'DetailsImageMessage35142')" />Details:
+							<div id="detailsDIVMessage35142" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en ficha de definición de predicción</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35143" onclick="parent.toggleDiv('detailsDIVMessage35143', 'DetailsImageMessage35143')" />Details:
+							<div id="detailsDIVMessage35143" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Dar clic en el botón nuevo para crear un registro</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35144" onclick="parent.toggleDiv('detailsDIVMessage35144', 'DetailsImageMessage35144')" />Details:
+							<div id="detailsDIVMessage35144" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar campos del candidato,  apoyo educativo BTA y promedio</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35145" onclick="parent.toggleDiv('detailsDIVMessage35145', 'DetailsImageMessage35145')" />Details:
+							<div id="detailsDIVMessage35145" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar otra decisión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35146" onclick="parent.toggleDiv('detailsDIVMessage35146', 'DetailsImageMessage35146')" />Details:
+							<div id="detailsDIVMessage35146" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar Sesión </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35147" onclick="parent.toggleDiv('detailsDIVMessage35147', 'DetailsImageMessage35147')" />Details:
+							<div id="detailsDIVMessage35147" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Guardar Beca Actual y Beca con combinaciones</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35148" onclick="parent.toggleDiv('detailsDIVMessage35148', 'DetailsImageMessage35148')" />Details:
+							<div id="detailsDIVMessage35148" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Establecer el % de necesidad,  beca y préstamo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35149" onclick="parent.toggleDiv('detailsDIVMessage35149', 'DetailsImageMessage35149')" />Details:
+							<div id="detailsDIVMessage35149" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7135.htm">Admin AEN</a></td>
+					<td width="50%" class="TableRow" valign="top">Registrar criterios a cada rúbrica </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35150" onclick="parent.toggleDiv('detailsDIVMessage35150', 'DetailsImageMessage35150')" />Details:
+							<div id="detailsDIVMessage35150" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA1/EA7173.htm">Usuario de Tec</a></td>
+					<td width="50%" class="TableRow" valign="top">Elegir beca que es candidato</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35151" onclick="parent.toggleDiv('detailsDIVMessage35151', 'DetailsImageMessage35151')" />Details:
+							<div id="detailsDIVMessage35151" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

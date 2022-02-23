@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Despliegue</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA1878.png" usemap="#EA1878" border="0" />
+
+<MAP NAME="EA1878">
+<area shape="rect" coords="775,75,865,165" href="./EA1/EA1885.htm" target="_self">
+<area shape="rect" coords="611,124,701,161" href="./EA1/EA1891.htm" target="_self">
+<area shape="rect" coords="596,75,721,170" href="./EA1/EA1883.htm" target="_self">
+<area shape="rect" coords="393,178,508,228" href="./EA1/EA1890.htm" target="_self">
+<area shape="rect" coords="381,130,531,243" href="./EA1/EA1887.htm" target="_self">
+<area shape="rect" coords="32,114,122,164" href="./EA1/EA1889.htm" target="_self">
+<area shape="rect" coords="10,61,150,179" href="./EA1/EA1884.htm" target="_self">
+<area shape="rect" coords="216,75,306,165" href="./EA1/EA1882.htm" target="_self">
+<area shape="rect" coords="396,53,508,103" href="./EA1/EA1888.htm" target="_self">
+<area shape="rect" coords="381,10,531,120" href="./EA1/EA1886.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Despliegue : Deployment diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">5/13/2021 12:57:16 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">5/13/2021 2:18:58 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Maribel Pereyra Carballal</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{6D4C1706-E58F-493c-BBEF-EE03C510036C}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
