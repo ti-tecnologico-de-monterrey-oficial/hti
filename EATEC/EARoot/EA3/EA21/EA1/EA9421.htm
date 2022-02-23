@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Enviar solicitud de transferencia</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Enviar solicitud de transferencia", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/30/2020 1:04:18 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">4/28/2020 4:52:22 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Edgar Mendoza Rosales</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{0BEE064E-0BE5-481d-998A-6A0E72306E4D}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA9411.htm">Casos de uso</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Requirements');" id="RequirementsTitle">Requirements</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						Alumno<br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink38454" onclick="parent.toggleDiv('detailsDIVLink38454','DetailsImageLink38454')" />Details:
+							<div id="detailsDIVLink38454" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="RequirementsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="60%" class="TableHeading">Requirement</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+					<td width="10%" class="TableHeading">Difficulty</td>
+					<td width="10%" class="TableHeading">Priority</td>
+					<td width="10%" class="TableHeading">Stability</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">Captura de información</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement38455" onclick="parent.toggleDiv('detailsDIVRequirement38455','DetailsImageRequirement38455')" />Details:
+							<div id="detailsDIVRequirement38455" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">&lt;ul&gt;<br />&lt;li&gt;Deber&#225; mostrar los datos personales del alumno en el campus origen&lt;/li&gt;&lt;li&gt;Deber&#225; mostrarle al alumno los datos escolares actuales en su campus origen (cu&#225;les son los datos escolares?)&lt;/li&gt;&lt;li&gt;Deber&#225; mostrarle al alumno los datos actuales de sus apoyos educativos e indicarles cual de estos es transferible&lt;/li&gt;&lt;li&gt;Deber&#225; mostrarle al alumno las opciones de campus v&#225;lidas para campus destino acorde al periodo - nivel - campus / Sede v&#225;lidas&lt;/li&gt;&lt;li&gt;En la selecci&#243;n de campus destino deber&#225; mostrarle lo siguiente:&lt;/li&gt;&lt;/ul&gt;<br />- Periodo efectivo en que se aplicara el cambio o transferencia&lt;br/&gt;- Programa / Area de exploraci&#243;n / Enfoque / Especializaci&#243;n validos acorde al campus - nivel y periodo del alumno&lt;br/&gt;- Motivo de transferencia&lt;br/&gt;- Comentarios adicionales&lt;br/&gt;- Deber&#225; permitir cargar archivos en la solicitud&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="60%" class="TableRow">Envío de información</td>
+					<td width="10%" class="TableRow">Functional</td>
+					<td width="10%" class="TableRow">Proposed</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Medium</td>
+					<td width="10%" class="TableRow">Moderate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="6">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageRequirement38456" onclick="parent.toggleDiv('detailsDIVRequirement38456','DetailsImageRequirement38456')" />Details:
+							<div id="detailsDIVRequirement38456" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">- Al llenar los datos deber&#225; mostrarle al alumno la malla curricular o la simulaci&#243;n de su plan en el campus destino, indic&#225;ndole el dato de materias perdidas y acreditadas&lt;br/&gt;- Al llenar los datos deber&#225; mostrarle al solicitante el resumen de su solicitud.&lt;br/&gt;- Al llenar los datos deber&#225; mostrarle el numero y status de su solicitud, as&#237; tambi&#233;n la forma o ruta para que pueda consultar sus solicitudes posteriormente&lt;br/&gt;- Al llenar los datos, deber&#225; enviarle la notificaci&#243;n a su correo de que la solicitud a sido registrada incluyendo el resumen de esta.&lt;br/&gt;- Al llenar los datos deber&#225; habilitarle la aceptaci&#243;n de requisitos al alumno (ya sea por descarga del archivo que el alumno firma de condiciones de transferencia o dentro del mismo servicio a trav&#233;s de un check) y deber&#225; envi&#225;rsela por correo. &lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Estatus</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints38457" onclick="parent.toggleDiv('detailsDIVConstraints38457','DetailsImageConstraints38457')" />Details:
+							<div id="detailsDIVConstraints38457" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Inhabilitada para alumnos con un status de graduaci&#243;n igual a candidato.Explicado en casos de uso que s&#237; les aparezca pero que no ls deje cambiarse (mensaje)&lt;br/&gt;&lt;br/&gt;Habilitada solo para alumnos con estatus academico adecuado (no baja acad&#233;mica). &lt;br/&gt;&lt;br/&gt;Habilitada para alumnos con ciertas sanciones acad&#233;micas. &lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Fechas</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints38458" onclick="parent.toggleDiv('detailsDIVConstraints38458','DetailsImageConstraints38458')" />Details:
+							<div id="detailsDIVConstraints38458" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Habilitada solo durante un rango de fechas por periodo academico - nivel - campus del alumno&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Nivel académico</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints38459" onclick="parent.toggleDiv('detailsDIVConstraints38459','DetailsImageConstraints38459')" />Details:
+							<div id="detailsDIVConstraints38459" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Habilitada por nivel academico del alumno&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Periodo</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints38460" onclick="parent.toggleDiv('detailsDIVConstraints38460','DetailsImageConstraints38460')" />Details:
+							<div id="detailsDIVConstraints38460" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Habilitada para alumnos que tienen inscripci&#243;n en el periodo de solicitud o en un periodo academico anterior del mismo nivel&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Solicitud de transferencia del alumno</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario38461" onclick="parent.toggleDiv('detailsDIVScenario38461','DetailsImageScenario38461')" />Details:
+							<div id="detailsDIVScenario38461" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Solicitud de transferencia realizada por un alumno&lt;br/&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario38461" onclick="parent.toggleDiv('stepDIVScenario38461','StepImageScenario38461')" />Steps:
+							<div id="stepDIVScenario38461" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. Acceder al sistema&lt;br/&gt; <br />2. Ingresar al servicio&lt;br/&gt; <br />3. Capturar el programa académico&lt;br/&gt; <br />4. Confirmar programa académico&lt;br/&gt; <br />5. Capturar el campus al cual se desea cambiar&lt;br/&gt; <br />6. Enviar la solicitud de transferencia&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario38462" onclick="parent.toggleDiv('detailsDIVScenario38462','DetailsImageScenario38462')" />Exceptions:				<div id="detailsDIVScenario38462" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">4a. Transferencia a programa académico diferente (at 5)<br /></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Autorización del padre de familia/tutor</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario38464" onclick="parent.toggleDiv('detailsDIVScenario38464','DetailsImageScenario38464')" />Details:
+							<div id="detailsDIVScenario38464" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Transferencia a programa académico diferente</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario38465" onclick="parent.toggleDiv('detailsDIVScenario38465','DetailsImageScenario38465')" />Details:
+							<div id="detailsDIVScenario38465" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="StepImageScenario38465" onclick="parent.toggleDiv('stepDIVScenario38465','StepImageScenario38465')" />Steps:
+							<div id="stepDIVScenario38465" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. Mostrar malla curricular&lt;br/&gt; <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

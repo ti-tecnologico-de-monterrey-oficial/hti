@@ -1,0 +1,1413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Usuario</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Usuario", " : "))</script>  : Public   Actor</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/9/2020 4:26:17 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/23/2020 1:58:34 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">carlo</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{83E2847F-55BC-4b0f-BE51-CD5B3612EF52}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../EA6/EA3/EA2/EA4265.htm">Aprobar/Rechazar Artículos Knowledge</a>, <a href="../EA6/EA2/EA4/EA4240.htm">Caso acompañamiento</a>, <a href="../EA6/EA5/EA2/EA4353.htm">Crear</a>, <a href="../EA6/EA6/EA1/EA4379.htm">Equipo de éxito</a>, <a href="../EA6/EA7/EA3/EA4432.htm">Crear plan de éxito</a>, <a href="../EA6/EA8/EA3/EA4528.htm">Tarea usuario</a>, <a href="../EA6/EA3/EA3/EA4281.htm">Buscar Artículos -  Knowledge</a>, <a href="../EA6/EA6/EA3/EA4390.htm">Desvinculación de equipo de éxito</a>, <a href="../EA6/EA5/EA1/EA4348.htm">Cancelar </a>, <a href="../EA6/EA8/EA4/EA4533.htm">Editar tarea</a>, <a href="../EA6/EA8/EA1/EA4519.htm">Cancelar tarea</a>, <a href="../EA6/EA7/EA8/EA4508.htm">Mostrar</a>, <a href="../EA6/EA7/EA1/EA4404.htm">Agregar notas</a>, <a href="../EA6/EA2/EA3/EA4234.htm">Editar caso</a>, <a href="../EA6/EA2/EA1/EA4223.htm">Cerrar caso</a>, <a href="../EA6/EA5/EA3/EA4366.htm">Editar</a>, <a href="../EA6/EA5/EA4/EA4372.htm">Reagendar Cita alumno</a>, <a href="../EA6/EA7/EA7/EA4462.htm">Editar plan de éxito contacto</a>, <a href="../EA6/EA3/EA4/EA4305.htm">Proponer Artículos - Knowledge</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar sesión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27668" onclick="parent.toggleDiv('detailsDIVMessage27668', 'DetailsImageMessage27668')" />Details:
+							<div id="detailsDIVMessage27668" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar sesión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27669" onclick="parent.toggleDiv('detailsDIVMessage27669', 'DetailsImageMessage27669')" />Details:
+							<div id="detailsDIVMessage27669" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA4065.htm">Contacto</a></td>
+					<td width="50%" class="TableRow" valign="top">Muestra la tarea asignada al contacto</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27670" onclick="parent.toggleDiv('detailsDIVMessage27670', 'DetailsImageMessage27670')" />Details:
+							<div id="detailsDIVMessage27670" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Consultar artículo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27671" onclick="parent.toggleDiv('detailsDIVMessage27671', 'DetailsImageMessage27671')" />Details:
+							<div id="detailsDIVMessage27671" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar a caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27672" onclick="parent.toggleDiv('detailsDIVMessage27672', 'DetailsImageMessage27672')" />Details:
+							<div id="detailsDIVMessage27672" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar de sesión()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27673" onclick="parent.toggleDiv('detailsDIVMessage27673', 'DetailsImageMessage27673')" />Details:
+							<div id="detailsDIVMessage27673" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar sesión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27674" onclick="parent.toggleDiv('detailsDIVMessage27674', 'DetailsImageMessage27674')" />Details:
+							<div id="detailsDIVMessage27674" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar caso de acompañamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27675" onclick="parent.toggleDiv('detailsDIVMessage27675', 'DetailsImageMessage27675')" />Details:
+							<div id="detailsDIVMessage27675" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4046.htm">«entity» Equipo de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Requiere Psicólog = SI (Asignar)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27676" onclick="parent.toggleDiv('detailsDIVMessage27676', 'DetailsImageMessage27676')" />Details:
+							<div id="detailsDIVMessage27676" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4046.htm">«entity» Equipo de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar Mentor de éxito </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27677" onclick="parent.toggleDiv('detailsDIVMessage27677', 'DetailsImageMessage27677')" />Details:
+							<div id="detailsDIVMessage27677" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27678" onclick="parent.toggleDiv('detailsDIVMessage27678', 'DetailsImageMessage27678')" />Details:
+							<div id="detailsDIVMessage27678" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4046.htm">«entity» Equipo de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Desvincular Mentor de Éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27679" onclick="parent.toggleDiv('detailsDIVMessage27679', 'DetailsImageMessage27679')" />Details:
+							<div id="detailsDIVMessage27679" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27680" onclick="parent.toggleDiv('detailsDIVMessage27680', 'DetailsImageMessage27680')" />Details:
+							<div id="detailsDIVMessage27680" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar de sesión()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27681" onclick="parent.toggleDiv('detailsDIVMessage27681', 'DetailsImageMessage27681')" />Details:
+							<div id="detailsDIVMessage27681" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar sesión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27682" onclick="parent.toggleDiv('detailsDIVMessage27682', 'DetailsImageMessage27682')" />Details:
+							<div id="detailsDIVMessage27682" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Cancelar cita</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27683" onclick="parent.toggleDiv('detailsDIVMessage27683', 'DetailsImageMessage27683')" />Details:
+							<div id="detailsDIVMessage27683" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4055.htm">«entity» Contacto</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar estudiante</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27684" onclick="parent.toggleDiv('detailsDIVMessage27684', 'DetailsImageMessage27684')" />Details:
+							<div id="detailsDIVMessage27684" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4046.htm">«entity» Equipo de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Tiene Psicólogo = SÍ (Desvincular Psicólogo)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27685" onclick="parent.toggleDiv('detailsDIVMessage27685', 'DetailsImageMessage27685')" />Details:
+							<div id="detailsDIVMessage27685" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27686" onclick="parent.toggleDiv('detailsDIVMessage27686', 'DetailsImageMessage27686')" />Details:
+							<div id="detailsDIVMessage27686" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Buscar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27687" onclick="parent.toggleDiv('detailsDIVMessage27687', 'DetailsImageMessage27687')" />Details:
+							<div id="detailsDIVMessage27687" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Editar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27688" onclick="parent.toggleDiv('detailsDIVMessage27688', 'DetailsImageMessage27688')" />Details:
+							<div id="detailsDIVMessage27688" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Crear registro de plan de éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27689" onclick="parent.toggleDiv('detailsDIVMessage27689', 'DetailsImageMessage27689')" />Details:
+							<div id="detailsDIVMessage27689" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27690" onclick="parent.toggleDiv('detailsDIVMessage27690', 'DetailsImageMessage27690')" />Details:
+							<div id="detailsDIVMessage27690" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar cita</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27691" onclick="parent.toggleDiv('detailsDIVMessage27691', 'DetailsImageMessage27691')" />Details:
+							<div id="detailsDIVMessage27691" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4043.htm">«entity» Caso (Acompañamiento)</a></td>
+					<td width="50%" class="TableRow" valign="top">Cerrar caso de acompañamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27692" onclick="parent.toggleDiv('detailsDIVMessage27692', 'DetailsImageMessage27692')" />Details:
+							<div id="detailsDIVMessage27692" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4046.htm">«entity» Equipo de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Desvincular Asesor Académico</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27693" onclick="parent.toggleDiv('detailsDIVMessage27693', 'DetailsImageMessage27693')" />Details:
+							<div id="detailsDIVMessage27693" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Buscar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27694" onclick="parent.toggleDiv('detailsDIVMessage27694', 'DetailsImageMessage27694')" />Details:
+							<div id="detailsDIVMessage27694" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Búscar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27695" onclick="parent.toggleDiv('detailsDIVMessage27695', 'DetailsImageMessage27695')" />Details:
+							<div id="detailsDIVMessage27695" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Llenar campos de la tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27696" onclick="parent.toggleDiv('detailsDIVMessage27696', 'DetailsImageMessage27696')" />Details:
+							<div id="detailsDIVMessage27696" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27697" onclick="parent.toggleDiv('detailsDIVMessage27697', 'DetailsImageMessage27697')" />Details:
+							<div id="detailsDIVMessage27697" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Agregar cita = SÍ (Agregar)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27698" onclick="parent.toggleDiv('detailsDIVMessage27698', 'DetailsImageMessage27698')" />Details:
+							<div id="detailsDIVMessage27698" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Cancelar tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27699" onclick="parent.toggleDiv('detailsDIVMessage27699', 'DetailsImageMessage27699')" />Details:
+							<div id="detailsDIVMessage27699" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Llenar campos de la cita</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27700" onclick="parent.toggleDiv('detailsDIVMessage27700', 'DetailsImageMessage27700')" />Details:
+							<div id="detailsDIVMessage27700" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Buscar plan de éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27701" onclick="parent.toggleDiv('detailsDIVMessage27701', 'DetailsImageMessage27701')" />Details:
+							<div id="detailsDIVMessage27701" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27702" onclick="parent.toggleDiv('detailsDIVMessage27702', 'DetailsImageMessage27702')" />Details:
+							<div id="detailsDIVMessage27702" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4046.htm">«entity» Equipo de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Asignar Asesor Académico</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27703" onclick="parent.toggleDiv('detailsDIVMessage27703', 'DetailsImageMessage27703')" />Details:
+							<div id="detailsDIVMessage27703" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Buscar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27704" onclick="parent.toggleDiv('detailsDIVMessage27704', 'DetailsImageMessage27704')" />Details:
+							<div id="detailsDIVMessage27704" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Ocupar plantilla = SÍ</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27705" onclick="parent.toggleDiv('detailsDIVMessage27705', 'DetailsImageMessage27705')" />Details:
+							<div id="detailsDIVMessage27705" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Reagendar cita</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27706" onclick="parent.toggleDiv('detailsDIVMessage27706', 'DetailsImageMessage27706')" />Details:
+							<div id="detailsDIVMessage27706" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA6/EA3/EA2/EA4276.htm">«boundary» Interfaz de Knowledge</a></td>
+					<td width="50%" class="TableRow" valign="top">Ingresar</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27707" onclick="parent.toggleDiv('detailsDIVMessage27707', 'DetailsImageMessage27707')" />Details:
+							<div id="detailsDIVMessage27707" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar plan de éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27708" onclick="parent.toggleDiv('detailsDIVMessage27708', 'DetailsImageMessage27708')" />Details:
+							<div id="detailsDIVMessage27708" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4049.htm">«entity» Nota</a></td>
+					<td width="50%" class="TableRow" valign="top">Agrega nota</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27709" onclick="parent.toggleDiv('detailsDIVMessage27709', 'DetailsImageMessage27709')" />Details:
+							<div id="detailsDIVMessage27709" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar sesión</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27710" onclick="parent.toggleDiv('detailsDIVMessage27710', 'DetailsImageMessage27710')" />Details:
+							<div id="detailsDIVMessage27710" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar plan de éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27711" onclick="parent.toggleDiv('detailsDIVMessage27711', 'DetailsImageMessage27711')" />Details:
+							<div id="detailsDIVMessage27711" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Agregar tarea = SÍ (Agregar)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27712" onclick="parent.toggleDiv('detailsDIVMessage27712', 'DetailsImageMessage27712')" />Details:
+							<div id="detailsDIVMessage27712" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Editar tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27713" onclick="parent.toggleDiv('detailsDIVMessage27713', 'DetailsImageMessage27713')" />Details:
+							<div id="detailsDIVMessage27713" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Editar caso de acompañamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27714" onclick="parent.toggleDiv('detailsDIVMessage27714', 'DetailsImageMessage27714')" />Details:
+							<div id="detailsDIVMessage27714" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27715" onclick="parent.toggleDiv('detailsDIVMessage27715', 'DetailsImageMessage27715')" />Details:
+							<div id="detailsDIVMessage27715" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4043.htm">«entity» Caso (Acompañamiento)</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar caso de acompañamiento</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27716" onclick="parent.toggleDiv('detailsDIVMessage27716', 'DetailsImageMessage27716')" />Details:
+							<div id="detailsDIVMessage27716" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar caso principal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27717" onclick="parent.toggleDiv('detailsDIVMessage27717', 'DetailsImageMessage27717')" />Details:
+							<div id="detailsDIVMessage27717" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Iniciar sesión()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27718" onclick="parent.toggleDiv('detailsDIVMessage27718', 'DetailsImageMessage27718')" />Details:
+							<div id="detailsDIVMessage27718" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27719" onclick="parent.toggleDiv('detailsDIVMessage27719', 'DetailsImageMessage27719')" />Details:
+							<div id="detailsDIVMessage27719" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27720" onclick="parent.toggleDiv('detailsDIVMessage27720', 'DetailsImageMessage27720')" />Details:
+							<div id="detailsDIVMessage27720" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Notificar cancelación de tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27721" onclick="parent.toggleDiv('detailsDIVMessage27721', 'DetailsImageMessage27721')" />Details:
+							<div id="detailsDIVMessage27721" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar datos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27722" onclick="parent.toggleDiv('detailsDIVMessage27722', 'DetailsImageMessage27722')" />Details:
+							<div id="detailsDIVMessage27722" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27723" onclick="parent.toggleDiv('detailsDIVMessage27723', 'DetailsImageMessage27723')" />Details:
+							<div id="detailsDIVMessage27723" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27724" onclick="parent.toggleDiv('detailsDIVMessage27724', 'DetailsImageMessage27724')" />Details:
+							<div id="detailsDIVMessage27724" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Notificar</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27725" onclick="parent.toggleDiv('detailsDIVMessage27725', 'DetailsImageMessage27725')" />Details:
+							<div id="detailsDIVMessage27725" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27726" onclick="parent.toggleDiv('detailsDIVMessage27726', 'DetailsImageMessage27726')" />Details:
+							<div id="detailsDIVMessage27726" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información de plan de éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27727" onclick="parent.toggleDiv('detailsDIVMessage27727', 'DetailsImageMessage27727')" />Details:
+							<div id="detailsDIVMessage27727" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información de la cita</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27728" onclick="parent.toggleDiv('detailsDIVMessage27728', 'DetailsImageMessage27728')" />Details:
+							<div id="detailsDIVMessage27728" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar resultados de la búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27729" onclick="parent.toggleDiv('detailsDIVMessage27729', 'DetailsImageMessage27729')" />Details:
+							<div id="detailsDIVMessage27729" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar artículo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27730" onclick="parent.toggleDiv('detailsDIVMessage27730', 'DetailsImageMessage27730')" />Details:
+							<div id="detailsDIVMessage27730" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información de tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27731" onclick="parent.toggleDiv('detailsDIVMessage27731', 'DetailsImageMessage27731')" />Details:
+							<div id="detailsDIVMessage27731" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información de tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27732" onclick="parent.toggleDiv('detailsDIVMessage27732', 'DetailsImageMessage27732')" />Details:
+							<div id="detailsDIVMessage27732" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información de la cita</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27733" onclick="parent.toggleDiv('detailsDIVMessage27733', 'DetailsImageMessage27733')" />Details:
+							<div id="detailsDIVMessage27733" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar plan de éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27734" onclick="parent.toggleDiv('detailsDIVMessage27734', 'DetailsImageMessage27734')" />Details:
+							<div id="detailsDIVMessage27734" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27735" onclick="parent.toggleDiv('detailsDIVMessage27735', 'DetailsImageMessage27735')" />Details:
+							<div id="detailsDIVMessage27735" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Notificar aceptación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27736" onclick="parent.toggleDiv('detailsDIVMessage27736', 'DetailsImageMessage27736')" />Details:
+							<div id="detailsDIVMessage27736" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27737" onclick="parent.toggleDiv('detailsDIVMessage27737', 'DetailsImageMessage27737')" />Details:
+							<div id="detailsDIVMessage27737" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27738" onclick="parent.toggleDiv('detailsDIVMessage27738', 'DetailsImageMessage27738')" />Details:
+							<div id="detailsDIVMessage27738" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Seleccionar plantilla de plan de éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27739" onclick="parent.toggleDiv('detailsDIVMessage27739', 'DetailsImageMessage27739')" />Details:
+							<div id="detailsDIVMessage27739" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27740" onclick="parent.toggleDiv('detailsDIVMessage27740', 'DetailsImageMessage27740')" />Details:
+							<div id="detailsDIVMessage27740" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar tarea</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27741" onclick="parent.toggleDiv('detailsDIVMessage27741', 'DetailsImageMessage27741')" />Details:
+							<div id="detailsDIVMessage27741" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27742" onclick="parent.toggleDiv('detailsDIVMessage27742', 'DetailsImageMessage27742')" />Details:
+							<div id="detailsDIVMessage27742" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27743" onclick="parent.toggleDiv('detailsDIVMessage27743', 'DetailsImageMessage27743')" />Details:
+							<div id="detailsDIVMessage27743" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27744" onclick="parent.toggleDiv('detailsDIVMessage27744', 'DetailsImageMessage27744')" />Details:
+							<div id="detailsDIVMessage27744" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27745" onclick="parent.toggleDiv('detailsDIVMessage27745', 'DetailsImageMessage27745')" />Details:
+							<div id="detailsDIVMessage27745" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Realizar cita</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27746" onclick="parent.toggleDiv('detailsDIVMessage27746', 'DetailsImageMessage27746')" />Details:
+							<div id="detailsDIVMessage27746" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Notificar a usuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27747" onclick="parent.toggleDiv('detailsDIVMessage27747', 'DetailsImageMessage27747')" />Details:
+							<div id="detailsDIVMessage27747" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar plan de éxito</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27748" onclick="parent.toggleDiv('detailsDIVMessage27748', 'DetailsImageMessage27748')" />Details:
+							<div id="detailsDIVMessage27748" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4050.htm">«entity» Plan de éxito</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda </td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27749" onclick="parent.toggleDiv('detailsDIVMessage27749', 'DetailsImageMessage27749')" />Details:
+							<div id="detailsDIVMessage27749" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27750" onclick="parent.toggleDiv('detailsDIVMessage27750', 'DetailsImageMessage27750')" />Details:
+							<div id="detailsDIVMessage27750" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4053.htm">«entity» Tarea</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar datos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27751" onclick="parent.toggleDiv('detailsDIVMessage27751', 'DetailsImageMessage27751')" />Details:
+							<div id="detailsDIVMessage27751" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4044.htm">«entity» Caso (Principal)</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar búsqueda</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27752" onclick="parent.toggleDiv('detailsDIVMessage27752', 'DetailsImageMessage27752')" />Details:
+							<div id="detailsDIVMessage27752" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27753" onclick="parent.toggleDiv('detailsDIVMessage27753', 'DetailsImageMessage27753')" />Details:
+							<div id="detailsDIVMessage27753" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4052.htm">«boundary» Salesforce</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27754" onclick="parent.toggleDiv('detailsDIVMessage27754', 'DetailsImageMessage27754')" />Details:
+							<div id="detailsDIVMessage27754" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Notificar cancelación</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27755" onclick="parent.toggleDiv('detailsDIVMessage27755', 'DetailsImageMessage27755')" />Details:
+							<div id="detailsDIVMessage27755" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Notificar rechazo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27756" onclick="parent.toggleDiv('detailsDIVMessage27756', 'DetailsImageMessage27756')" />Details:
+							<div id="detailsDIVMessage27756" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA6/EA7/EA1/EA4409.htm">«entity» Notas</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27757" onclick="parent.toggleDiv('detailsDIVMessage27757', 'DetailsImageMessage27757')" />Details:
+							<div id="detailsDIVMessage27757" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../EA1/EA4045.htm">«entity» Cita</a></td>
+					<td width="50%" class="TableRow" valign="top">Mostrar información de cita</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage27758" onclick="parent.toggleDiv('detailsDIVMessage27758', 'DetailsImageMessage27758')" />Details:
+							<div id="detailsDIVMessage27758" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

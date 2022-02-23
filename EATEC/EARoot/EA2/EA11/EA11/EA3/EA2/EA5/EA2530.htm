@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Obtener Edos de Cuenta PDF y XML</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA2531.png" usemap="#EA2531" border="0" />
+
+<MAP NAME="EA2531">
+<area shape="rect" coords="257,18,284,73" href="EA2537.htm" target="_self">
+<area shape="rect" coords="10,10,115,80" href="EA2544.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Obtener Edos de Cuenta PDF y XML : Use Case diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">6/16/2021 1:12:00 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">7/5/2021 11:45:32 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Clarissa Magaña Contreras</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{F2AFE172-D92D-4aa4-ABED-6AA82D7D49B7}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;b&gt;Prerequisitos para poder realizar la Obtenci&#243;n de Edo Cuenta PDF y XML&lt;/b&gt;:&lt;br/&gt;&lt;ol&gt;<br />&lt;li&gt;BBVA coloque los archivos una vez al mes, el octavo d&#237;a h&#225;bil del mes a las 22:00 horas (Colocar&#225; los archivos PDF y XML de los estados de cuenta del mes anterior), en el servidor de BBVA en las siguientes rutas:&lt;/li&gt;&lt;/ol&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Edo Cta PDF:&#160;&#160;/12_HHPF/Outbound&lt;/li&gt;&lt;li&gt;Edo Cta XML: /12_HHED/Outbound&lt;/li&gt;&lt;/ul&gt;<br />&lt;ol&gt;<br />&lt;li&gt;El Job de integraci&#243;n deber&#225; copiar los archivos PDF y XML del servidor de BBVA al servidor TEC del H2H en las siguientes rutas:&lt;/li&gt;&lt;/ol&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Edo Cta PDF:&#160;&#160;/12_EC/AAAA-MM/12_HHPF&lt;/li&gt;&lt;li&gt;Edo Cta XML: /12_EC/AAAA-MM/12_HHED&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Casos de prueba del caso de uso Consulta de Edo Cuenta PDF y XM&lt;/b&gt;L:&lt;br/&gt;&lt;ol&gt;<br />&lt;li&gt;Deber&#225; validar que si no se selecciona ning&#250;n tipo de archivo, al momento de realizar la consulta deber&#225; desplegar el siguiente mensaje de error: &quot;Seleccionar al menos un tipo de formato que se desee consultar.&quot;.&lt;/li&gt;&lt;li&gt;Deber&#225; consultar de acuerdo a los par&#225;metros ingresados se bajen todos los extractos bancarios a la ruta especificada, seg&#250;n el a&#241;o, periodo y con tipo de formato PDF.&lt;/li&gt;&lt;li&gt;Deber&#225; consultar de acuerdo a los par&#225;metros ingresados se bajen todos los extractos bancarios a la ruta especificada, seg&#250;n el a&#241;o, periodo y con tipo de formato XML.&lt;/li&gt;&lt;li&gt;Deber&#225; consultar de acuerdo a los par&#225;metros ingresados se bajen todos los extractos bancarios a la ruta especificada, seg&#250;n el a&#241;o, periodo y con tipo de formato&#160;&#160;PDF y XML.&lt;/li&gt;&lt;li&gt;Deber&#225; elegir un a&#241;o, un periodo y seleccionar formatos de archivos en donde no exista informaci&#243;n en el servidor TEC H2H y deber&#225; desplegar el mensaje: &quot;No existe estados de cuenta para el A&#241;o y Periodo seleccionados en los formatos especificados.&quot;&lt;/li&gt;&lt;li&gt;Deber&#225; poder visualizar correctamente cada uno de los archivos que se haya bajado al directorio local.&lt;/li&gt;&lt;/ol&gt;<br />&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+</div>
+ 
+</body>
+</html>

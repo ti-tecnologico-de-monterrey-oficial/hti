@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>convertirProspecto</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA5456.png" usemap="#EA5456" border="0" />
+
+<MAP NAME="EA5456">
+<area shape="rect" coords="295,330,415,410" href="../EA2/EA5403.htm" target="_self">
+<area shape="rect" coords="45,515,78,581" href="../../../EA1/EA1/EA3722.htm" target="_self">
+<area shape="rect" coords="45,425,75,485" href="../../../EA1/EA1/EA3721.htm" target="_self">
+<area shape="rect" coords="45,615,72,670" href="../../../EA1/EA1/EA3719.htm" target="_self">
+<area shape="rect" coords="45,330,72,385" href="../../../EA1/EA1/EA3718.htm" target="_self">
+<area shape="rect" coords="45,245,72,300" href="../../../EA1/EA1/EA3717.htm" target="_self">
+<area shape="rect" coords="45,165,72,220" href="../../../EA1/EA1/EA3710.htm" target="_self">
+<area shape="rect" coords="45,85,72,140" href="../../../EA1/EA1/EA3716.htm" target="_self">
+<area shape="rect" coords="45,5,72,60" href="../../../EA1/EA1/EA3715.htm" target="_self">
+<area shape="rect" coords="276,275,445,445" href="EA5513.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">convertirProspecto : Use Case diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/8/2021 1:42:51 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">11/8/2021 3:59:14 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Isabel Quiroga</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{6AA7DF19-C75A-4917-BB26-CC3C0D6B0183}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

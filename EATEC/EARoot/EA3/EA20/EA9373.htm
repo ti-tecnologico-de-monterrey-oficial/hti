@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("", " : "))</script>  : Public   Text</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">7/10/2020 1:26:01 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">7/10/2020 1:37:58 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Jorge Antonio Silva Padilla</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{BB5AE534-A020-462f-9358-19BE2ADE67AE}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA9340.htm">SiGo -Prioridad Baja</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Detalle&lt;br/&gt;&lt;ol&gt;<br />&lt;li&gt;El usuario administrador ingresa al cat&#225;logo Prioridad&lt;/li&gt;&lt;li&gt;La interfaz hace la solicitud a la bd para realizar la consulta de registros&#160;&#160;de este cat&#225;logo , los campos y tabla es la siguiente:&lt;/li&gt;&lt;/ol&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Los campos serian name&lt;/li&gt;&lt;li&gt;El nombre de la tabla es Priorities mediante el modelo Priority&lt;/li&gt;&lt;/ul&gt;<br />3. La bd procesa la petici&#243;n, entrega el listado a la interfaz, en caso de no tener registros no se le entrega informaci&#243;n&lt;br/&gt;4. La interfaz muestra el listado al administrador, de no tener dato entonces no muestra informaci&#243;n&lt;br/&gt;5. El administrador selecciona un registro&lt;br/&gt;6. El administrador solicita la baja de una Prioridad&lt;br/&gt;7. La interfaz hace la petici&#243;n a la bd para realizar la baja , como validaci&#243;n se tiene&#160;&#160;identificar que ning&#250;n registro est&#233; relacionado con la baja que se va a realizar&#160;&#160;si hay registro que mande un pop up para mostrarle al usuario si est&#225; seguro que lo quiere borrar&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;&lt;ul&gt;<br />&lt;li&gt;&#160;&#160;&#160;El nombre de la tabla es&#160;&#160;priorities&lt;/li&gt;&lt;li&gt;En el&#160;&#160;&#160;Modelo Priority&lt;/li&gt;&lt;/ul&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;<br />8. La bd procesa la transacci&#243;n (la baja f&#237;sica), los mensajes enviados a la interfaz pueden ser:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Se realizo la baja&lt;/li&gt;&lt;li&gt;No se pudo realizar la operaci&#243;n favor de comunicarse con el administrador del sistema&lt;/li&gt;&lt;/ul&gt;<br />9. La interfaz le muestra el mensaje de la transacci&#243;n al administrador&lt;br/&gt;10. la interfaz redirecciona al index, este obtiene el listado de las Prioridades.&lt;br/&gt;11. La bd regresa la informacion solicitada a la Interfaz&lt;br/&gt;12. La interfaz le muestra al administrador las Prioridades registradas&lt;br/&gt;</div>
+
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

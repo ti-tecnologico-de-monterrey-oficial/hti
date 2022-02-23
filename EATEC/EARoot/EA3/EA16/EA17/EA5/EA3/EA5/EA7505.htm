@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Registro de definición de predicción por Prestación</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Registro de definición de predicción por Prestación", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">9/20/2020 9:46:41 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/19/2020 8:08:22 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Loreley  Morales </td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{F63F337F-403C-4c71-A794-3A847D96E288}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA7482.htm">Matriz de Predicción de BECA</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Para obtener la predicci&#243;n es necesario que el usuario registre los campos del apoyo educativo Predicci&#243;n, son los siguientes:&lt;br/&gt;&lt;ol&gt;<br />&lt;li&gt; Nivel&lt;/li&gt;&lt;li&gt;Apoyo Educativo&lt;/li&gt;&lt;li&gt;Necesidad Econ&#243;mica&lt;/li&gt;&lt;li&gt;Perfil del Postulante&lt;/li&gt;&lt;li&gt;Predicci&#243;n&lt;/li&gt;&lt;li&gt;BC SCORE Bur&#243; de Cr&#233;dito &lt;/li&gt;&lt;li&gt;BC MOP&lt;/li&gt;&lt;/ol&gt;<br />&lt;br/&gt;Reglas de negocio:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Calcular y mostrar la predicci&#243;n de pr&#233;stamo&#160;&#160;Con base en la necesidad econ&#243;mica se determina el porcentaje de pr&#233;stamo aplicando la regla de validaci&#243;n 1.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Validaciones:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Validaci&#243;n 1 (Regla de Negocio)&lt;/li&gt;&lt;/ul&gt;<br />BCSCORE verde:&#160;&#160;Reemplazar el Valor de Pr&#233;stamo (sin variante)&lt;br/&gt;BCSCORE amarillo: reemplazar el valor m&#225;ximo de Pr&#233;stamo cuando el Score es Amarillo (Ejemplo: M&#225;ximo 15%). Dependiendo de la necesidad econ&#243;mica, si tiene un pr&#233;stamo de 10% se queda un 10%.&lt;br/&gt;BCSCORE rojo:&#160;&#160;Reemplazar&#160;&#160;con un 0% al pr&#233;stamo.&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Validaci&#243;n 2 (Regla de Negocio): El tope m&#225;ximo de pr&#233;stamo es 25%.&lt;/li&gt;&lt;li&gt;Validaci&#243;n 3:&lt;/li&gt;&lt;/ul&gt;<br />Cuando el BC score&#160;&#160;reporte rangos con indicador amarillo, podra soportar su decision de otorgamiento, bajo la siguiente condici&#243;n:&lt;br/&gt;a. El responsabede pago de colegiatura tiene mas hijos en el tec sin problemas de cartera vencida. o &lt;br/&gt;b. El prestamo sera maximo por 4 semestres o,&lt;br/&gt;c. El porcentaje maximo sera del 15%&lt;br/&gt;d. El responsable de pagar las colegiaturas presenta todas sus cuenta de prestamo en BC MOP Verde.&lt;br/&gt;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA7487.htm">Administrador de Apoyos Educativos Nacional</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink33963" onclick="parent.toggleDiv('detailsDIVLink33963','DetailsImageLink33963')" />Details:
+							<div id="detailsDIVLink33963" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../../EA1/EA7137.htm">Administrador de Apoyos Educativos Nacional</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink33964" onclick="parent.toggleDiv('detailsDIVLink33964','DetailsImageLink33964')" />Details:
+							<div id="detailsDIVLink33964" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

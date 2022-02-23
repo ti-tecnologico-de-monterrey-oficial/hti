@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Casos de uso - API Manager UI</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA9512.png" usemap="#EA9512" border="0" />
+
+<MAP NAME="EA9512">
+<area shape="rect" coords="834,1287,939,1357" href="./EA2/EA9535.htm" target="_self">
+<area shape="rect" coords="1018,1287,1123,1357" href="./EA2/EA9545.htm" target="_self">
+<area shape="rect" coords="1018,1133,1123,1203" href="./EA2/EA9533.htm" target="_self">
+<area shape="rect" coords="834,1203,939,1273" href="./EA2/EA9523.htm" target="_self">
+<area shape="rect" coords="634,1357,739,1427" href="./EA2/EA9544.htm" target="_self">
+<area shape="rect" coords="634,1280,739,1350" href="./EA2/EA9539.htm" target="_self">
+<area shape="rect" coords="634,1203,739,1273" href="./EA2/EA9532.htm" target="_self">
+<area shape="rect" coords="458,1287,563,1357" href="./EA2/EA9522.htm" target="_self">
+<area shape="rect" coords="635,1056,740,1126" href="./EA2/EA9548.htm" target="_self">
+<area shape="rect" coords="458,976,563,1046" href="./EA2/EA9529.htm" target="_self">
+<area shape="rect" coords="458,789,563,859" href="./EA2/EA9524.htm" target="_self">
+<area shape="rect" coords="291,843,396,913" href="./EA2/EA9525.htm" target="_self">
+<area shape="rect" coords="822,380,927,450" href="./EA2/EA9540.htm" target="_self">
+<area shape="rect" coords="822,305,927,375" href="./EA2/EA9534.htm" target="_self">
+<area shape="rect" coords="458,603,563,673" href="./EA2/EA9547.htm" target="_self">
+<area shape="rect" coords="460,375,565,445" href="./EA2/EA9541.htm" target="_self">
+<area shape="rect" coords="460,297,565,367" href="./EA2/EA9536.htm" target="_self">
+<area shape="rect" coords="463,185,568,255" href="./EA2/EA9543.htm" target="_self">
+<area shape="rect" coords="463,105,568,175" href="./EA2/EA9538.htm" target="_self">
+<area shape="rect" coords="834,1056,939,1126" href="./EA2/EA9553.htm" target="_self">
+<area shape="rect" coords="834,977,939,1047" href="./EA2/EA9554.htm" target="_self">
+<area shape="rect" coords="834,900,939,970" href="./EA2/EA9551.htm" target="_self">
+<area shape="rect" coords="635,900,740,970" href="./EA2/EA9537.htm" target="_self">
+<area shape="rect" coords="634,789,739,859" href="./EA2/EA9546.htm" target="_self">
+<area shape="rect" coords="634,710,739,780" href="./EA2/EA9550.htm" target="_self">
+<area shape="rect" coords="45,833,90,923" href="./EA1/EA9518.htm" target="_self">
+<area shape="rect" coords="290,390,395,460" href="./EA2/EA9528.htm" target="_self">
+<area shape="rect" coords="56,127,101,217" href="./EA1/EA9519.htm" target="_self">
+<area shape="rect" coords="459,525,564,595" href="./EA2/EA9552.htm" target="_self">
+<area shape="rect" coords="646,297,751,367" href="./EA2/EA9530.htm" target="_self">
+<area shape="rect" coords="646,380,751,450" href="./EA2/EA9527.htm" target="_self">
+<area shape="rect" coords="463,26,568,96" href="./EA2/EA9531.htm" target="_self">
+<area shape="rect" coords="293,89,398,159" href="./EA2/EA9521.htm" target="_self">
+<area shape="rect" coords="174,10,1200,1523" href="EA9515.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Casos de uso - API Manager UI : Use Case diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/10/2020 10:07:21 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">3/11/2020 9:45:06 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Alvaro Augusto Morales Beltran</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{80227195-7DBA-4db4-AE3C-33F21061D42A}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

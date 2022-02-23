@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Integración – Validación de nivel de empleados</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA7198.png" usemap="#EA7198" border="0" />
+
+<MAP NAME="EA7198">
+<area shape="rect" coords="770,314,820,414" href="EA7300.htm" target="_self">
+<area shape="rect" coords="695,1680,745,1780" href="EA7228.htm" target="_self">
+<area shape="rect" coords="586,341,636,441" href="../EA1/EA7159.htm" target="_self">
+<area shape="rect" coords="55,1980,105,2080" href="EA7288.htm" target="_self">
+<area shape="rect" coords="55,1170,105,1270" href="../EA1/EA7154.htm" target="_self">
+<area shape="rect" coords="45,741,95,841" href="../EA1/EA7168.htm" target="_self">
+<area shape="rect" coords="70,141,120,241" href="EA7310.htm" target="_self">
+<area shape="rect" coords="95,24,145,124" href="../EA1/EA7146.htm" target="_self">
+<area shape="rect" coords="365,2300,485,2380" href="EA7298.htm" target="_self">
+<area shape="rect" coords="365,2170,485,2250" href="EA7254.htm" target="_self">
+<area shape="rect" coords="365,2040,485,2120" href="EA7268.htm" target="_self">
+<area shape="rect" coords="365,1920,485,2000" href="EA7296.htm" target="_self">
+<area shape="rect" coords="365,1801,485,1881" href="EA7231.htm" target="_self">
+<area shape="rect" coords="365,1680,485,1760" href="EA7214.htm" target="_self">
+<area shape="rect" coords="365,1570,485,1650" href="EA7230.htm" target="_self">
+<area shape="rect" coords="365,1450,485,1530" href="EA7264.htm" target="_self">
+<area shape="rect" coords="355,1321,484,1407" href="EA7263.htm" target="_self">
+<area shape="rect" coords="365,1190,485,1270" href="EA7224.htm" target="_self">
+<area shape="rect" coords="365,1080,485,1160" href="EA7299.htm" target="_self">
+<area shape="rect" coords="355,940,505,1040" href="EA7256.htm" target="_self">
+<area shape="rect" coords="365,820,485,900" href="EA7251.htm" target="_self">
+<area shape="rect" coords="365,710,485,790" href="EA7250.htm" target="_self">
+<area shape="rect" coords="365,590,485,670" href="EA7249.htm" target="_self">
+<area shape="rect" coords="365,481,485,561" href="EA7315.htm" target="_self">
+<area shape="rect" coords="365,370,485,450" href="EA7255.htm" target="_self">
+<area shape="rect" coords="365,261,485,341" href="EA7232.htm" target="_self">
+<area shape="rect" coords="365,150,485,230" href="EA7215.htm" target="_self">
+<area shape="rect" coords="355,40,485,127" href="EA7265.htm" target="_self">
+<area shape="rect" coords="295,10,535,2390" href="EA7291.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Integración – Validación de nivel de empleados : Use Case diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">9/25/2020 5:15:56 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10/5/2020 1:31:40 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Loreley  Morales </td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{12FA6BA1-21FF-43a8-8129-1FE28715695D}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,648 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>api_portalws</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("api_portalws", " : "))</script>  : Public   Sequence</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">10/1/2021 10:18:34 AM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/26/2021 12:40:18 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Alvaro Martín Espinosa Olvera</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{05C5231E-B685-4919-8E7E-82D653F49213}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA2933.htm">1. Validar usuario autenticado</a>, <a href="EA2935.htm">2. Consultar portal activo</a>, <a href="EA2937.htm">3. Consultar Caja de Ahorro</a>, <a href="EA2939.htm">4. Consultar Formulario SDM</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../linkdocs/EAID_05C5231E_B685_4919_8E7E_82D653F49213.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">datosPortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23862" onclick="parent.toggleDiv('detailsDIVMessage23862', 'DetailsImageMessage23862')" />Details:
+							<div id="detailsDIVMessage23862" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">datosPortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23863" onclick="parent.toggleDiv('detailsDIVMessage23863', 'DetailsImageMessage23863')" />Details:
+							<div id="detailsDIVMessage23863" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							<b>Esta opci&#243;n es obsoleta</b> y no deber&#237;a usarse. Hace referencia a una p&#225;gina donde el usuario pod&#237;a enviar un correo desde el portal,  dicha p&#225;gina ya no esta activa.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">datosPortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23864" onclick="parent.toggleDiv('detailsDIVMessage23864', 'DetailsImageMessage23864')" />Details:
+							<div id="detailsDIVMessage23864" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							El api regresa el id del portal activo y la liga donde deben buscarse las iconograf&#237;a de este portal.
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2969.htm">send_ods</a></td>
+					<td width="50%" class="TableRow" valign="top">perfilDelUsuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23865" onclick="parent.toggleDiv('detailsDIVMessage23865', 'DetailsImageMessage23865')" />Details:
+							<div id="detailsDIVMessage23865" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">leeCookiePortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23866" onclick="parent.toggleDiv('detailsDIVMessage23866', 'DetailsImageMessage23866')" />Details:
+							<div id="detailsDIVMessage23866" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							<b>Cookie SessionPortal</b>
+Contiene el identificador para el tipo de usuario
+	1 y 6 = Alumnos
+	2 = Padres
+	4 y 8 = Colaboradores
+	----------------------------------------	
+Los valores 6 y 8 se refieren a servicios obsoletos (que no deber&#237;an existir o que no han sido actualizados)
+
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">leeCookieColaboradores</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23867" onclick="parent.toggleDiv('detailsDIVMessage23867', 'DetailsImageMessage23867')" />Details:
+							<div id="detailsDIVMessage23867" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							<b>Cookie MailUserPortal</b>
+Contiene el valor encriptado de la n&#243;mina cuando el usuario autenticado es un colaborador.
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2971.htm">servntlm.itesm.mx (Colaboradores)</a></td>
+					<td width="50%" class="TableRow" valign="top">http://servntlm.itesm.mx/_vti_bin/mx.itesm.miespacio/Seguridad.svc/ValidaUsuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23868" onclick="parent.toggleDiv('detailsDIVMessage23868', 'DetailsImageMessage23868')" />Details:
+							<div id="detailsDIVMessage23868" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Para llamar este ws deben incluirse las credenciales:
+user TEC\spsvcsprod  
+pwd: consultar con el admin de Mitec
+
+----------------------------
+En PPRD el ws es <font color="#0000ff"><u>https://servntlmpprd.itesm.mx/_vti_bin/MiEspacioAPI/EmpleadosAPI.svc/ObtenerPerfilDeEmpleado</u></font>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2972.htm">servntlmaz.itesm.mx (Alumnos)</a></td>
+					<td width="50%" class="TableRow" valign="top">http://servntlmaz.itesm.mx/_vti_bin/MiEspacioAPI/AlumnosApi.svc/ObtenerPerfilDeAlumno/</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23869" onclick="parent.toggleDiv('detailsDIVMessage23869', 'DetailsImageMessage23869')" />Details:
+							<div id="detailsDIVMessage23869" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Para llamar este ws deben incluirse las credenciales:usr: TEC\spsvcsprod 
+pwd: consultar con el admin de Mitec
+--------------------
+UsuarioAutenticado debe contener el valor de la cookie de alumnos: MailUserPortalAlumno
+(Si por error se crea la cookie IDUserPortal en el portal de alumnos,  se enviar&#225; ese valor y se generar&#225; un error)
+
+---------------------------
+En PPRD el ws es:
+<font color="#0000ff"><u>http://mitecpprdauth.itesm.mx/_vti_bin/MiEspacioAPI/AlumnosApi.svc/ObtenerPerfilDeAlumno/</u></font>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">datosPortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23870" onclick="parent.toggleDiv('detailsDIVMessage23870', 'DetailsImageMessage23870')" />Details:
+							<div id="detailsDIVMessage23870" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">datosPortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23871" onclick="parent.toggleDiv('detailsDIVMessage23871', 'DetailsImageMessage23871')" />Details:
+							<div id="detailsDIVMessage23871" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2965.htm">padres.itesm.mx (Padres)</a></td>
+					<td width="50%" class="TableRow" valign="top">http://padres.itesm.mx/padresWS/padresWebService</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23872" onclick="parent.toggleDiv('detailsDIVMessage23872', 'DetailsImageMessage23872')" />Details:
+							<div id="detailsDIVMessage23872" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Se hace un llamado al ws del portal de Padres
+http://padres.itesm.mx/padresWS/padresWebService
+----------------
+usuarioAutenticado deber&#237;a contener el valor de la cookie: idUserPortal
+si no es as&#237;,  se trata de un error en la creaci&#243;n de las cookies generado al momento de la autenticaci&#243;n en los portales.
+
+------------------------------------------
+En PPRD el ws es
+http://devl13db.itesm.mx/padresWS/padresWebService
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">perfilDelUsuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23873" onclick="parent.toggleDiv('detailsDIVMessage23873', 'DetailsImageMessage23873')" />Details:
+							<div id="detailsDIVMessage23873" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							La respuesta del ws es un XML con el perfil del usuario autenticado en el portal.
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">datosPortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23874" onclick="parent.toggleDiv('detailsDIVMessage23874', 'DetailsImageMessage23874')" />Details:
+							<div id="detailsDIVMessage23874" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">leeCookiePortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23875" onclick="parent.toggleDiv('detailsDIVMessage23875', 'DetailsImageMessage23875')" />Details:
+							<div id="detailsDIVMessage23875" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							<b>Cookie SessionPortal</b>
+Contiene el identificador para el tipo de usuario
+	1 y 6 = Alumnos
+	2 = Padres
+	4 y 8 = Colaboradores
+	----------------------------------------	
+Los valores 6 y 8 se refieren a servicios obsoletos (que no deber&#237;an existir o que no han sido actualizados)
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2970.htm">send_sdm</a></td>
+					<td width="50%" class="TableRow" valign="top">perfilDelUsuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23876" onclick="parent.toggleDiv('detailsDIVMessage23876', 'DetailsImageMessage23876')" />Details:
+							<div id="detailsDIVMessage23876" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">datosPortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23877" onclick="parent.toggleDiv('detailsDIVMessage23877', 'DetailsImageMessage23877')" />Details:
+							<div id="detailsDIVMessage23877" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							El api regresa el id del portal activo y la liga donde deben buscarse documentos html's para este portal.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">No existe cookie</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23878" onclick="parent.toggleDiv('detailsDIVMessage23878', 'DetailsImageMessage23878')" />Details:
+							<div id="detailsDIVMessage23878" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">leeCookieUsuarioAutenticado</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23879" onclick="parent.toggleDiv('detailsDIVMessage23879', 'DetailsImageMessage23879')" />Details:
+							<div id="detailsDIVMessage23879" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Busca la cookie que identifica al usuario autenticado en el portal,  en el siguiente orden (Solo si no existe esa cookie se busca la siguiente):
+
+&#191;Existe IdUserPortal?
+SI:  <b>UsuarioAutenticado </b>= cookie <b>IdUserPortal</b>
+NO: <b>UsuarioAutenticado </b>= cookie <b>MailUserPortalAlumno</b>
+----------------------	
+<b>1. IdUserPortal</b>
+Contiene el valor encriptado del id cuando el usuario es un padre de familia
+<b>2. MailUserPortalAlumno</b>
+Contiene el valor encriptado de la matr&#237;cula cuando el usuario es un alumno.
+--------------------------------------------
+Nota: para el caso de colaboradores su cookie (<b>MailUserPortal</b>) se lee justo antes de hacer el llamado al ws.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">calculaServidorPortal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23880" onclick="parent.toggleDiv('detailsDIVMessage23880', 'DetailsImageMessage23880')" />Details:
+							<div id="detailsDIVMessage23880" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Para personalizar la apariencia del servicio de acuerdo al usuario autenticado se cargan diferentes tipos de letra,  im&#225;genes,  &#237;conos,  estilos,  etc.,  este paso identifica el tipo de usuario de acuerdo a la cookie SessionPortal y entrega el servidor web que corresponde
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2969.htm">send_ods</a></td>
+					<td width="50%" class="TableRow" valign="top">validaUsuario()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23881" onclick="parent.toggleDiv('detailsDIVMessage23881', 'DetailsImageMessage23881')" />Details:
+							<div id="detailsDIVMessage23881" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2971.htm">servntlm.itesm.mx (Colaboradores)</a></td>
+					<td width="50%" class="TableRow" valign="top">perfilDelUsuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23882" onclick="parent.toggleDiv('detailsDIVMessage23882', 'DetailsImageMessage23882')" />Details:
+							<div id="detailsDIVMessage23882" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							La respuesta del ws es un XML con el perfil del usuario autenticado en el portal.
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2970.htm">send_sdm</a></td>
+					<td width="50%" class="TableRow" valign="top">validaUsuario()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23883" onclick="parent.toggleDiv('detailsDIVMessage23883', 'DetailsImageMessage23883')" />Details:
+							<div id="detailsDIVMessage23883" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">leeCookiePortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23884" onclick="parent.toggleDiv('detailsDIVMessage23884', 'DetailsImageMessage23884')" />Details:
+							<div id="detailsDIVMessage23884" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							<b>Cookie SessionPortal</b>
+Contiene el identificador para el tipo de usuario
+	1 y 6 = Alumnos
+	2 = Padres
+	4 y 8 = Colaboradores
+	----------------------------------------	
+Los valores 6 y 8 se refieren a servicios obsoletos (que no deber&#237;an existir o que no han sido actualizados)
+
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">leeCookieColaboradores</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23885" onclick="parent.toggleDiv('detailsDIVMessage23885', 'DetailsImageMessage23885')" />Details:
+							<div id="detailsDIVMessage23885" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							<b>Cookie MailUserPortal</b>
+Contiene el valor encriptado de la n&#243;mina cuando el usuario autenticado es un colaborador.
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2972.htm">servntlmaz.itesm.mx (Alumnos)</a></td>
+					<td width="50%" class="TableRow" valign="top">perfilDelUsuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23886" onclick="parent.toggleDiv('detailsDIVMessage23886', 'DetailsImageMessage23886')" />Details:
+							<div id="detailsDIVMessage23886" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							La respuesta del ws es un XML con el perfil del usuario autenticado en el portal.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">consultaPortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23887" onclick="parent.toggleDiv('detailsDIVMessage23887', 'DetailsImageMessage23887')" />Details:
+							<div id="detailsDIVMessage23887" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Adem&#225;s de consultar el portal activo,  el par&#225;metro idOpcion permite consultar la liga oficial de im&#225;genes,  iconos,  estilos,  etc,  para desplegar el servicio de acuerdo al portal:
+1: Directorio de html's  y js del portal activo.
+2: Directorio de im&#225;genes del portal activo.
+3: Liga para la forma de correo 
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">leeCookiePortalActivo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23888" onclick="parent.toggleDiv('detailsDIVMessage23888', 'DetailsImageMessage23888')" />Details:
+							<div id="detailsDIVMessage23888" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							<b>Cookie SessionPortal</b>
+Contiene el identificador para el tipo de usuario
+	1 y 6 = Alumnos
+	2 = Padres
+	4 y 8 = Colaboradores
+	----------------------------------------	
+Los valores 6 y 8 se refieren a servicios obsoletos (que no deber&#237;an existir o que no han sido actualizados)
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2965.htm">padres.itesm.mx (Padres)</a></td>
+					<td width="50%" class="TableRow" valign="top">perfilDelUsuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23889" onclick="parent.toggleDiv('detailsDIVMessage23889', 'DetailsImageMessage23889')" />Details:
+							<div id="detailsDIVMessage23889" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							La respuesta del ws es un XML con el perfil del usuario autenticado en el portal.
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2958.htm">Boleta de calificaciones</a></td>
+					<td width="50%" class="TableRow" valign="top">validaUsuario</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23890" onclick="parent.toggleDiv('detailsDIVMessage23890', 'DetailsImageMessage23890')" />Details:
+							<div id="detailsDIVMessage23890" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">leeCookieUsuarioAutenticado</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23891" onclick="parent.toggleDiv('detailsDIVMessage23891', 'DetailsImageMessage23891')" />Details:
+							<div id="detailsDIVMessage23891" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Busca la cookie que identifica al usuario autenticado en el portal,  en el siguiente orden (Solo si no existe esa cookie se busca la siguiente):
+
+&#191;Existe IdUserPortal?
+SI:  <b>UsuarioAutenticado </b>= cookie <b>IdUserPortal</b>
+NO: <b>UsuarioAutenticado </b>= cookie <b>MailUserPortalAlumno</b>
+----------------------	
+<b>1. IdUserPortal</b>
+Contiene el valor encriptado del id cuando el usuario es un padre de familia
+<b>2. MailUserPortalAlumno</b>
+Contiene el valor encriptado de la matr&#237;cula cuando el usuario es un alumno.
+--------------------------------------------
+Nota: para el caso de colaboradores su cookie (<b>MailUserPortal</b>) se lee justo antes de hacer el llamado al ws.
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA2957.htm">api_portalws</a></td>
+					<td width="50%" class="TableRow" valign="top">calculaServidorPortal</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage23892" onclick="parent.toggleDiv('detailsDIVMessage23892', 'DetailsImageMessage23892')" />Details:
+							<div id="detailsDIVMessage23892" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							Para personalizar la apariencia del servicio de acuerdo al usuario autenticado se cargan diferentes tipos de letra,  im&#225;genes,  &#237;conos,  estilos,  etc.,  este paso identifica el tipo de usuario de acuerdo a la cookie SessionPortal y entrega el servidor web que corresponde
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

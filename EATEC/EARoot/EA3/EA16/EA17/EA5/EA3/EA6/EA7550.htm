@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Visualizar porcentaje de beca calculado</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Visualizar porcentaje de beca calculado", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">9/21/2020 12:04:01 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/15/2020 7:22:45 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Loreley  Morales </td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{00145A23-0511-43be-AE66-90F864542FC0}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA7513.htm">Configuración de Predicción de Beca</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">BTA&lt;br/&gt;Formulas para el calculo de &#237;ndice para la predicci&#243;n de la Beca BTA&lt;br/&gt;C&#225;lculo del &#205;ndice Preparatoria	&lt;br/&gt;(Promedio * 0.3) + ((Puntaje-1200)/40+90)*0.7	&lt;br/&gt;C&#225;lculo de &#237;ndice Profesional G4	&lt;br/&gt;(Promedio * 0.3) + ((Puntaje-1360)/24+90)*0.7	&lt;br/&gt;C&#225;lculo de &#237;ndice Profesional G3	&lt;br/&gt;(Promedio * 0.3)+((Puntaje-1400)/20+90)*0.7	&lt;br/&gt;C&#225;lculo de &#237;ndice Posgrado	&lt;br/&gt;(Promedio * 0.3)+((Puntaje-1360)/24+90)*0.7	&lt;br/&gt;&lt;br/&gt;BTE&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Se deber&#225;n definir las reglas de negocio para los rangos de calificaci&#243;n de desempe&#241;o y la predicci&#243;n del porcentaje de beca para esos rangos&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Se registraran estas reglas de negocio en una validaci&#243;n para asignar el porcentaje de beca al candidato&lt;/li&gt;&lt;/ul&gt;<br />Ejemplo:&lt;br/&gt;Rango de Calificaci&#243;n de Desempe&#241;o por Apoyo: 90-100&lt;br/&gt;Predicci&#243;n: 60%&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Se calcular&#225; y mostrar&#225; la predicci&#243;n de Beca con Base a al rango de calificacion de desempe&#241;o de acuerdo a la calificaci&#243;n del candidato&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Beca Emprendedor &lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Se deber&#225;n definir las reglas de negocio para los rangos de calificaci&#243;n de desempe&#241;o y la predicci&#243;n del porcentaje de beca para esos rangos&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Se registraran estas reglas de negocio en una validaci&#243;n para asignar el porcentaje de beca al candidato&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Se calcular&#225; y mostrar&#225; autom&#225;ticamente la predicci&#243;n de Beca con Base al Ranking de calificaci&#243;n de desempe&#241;o, asignar el porcentaje de Beca para la Beca Emprendedor.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;BSE&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;-C&#225;lculo para % de necesidad econ&#243;mica, es el % de apoyo econ&#243;mico que una familia necesita para poder cubrir la colegiatura.&lt;/li&gt;&lt;/ul&gt;<br />Datos para&#160;&#160;la f&#243;rmula:&lt;br/&gt;Ingreso Total Familiar&lt;br/&gt;Pago de Colegiatura por Hermanos&lt;br/&gt;Colegiatura Actual&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;FORMULA:&lt;/li&gt;&lt;/ul&gt;<br />(1 - SUMA DE INGRESOS DE LOS APORTANTES (Ingreso total familiar)) * 0.24 - suma de las colegiaturas de los hermanos (gatos de educaci&#243;n) / el costo de colegiatura anual (prepa o profesional) que puede traerlo del cat&#225;logo de colegiaturas&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Validaciones&lt;/li&gt;&lt;/ul&gt;<br />VALIDACI&#211;N 1 (Regla de Negocio): 	Para complementaci&#243;n de beca con cr&#233;dito s&#243;lo cuando la beca es menor a la necesidad economica			&lt;br/&gt;VALIDACI&#211;N 2 (Regla de Negocio): 	No se otorga pr&#233;stamo por tener una necesidad menor a la beca otorgada			&lt;br/&gt;VALIDACI&#211;N 3 (Regla de negocio):	&quot;Si la necesidad econ&#243;mica es menor a 10% , la predicci&#243;n de Beca es 0 %y el pr&#233;stamo 0%.&lt;br/&gt;			&lt;br/&gt;VALIDACI&#211;N 4 (Regla de negocio):	Otorgar 10% de Apoyo (5% Beca + 5% Pr&#233;stamo) cuando el perfil es A+ (No debe exceder al 90%)			&lt;br/&gt;VALIDACI&#211;N 5 (Regla de negocio):	BCSCORE verde:&#160;&#160;Reemplazar el Valor de Pr&#233;stamo (sin variante)			&lt;br/&gt;BCSCORE amarillo: reemplazar el valor m&#225;ximo de Pr&#233;stamo cuando el Score es Amarillo (Ejemplo: M&#225;ximo 15%). &lt;br/&gt;Dependiendo de la necesidad econ&#243;mica, si tiene un pr&#233;stamo de 10% se queda un 10%.&quot;			&lt;br/&gt;BCSCORE rojo:&#160;&#160;Reemplazar&#160;&#160;con un 0% al pr&#233;stamo.			&lt;br/&gt;&lt;br/&gt;VALIDACI&#211;N 6 (Regla de negocio):	BSE para nivel preparatoio solo se otorga beca, no aplica pr&#233;stamo.			&lt;br/&gt;	BSE para nivel profesional s&#243;lo se otorga Beca y Pr&#233;stamo (m&#225;ximo a otorgar es 25%)			&lt;br/&gt;&lt;br/&gt;VALIDACI&#211;N 7 (Regla de negocio):	BC SOCRE reporte rangos con indicador amarillo, podra soportar su decisi&#243;n de otorgamiento, baja las condiciones:			&lt;br/&gt;a. Responsable de pago de colegiatura tiene m&#225;s hijos en el tec sin problemas de cartera vencida o			&lt;br/&gt;b. El pr&#233;stamo ser&#225; m&#225;ximo por 4 semestres o 			&lt;br/&gt;c. El porcentaje m&#225;ximo ser&#225; del 15%			&lt;br/&gt;d. El responsable de pagar colegiaturas presenta todas sus cuentas de pr&#233;stamo en BC MOP Verde.			&lt;br/&gt;&lt;br/&gt;Beca de Continuidad.&lt;br/&gt;VALIDACI&#211;N 1 (Regla de Negocio): 	La predicci&#243;n de beca y pr&#233;stamo es: los mismos porcentajes de BSE del nivel preparatoria / 2		&lt;br/&gt;VALIDACI&#211;N 2 (Regla de Negocio): 	Otorgar 10% de Apoyo (5% Beca + 5% Pr&#233;stamo) cuando el perfil es A+. No debe exceder al 90%		&lt;br/&gt;VALIDACI&#211;N 3 (Regla de negocio):	&lt;br/&gt;BCSCORE verde:&#160;&#160;Reemplazar el Valor de Pr&#233;stamo (sin variante)&lt;br/&gt;BCSCORE amarillo: reemplazar el valor m&#225;ximo de Pr&#233;stamo cuando el Score es Amarillo (Ejemplo: M&#225;ximo 15%). Dependiendo de la necesidad econ&#243;mica, si tiene un pr&#233;stamo de 10% se queda un 10%.&lt;br/&gt;BCSCORE rojo:&#160;&#160;Reemplazar&#160;&#160;con un 0% al pr&#233;stamo.	&lt;br/&gt;&lt;br/&gt;Pr&#233;stamo&lt;br/&gt;VALIDACI&#211;N 1 (Regla de Negocio): 	BCSCORE verde:&#160;&#160;Reemplazar el Valor de Pr&#233;stamo (sin variante)				&lt;br/&gt;BCSCORE amarillo: reemplazar el valor m&#225;ximo de Pr&#233;stamo cuando el Score es Amarillo (Ejemplo: M&#225;ximo 15%). Dependiendo de la necesidad econ&#243;mica, si tiene un pr&#233;stamo de 10% se queda un 10%			&lt;br/&gt;BCSCORE Rojo:&#160;&#160;Reemplazar&#160;&#160;con un 0% al pr&#233;stamo.				&lt;br/&gt;VALIDACI&#211;N 2 (Regla de Negocio): 	El tope m&#225;ximo de pr&#233;stamo es 25%				&lt;br/&gt;VALIDACI&#211;N 3 (Regla de negocio):	Cuando el BC score&#160;&#160;reporte rangos con indicador amarillo, podra soportar su decision de otorgamiento, bajo la siguiente condici&#243;n:				&lt;br/&gt;a. El responsabede pago de colegiatura tiene mas hijos en el tec sin problemas de cartera vencida. o 				&lt;br/&gt;b. El pr&#233;stamo sera maximo por 4 semestres 			&lt;br/&gt;c. El porcentaje maximo sera del 15%				&lt;br/&gt;d. El responsable de pagar las colegiaturas presenta todas sus cuenta de pr&#233;stamo en BC MOP Verde.	&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA7546.htm">Usuario de Apoyos Educativos</a><br />
+						Actor &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink34040" onclick="parent.toggleDiv('detailsDIVLink34040','DetailsImageLink34040')" />Details:
+							<div id="detailsDIVLink34040" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">Calcular porcentajes de predicción </td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints34041" onclick="parent.toggleDiv('detailsDIVConstraints34041','DetailsImageConstraints34041')" />Details:
+							<div id="detailsDIVConstraints34041" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Se deber&#225; registrar la informaci&#243;n necesaria para realizar las formulas o validaciones correspondientes al apoyo educativo que ha solicitado el candidato. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA7523.htm">Aceptar predicción de beca</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Usage</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA7542.htm">Rechazar predicción de beca</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">Usage</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

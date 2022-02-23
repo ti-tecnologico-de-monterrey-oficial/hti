@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>DefaultDiagram</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA184.png" usemap="#EA184" border="0" />
+
+<MAP NAME="EA184">
+<area shape="rect" coords="560,390,660,470" href="EA202.htm" target="_self">
+<area shape="rect" coords="280,390,380,470" href="EA200.htm" target="_self">
+<area shape="rect" coords="140,390,240,470" href="EA199.htm" target="_self">
+<area shape="rect" coords="420,390,520,470" href="EA201.htm" target="_self">
+<area shape="rect" coords="702,412,738,448" href="EA198.htm" target="_self">
+<area shape="rect" coords="62,402,98,438" href="EA197.htm" target="_self">
+<area shape="rect" coords="600,38,700,118" href="EA195.htm" target="_self">
+<area shape="rect" coords="450,38,550,118" href="EA193.htm" target="_self">
+<area shape="rect" coords="290,38,390,118" href="EA196.htm" target="_self">
+<area shape="rect" coords="130,38,230,118" href="EA194.htm" target="_self">
+<area shape="rect" coords="762,60,798,96" href="EA192.htm" target="_self">
+<area shape="rect" coords="60,60,96,96" href="EA191.htm" target="_self">
+<area shape="rect" coords="10,320,1010,570" href="EA190.htm" target="_self">
+<area shape="rect" coords="10,10,1010,260" href="EA189.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">DefaultDiagram : Collaboration diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">6/2/2021 2:16:17 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">6/2/2021 2:16:36 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">María Rosa Pérez</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{E34049ED-E275-49d2-ADCE-28F9FD95C0DD}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

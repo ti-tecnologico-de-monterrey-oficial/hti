@@ -1,0 +1,2169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>HTTP Input</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("HTTP Input", " : "))</script>  : Public   Sequence</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/15/2021 8:31:51 AM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">12/15/2021 8:32:17 AM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Germán  Gutiérrez Santillan </td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{9FA4D3A3-7F71-4449-BB5B-6059E4EC13CF}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../../EA4/EA3/EA9673.htm">MFL_Analitica_Alumnos_Accesos_Biblioteca</a>, <a href="../../EA4/EA9/EA9712.htm">APIM_APP_Analitica_Alumnos_Grupos</a>, <a href="../../EA4/EA15/EA9754.htm">APIM_APP_Analiticas_Alumnos_Home</a>, <a href="../../EA4/EA11/EA9725.htm">MFL_Analitica_Profesores_Cursos</a>, <a href="../../EA4/EA32/EA9867.htm">MFL_Analiticas_Profesores_Unidades_Formacion</a>, <a href="../../EA4/EA6/EA9692.htm">APIM_APP_Analitica_Alumnos_Ejercicios_Academicos</a>, <a href="../../EA4/EA27/EA9834.htm">MFL_Constancias_Alumnos</a>, <a href="../../EA4/EA16/EA9761.htm">MFL_Tec_Canvas_Alumnos_Cursos</a>, <a href="../../EA4/EA26/EA9828.htm">MFL_Tec_Busqueda_Alumnos</a>, <a href="../../EA4/EA23/EA9809.htm">MFL_Tec_Alumnos_Inscritos_Materias_Cursadas</a>, <a href="../../EA4/EA18/EA9777.htm">MFL_APP_Lms_Profesores_Cursos</a>, <a href="../../EA4/EA22/EA9803.htm">MFL_APP_Tec_Alumnos_Examenes</a>, <a href="../../EA4/EA25/EA9822.htm">MFL_APP_Tec_Alumnos_Resumen_Tarjeta</a>, <a href="../../EA4/EA21/EA9797.htm">APIM_APP_Prepa_TEC_Alumnos_Competencias</a>, <a href="../../EA4/EA19/EA9785.htm">APIM_APP_PL_Cursos_Activos</a>, <a href="../../EA4/EA20/EA9791.htm">APIM_APP_PL_Cursos_Alumnos_Inscritos</a>, <a href="../../EA4/EA28/EA9843.htm">APIM_APP_Tec_Cursos_Activos</a>, <a href="../../EA4/EA29/EA9849.htm">APIM_APP_Tec_Cursos_Alumnos_Inscritos</a>, <a href="../../EA4/EA30/EA9855.htm">APIM_APP_TECM_Cursos_Activos</a>, <a href="../../EA4/EA31/EA9861.htm">APIM_APP_TECM_Cursos_Alumnos_Inscritos</a>, <a href="../../EA4/EA24/EA9816.htm">MFL_APP_Tec_Alumnos_Requisitos</a>, <a href="../../EA4/EA4/EA9680.htm">MFL_Analitica_Alumnos_Becas</a>, <a href="../../EA4/EA5/EA9686.htm">MFL_Analitica_Alumnos_Contactos</a>, <a href="../../EA4/EA7/EA9699.htm">MFL_Analitica_Alumnos_Ejercicios_Academicos_Inscritos</a>, <a href="../../EA4/EA8/EA9706.htm">MFL_APP_Analitica_Alumnos_Eventos_Aplicados</a>, <a href="../../EA4/EA10/EA9719.htm">MFL_APP_Analitica_Alumnos_Vacantes_Aplicadas</a>, <a href="../../EA4/EA12/EA9732.htm">MFL_SS_Alumnos</a>, <a href="../../EA4/EA12/EA9734.htm">MFL_SS_Alumnos_Lista</a>, <a href="../../EA4/EA13/EA9742.htm">MFL_SS_Alumnos_Unidades_Formacion</a>, <a href="../../EA4/EA14/EA9748.htm">MFL_SS_Organizaciones_Alumnos</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38590" onclick="parent.toggleDiv('detailsDIVMessage38590', 'DetailsImageMessage38590')" />Details:
+							<div id="detailsDIVMessage38590" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38591" onclick="parent.toggleDiv('detailsDIVMessage38591', 'DetailsImageMessage38591')" />Details:
+							<div id="detailsDIVMessage38591" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38594" onclick="parent.toggleDiv('detailsDIVMessage38594', 'DetailsImageMessage38594')" />Details:
+							<div id="detailsDIVMessage38594" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38595" onclick="parent.toggleDiv('detailsDIVMessage38595', 'DetailsImageMessage38595')" />Details:
+							<div id="detailsDIVMessage38595" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38596" onclick="parent.toggleDiv('detailsDIVMessage38596', 'DetailsImageMessage38596')" />Details:
+							<div id="detailsDIVMessage38596" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38597" onclick="parent.toggleDiv('detailsDIVMessage38597', 'DetailsImageMessage38597')" />Details:
+							<div id="detailsDIVMessage38597" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38598" onclick="parent.toggleDiv('detailsDIVMessage38598', 'DetailsImageMessage38598')" />Details:
+							<div id="detailsDIVMessage38598" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Envia Response</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38600" onclick="parent.toggleDiv('detailsDIVMessage38600', 'DetailsImageMessage38600')" />Details:
+							<div id="detailsDIVMessage38600" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38601" onclick="parent.toggleDiv('detailsDIVMessage38601', 'DetailsImageMessage38601')" />Details:
+							<div id="detailsDIVMessage38601" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38603" onclick="parent.toggleDiv('detailsDIVMessage38603', 'DetailsImageMessage38603')" />Details:
+							<div id="detailsDIVMessage38603" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38605" onclick="parent.toggleDiv('detailsDIVMessage38605', 'DetailsImageMessage38605')" />Details:
+							<div id="detailsDIVMessage38605" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38606" onclick="parent.toggleDiv('detailsDIVMessage38606', 'DetailsImageMessage38606')" />Details:
+							<div id="detailsDIVMessage38606" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38607" onclick="parent.toggleDiv('detailsDIVMessage38607', 'DetailsImageMessage38607')" />Details:
+							<div id="detailsDIVMessage38607" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38608" onclick="parent.toggleDiv('detailsDIVMessage38608', 'DetailsImageMessage38608')" />Details:
+							<div id="detailsDIVMessage38608" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38610" onclick="parent.toggleDiv('detailsDIVMessage38610', 'DetailsImageMessage38610')" />Details:
+							<div id="detailsDIVMessage38610" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38611" onclick="parent.toggleDiv('detailsDIVMessage38611', 'DetailsImageMessage38611')" />Details:
+							<div id="detailsDIVMessage38611" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38613" onclick="parent.toggleDiv('detailsDIVMessage38613', 'DetailsImageMessage38613')" />Details:
+							<div id="detailsDIVMessage38613" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38614" onclick="parent.toggleDiv('detailsDIVMessage38614', 'DetailsImageMessage38614')" />Details:
+							<div id="detailsDIVMessage38614" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38615" onclick="parent.toggleDiv('detailsDIVMessage38615', 'DetailsImageMessage38615')" />Details:
+							<div id="detailsDIVMessage38615" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38616" onclick="parent.toggleDiv('detailsDIVMessage38616', 'DetailsImageMessage38616')" />Details:
+							<div id="detailsDIVMessage38616" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38617" onclick="parent.toggleDiv('detailsDIVMessage38617', 'DetailsImageMessage38617')" />Details:
+							<div id="detailsDIVMessage38617" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38618" onclick="parent.toggleDiv('detailsDIVMessage38618', 'DetailsImageMessage38618')" />Details:
+							<div id="detailsDIVMessage38618" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38619" onclick="parent.toggleDiv('detailsDIVMessage38619', 'DetailsImageMessage38619')" />Details:
+							<div id="detailsDIVMessage38619" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38620" onclick="parent.toggleDiv('detailsDIVMessage38620', 'DetailsImageMessage38620')" />Details:
+							<div id="detailsDIVMessage38620" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON Vacia</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38622" onclick="parent.toggleDiv('detailsDIVMessage38622', 'DetailsImageMessage38622')" />Details:
+							<div id="detailsDIVMessage38622" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38623" onclick="parent.toggleDiv('detailsDIVMessage38623', 'DetailsImageMessage38623')" />Details:
+							<div id="detailsDIVMessage38623" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38624" onclick="parent.toggleDiv('detailsDIVMessage38624', 'DetailsImageMessage38624')" />Details:
+							<div id="detailsDIVMessage38624" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38625" onclick="parent.toggleDiv('detailsDIVMessage38625', 'DetailsImageMessage38625')" />Details:
+							<div id="detailsDIVMessage38625" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38629" onclick="parent.toggleDiv('detailsDIVMessage38629', 'DetailsImageMessage38629')" />Details:
+							<div id="detailsDIVMessage38629" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38630" onclick="parent.toggleDiv('detailsDIVMessage38630', 'DetailsImageMessage38630')" />Details:
+							<div id="detailsDIVMessage38630" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON Tec21</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38633" onclick="parent.toggleDiv('detailsDIVMessage38633', 'DetailsImageMessage38633')" />Details:
+							<div id="detailsDIVMessage38633" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON con las dos respuestas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38634" onclick="parent.toggleDiv('detailsDIVMessage38634', 'DetailsImageMessage38634')" />Details:
+							<div id="detailsDIVMessage38634" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38635" onclick="parent.toggleDiv('detailsDIVMessage38635', 'DetailsImageMessage38635')" />Details:
+							<div id="detailsDIVMessage38635" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38636" onclick="parent.toggleDiv('detailsDIVMessage38636', 'DetailsImageMessage38636')" />Details:
+							<div id="detailsDIVMessage38636" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38637" onclick="parent.toggleDiv('detailsDIVMessage38637', 'DetailsImageMessage38637')" />Details:
+							<div id="detailsDIVMessage38637" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38638" onclick="parent.toggleDiv('detailsDIVMessage38638', 'DetailsImageMessage38638')" />Details:
+							<div id="detailsDIVMessage38638" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38639" onclick="parent.toggleDiv('detailsDIVMessage38639', 'DetailsImageMessage38639')" />Details:
+							<div id="detailsDIVMessage38639" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38642" onclick="parent.toggleDiv('detailsDIVMessage38642', 'DetailsImageMessage38642')" />Details:
+							<div id="detailsDIVMessage38642" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA15/EA9758.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1:DMESCO.PK_ESCO_ANTEC21.GET_PROF_GPO_ALUMNO</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38643" onclick="parent.toggleDiv('detailsDIVMessage38643', 'DetailsImageMessage38643')" />Details:
+							<div id="detailsDIVMessage38643" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA3/EA9676.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1:DMMISC.SP_CRMRE_CONTEOACCESO</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38644" onclick="parent.toggleDiv('detailsDIVMessage38644', 'DetailsImageMessage38644')" />Details:
+							<div id="detailsDIVMessage38644" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38645" onclick="parent.toggleDiv('detailsDIVMessage38645', 'DetailsImageMessage38645')" />Details:
+							<div id="detailsDIVMessage38645" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38648" onclick="parent.toggleDiv('detailsDIVMessage38648', 'DetailsImageMessage38648')" />Details:
+							<div id="detailsDIVMessage38648" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38649" onclick="parent.toggleDiv('detailsDIVMessage38649', 'DetailsImageMessage38649')" />Details:
+							<div id="detailsDIVMessage38649" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38650" onclick="parent.toggleDiv('detailsDIVMessage38650', 'DetailsImageMessage38650')" />Details:
+							<div id="detailsDIVMessage38650" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Envia Response</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38651" onclick="parent.toggleDiv('detailsDIVMessage38651', 'DetailsImageMessage38651')" />Details:
+							<div id="detailsDIVMessage38651" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38652" onclick="parent.toggleDiv('detailsDIVMessage38652', 'DetailsImageMessage38652')" />Details:
+							<div id="detailsDIVMessage38652" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA11/EA9728.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1:DMESCO.PK_ESCO_ANTEC21.GET_PROF_UF_SUBCOMP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38654" onclick="parent.toggleDiv('detailsDIVMessage38654', 'DetailsImageMessage38654')" />Details:
+							<div id="detailsDIVMessage38654" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38655" onclick="parent.toggleDiv('detailsDIVMessage38655', 'DetailsImageMessage38655')" />Details:
+							<div id="detailsDIVMessage38655" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38657" onclick="parent.toggleDiv('detailsDIVMessage38657', 'DetailsImageMessage38657')" />Details:
+							<div id="detailsDIVMessage38657" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38659" onclick="parent.toggleDiv('detailsDIVMessage38659', 'DetailsImageMessage38659')" />Details:
+							<div id="detailsDIVMessage38659" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38660" onclick="parent.toggleDiv('detailsDIVMessage38660', 'DetailsImageMessage38660')" />Details:
+							<div id="detailsDIVMessage38660" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38661" onclick="parent.toggleDiv('detailsDIVMessage38661', 'DetailsImageMessage38661')" />Details:
+							<div id="detailsDIVMessage38661" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38662" onclick="parent.toggleDiv('detailsDIVMessage38662', 'DetailsImageMessage38662')" />Details:
+							<div id="detailsDIVMessage38662" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38666" onclick="parent.toggleDiv('detailsDIVMessage38666', 'DetailsImageMessage38666')" />Details:
+							<div id="detailsDIVMessage38666" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38667" onclick="parent.toggleDiv('detailsDIVMessage38667', 'DetailsImageMessage38667')" />Details:
+							<div id="detailsDIVMessage38667" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma peticion por cada CRN devuelto</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38668" onclick="parent.toggleDiv('detailsDIVMessage38668', 'DetailsImageMessage38668')" />Details:
+							<div id="detailsDIVMessage38668" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA6/EA9696.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1:DMESCO.PK_ESCO_ANTEC21.Get_Profesor_Periodo</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38671" onclick="parent.toggleDiv('detailsDIVMessage38671', 'DetailsImageMessage38671')" />Details:
+							<div id="detailsDIVMessage38671" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38672" onclick="parent.toggleDiv('detailsDIVMessage38672', 'DetailsImageMessage38672')" />Details:
+							<div id="detailsDIVMessage38672" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38674" onclick="parent.toggleDiv('detailsDIVMessage38674', 'DetailsImageMessage38674')" />Details:
+							<div id="detailsDIVMessage38674" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38675" onclick="parent.toggleDiv('detailsDIVMessage38675', 'DetailsImageMessage38675')" />Details:
+							<div id="detailsDIVMessage38675" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38676" onclick="parent.toggleDiv('detailsDIVMessage38676', 'DetailsImageMessage38676')" />Details:
+							<div id="detailsDIVMessage38676" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38677" onclick="parent.toggleDiv('detailsDIVMessage38677', 'DetailsImageMessage38677')" />Details:
+							<div id="detailsDIVMessage38677" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38678" onclick="parent.toggleDiv('detailsDIVMessage38678', 'DetailsImageMessage38678')" />Details:
+							<div id="detailsDIVMessage38678" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Envia Response</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38679" onclick="parent.toggleDiv('detailsDIVMessage38679', 'DetailsImageMessage38679')" />Details:
+							<div id="detailsDIVMessage38679" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38680" onclick="parent.toggleDiv('detailsDIVMessage38680', 'DetailsImageMessage38680')" />Details:
+							<div id="detailsDIVMessage38680" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma petición al SP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38681" onclick="parent.toggleDiv('detailsDIVMessage38681', 'DetailsImageMessage38681')" />Details:
+							<div id="detailsDIVMessage38681" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Envia Response</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38683" onclick="parent.toggleDiv('detailsDIVMessage38683', 'DetailsImageMessage38683')" />Details:
+							<div id="detailsDIVMessage38683" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Envia Response</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38686" onclick="parent.toggleDiv('detailsDIVMessage38686', 'DetailsImageMessage38686')" />Details:
+							<div id="detailsDIVMessage38686" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38688" onclick="parent.toggleDiv('detailsDIVMessage38688', 'DetailsImageMessage38688')" />Details:
+							<div id="detailsDIVMessage38688" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38689" onclick="parent.toggleDiv('detailsDIVMessage38689', 'DetailsImageMessage38689')" />Details:
+							<div id="detailsDIVMessage38689" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38692" onclick="parent.toggleDiv('detailsDIVMessage38692', 'DetailsImageMessage38692')" />Details:
+							<div id="detailsDIVMessage38692" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">Respuesta JSON Tec20</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38695" onclick="parent.toggleDiv('detailsDIVMessage38695', 'DetailsImageMessage38695')" />Details:
+							<div id="detailsDIVMessage38695" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA32/EA9870.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1:DMESCO.PK_ESCO_ANTEC21.GET_PROFESOR_UF</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38696" onclick="parent.toggleDiv('detailsDIVMessage38696', 'DetailsImageMessage38696')" />Details:
+							<div id="detailsDIVMessage38696" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA9/EA9716.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1:DMESCO.PK_ESCO_ANTEC21.GET_ALUMNO_SUBCOMP_EVIDENCIA</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38697" onclick="parent.toggleDiv('detailsDIVMessage38697', 'DetailsImageMessage38697')" />Details:
+							<div id="detailsDIVMessage38697" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38698" onclick="parent.toggleDiv('detailsDIVMessage38698', 'DetailsImageMessage38698')" />Details:
+							<div id="detailsDIVMessage38698" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/alumnos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38700" onclick="parent.toggleDiv('detailsDIVMessage38700', 'DetailsImageMessage38700')" />Details:
+							<div id="detailsDIVMessage38700" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38701" onclick="parent.toggleDiv('detailsDIVMessage38701', 'DetailsImageMessage38701')" />Details:
+							<div id="detailsDIVMessage38701" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38702" onclick="parent.toggleDiv('detailsDIVMessage38702', 'DetailsImageMessage38702')" />Details:
+							<div id="detailsDIVMessage38702" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/tec/constancias/alumnos/A00828978</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38703" onclick="parent.toggleDiv('detailsDIVMessage38703', 'DetailsImageMessage38703')" />Details:
+							<div id="detailsDIVMessage38703" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38704" onclick="parent.toggleDiv('detailsDIVMessage38704', 'DetailsImageMessage38704')" />Details:
+							<div id="detailsDIVMessage38704" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analiticas/alumnos/{{numeroMatricula}}/grupos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38705" onclick="parent.toggleDiv('detailsDIVMessage38705', 'DetailsImageMessage38705')" />Details:
+							<div id="detailsDIVMessage38705" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/servicio-social/alumnos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38706" onclick="parent.toggleDiv('detailsDIVMessage38706', 'DetailsImageMessage38706')" />Details:
+							<div id="detailsDIVMessage38706" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38707" onclick="parent.toggleDiv('detailsDIVMessage38707', 'DetailsImageMessage38707')" />Details:
+							<div id="detailsDIVMessage38707" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/tec/alumnos/*/resumen-tarjeta?programa-academico=${programa-academico}</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38708" onclick="parent.toggleDiv('detailsDIVMessage38708', 'DetailsImageMessage38708')" />Details:
+							<div id="detailsDIVMessage38708" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/tec/alumnos/{numeroMatricula}/examenes?programa-academico={programa-academico}</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38709" onclick="parent.toggleDiv('detailsDIVMessage38709', 'DetailsImageMessage38709')" />Details:
+							<div id="detailsDIVMessage38709" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38711" onclick="parent.toggleDiv('detailsDIVMessage38711', 'DetailsImageMessage38711')" />Details:
+							<div id="detailsDIVMessage38711" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/alumnos/{numeroMatricula}/ejercicios-academicos-inscritos?include={include}&claveEjercicioAcademico={ejercicio-academico}</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38712" onclick="parent.toggleDiv('detailsDIVMessage38712', 'DetailsImageMessage38712')" />Details:
+							<div id="detailsDIVMessage38712" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38713" onclick="parent.toggleDiv('detailsDIVMessage38713', 'DetailsImageMessage38713')" />Details:
+							<div id="detailsDIVMessage38713" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38715" onclick="parent.toggleDiv('detailsDIVMessage38715', 'DetailsImageMessage38715')" />Details:
+							<div id="detailsDIVMessage38715" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38716" onclick="parent.toggleDiv('detailsDIVMessage38716', 'DetailsImageMessage38716')" />Details:
+							<div id="detailsDIVMessage38716" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38717" onclick="parent.toggleDiv('detailsDIVMessage38717', 'DetailsImageMessage38717')" />Details:
+							<div id="detailsDIVMessage38717" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38718" onclick="parent.toggleDiv('detailsDIVMessage38718', 'DetailsImageMessage38718')" />Details:
+							<div id="detailsDIVMessage38718" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/tec/lms/cursos/{idCurso}/cursos-unificados?ejercicio-academico=202111</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38719" onclick="parent.toggleDiv('detailsDIVMessage38719', 'DetailsImageMessage38719')" />Details:
+							<div id="detailsDIVMessage38719" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38721" onclick="parent.toggleDiv('detailsDIVMessage38721', 'DetailsImageMessage38721')" />Details:
+							<div id="detailsDIVMessage38721" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38722" onclick="parent.toggleDiv('detailsDIVMessage38722', 'DetailsImageMessage38722')" />Details:
+							<div id="detailsDIVMessage38722" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38724" onclick="parent.toggleDiv('detailsDIVMessage38724', 'DetailsImageMessage38724')" />Details:
+							<div id="detailsDIVMessage38724" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/alumnos/{numeroMatricula}/contactos?include=telefonos-contacto</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38726" onclick="parent.toggleDiv('detailsDIVMessage38726', 'DetailsImageMessage38726')" />Details:
+							<div id="detailsDIVMessage38726" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/alumnos/{numeroMatricula}/becas?include=planes-de-beca, subplanes-de-beca, ejercicios-academicos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38727" onclick="parent.toggleDiv('detailsDIVMessage38727', 'DetailsImageMessage38727')" />Details:
+							<div id="detailsDIVMessage38727" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/profesores/{{numeroNomina}}/unidades-formacion</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38729" onclick="parent.toggleDiv('detailsDIVMessage38729', 'DetailsImageMessage38729')" />Details:
+							<div id="detailsDIVMessage38729" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38732" onclick="parent.toggleDiv('detailsDIVMessage38732', 'DetailsImageMessage38732')" />Details:
+							<div id="detailsDIVMessage38732" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/programas-en-linea/cursos/202113-27103/alumnos-inscritos?fields[alumnos]=nombreAlumno, apellidoPaterno, apellidoMaterno&ejercicio-academico=202113&include=correo-electronico, programa-academico</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38733" onclick="parent.toggleDiv('detailsDIVMessage38733', 'DetailsImageMessage38733')" />Details:
+							<div id="detailsDIVMessage38733" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38735" onclick="parent.toggleDiv('detailsDIVMessage38735', 'DetailsImageMessage38735')" />Details:
+							<div id="detailsDIVMessage38735" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/servicio-social/alumnos/{numeroMatricula}/home</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38737" onclick="parent.toggleDiv('detailsDIVMessage38737', 'DetailsImageMessage38737')" />Details:
+							<div id="detailsDIVMessage38737" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38738" onclick="parent.toggleDiv('detailsDIVMessage38738', 'DetailsImageMessage38738')" />Details:
+							<div id="detailsDIVMessage38738" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38739" onclick="parent.toggleDiv('detailsDIVMessage38739', 'DetailsImageMessage38739')" />Details:
+							<div id="detailsDIVMessage38739" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/tec/cursos/202111-13224/alumnos-inscritos?fields[alumnos]=nombreAlumno, apellidoPaterno, apellidoMaterno&ejercicio-academico=202111&include=correo-electronico, programa-academico</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38740" onclick="parent.toggleDiv('detailsDIVMessage38740', 'DetailsImageMessage38740')" />Details:
+							<div id="detailsDIVMessage38740" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38742" onclick="parent.toggleDiv('detailsDIVMessage38742', 'DetailsImageMessage38742')" />Details:
+							<div id="detailsDIVMessage38742" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON con las dos respuestas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38744" onclick="parent.toggleDiv('detailsDIVMessage38744', 'DetailsImageMessage38744')" />Details:
+							<div id="detailsDIVMessage38744" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA32/EA9870.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1.1: Envia datos de las Unidades de formacion porl profesor</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38746" onclick="parent.toggleDiv('detailsDIVMessage38746', 'DetailsImageMessage38746')" />Details:
+							<div id="detailsDIVMessage38746" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/alumnos/{numeroMatricula}/eventos-aplicados</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38747" onclick="parent.toggleDiv('detailsDIVMessage38747', 'DetailsImageMessage38747')" />Details:
+							<div id="detailsDIVMessage38747" class="DetailsDiv" >
+							<strong>Type:</strong> <none> Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38749" onclick="parent.toggleDiv('detailsDIVMessage38749', 'DetailsImageMessage38749')" />Details:
+							<div id="detailsDIVMessage38749" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38750" onclick="parent.toggleDiv('detailsDIVMessage38750', 'DetailsImageMessage38750')" />Details:
+							<div id="detailsDIVMessage38750" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA15/EA9758.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1.1: Envia datos de los alumnos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38752" onclick="parent.toggleDiv('detailsDIVMessage38752', 'DetailsImageMessage38752')" />Details:
+							<div id="detailsDIVMessage38752" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38753" onclick="parent.toggleDiv('detailsDIVMessage38753', 'DetailsImageMessage38753')" />Details:
+							<div id="detailsDIVMessage38753" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38756" onclick="parent.toggleDiv('detailsDIVMessage38756', 'DetailsImageMessage38756')" />Details:
+							<div id="detailsDIVMessage38756" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/tec/alumnos/*/requisitos?programa-academico=${programa-academico}</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38758" onclick="parent.toggleDiv('detailsDIVMessage38758', 'DetailsImageMessage38758')" />Details:
+							<div id="detailsDIVMessage38758" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula()</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38759" onclick="parent.toggleDiv('detailsDIVMessage38759', 'DetailsImageMessage38759')" />Details:
+							<div id="detailsDIVMessage38759" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/profesores/{numeroNomina}/cursos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38761" onclick="parent.toggleDiv('detailsDIVMessage38761', 'DetailsImageMessage38761')" />Details:
+							<div id="detailsDIVMessage38761" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38764" onclick="parent.toggleDiv('detailsDIVMessage38764', 'DetailsImageMessage38764')" />Details:
+							<div id="detailsDIVMessage38764" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38765" onclick="parent.toggleDiv('detailsDIVMessage38765', 'DetailsImageMessage38765')" />Details:
+							<div id="detailsDIVMessage38765" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38766" onclick="parent.toggleDiv('detailsDIVMessage38766', 'DetailsImageMessage38766')" />Details:
+							<div id="detailsDIVMessage38766" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/tec/alumnos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38767" onclick="parent.toggleDiv('detailsDIVMessage38767', 'DetailsImageMessage38767')" />Details:
+							<div id="detailsDIVMessage38767" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38768" onclick="parent.toggleDiv('detailsDIVMessage38768', 'DetailsImageMessage38768')" />Details:
+							<div id="detailsDIVMessage38768" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/programas-en-linea/cursos-activos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38769" onclick="parent.toggleDiv('detailsDIVMessage38769', 'DetailsImageMessage38769')" />Details:
+							<div id="detailsDIVMessage38769" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/tec/alumnos/*/materias-cursadas?claveProgramaAcademico=${claveProgramaAcademico}&pertenecePlanEstudios=${pertenecePlanEstudios}</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38770" onclick="parent.toggleDiv('detailsDIVMessage38770', 'DetailsImageMessage38770')" />Details:
+							<div id="detailsDIVMessage38770" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38771" onclick="parent.toggleDiv('detailsDIVMessage38771', 'DetailsImageMessage38771')" />Details:
+							<div id="detailsDIVMessage38771" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/alumnos/{numeroMatricula}/vacantes-aplicadas</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38772" onclick="parent.toggleDiv('detailsDIVMessage38772', 'DetailsImageMessage38772')" />Details:
+							<div id="detailsDIVMessage38772" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38775" onclick="parent.toggleDiv('detailsDIVMessage38775', 'DetailsImageMessage38775')" />Details:
+							<div id="detailsDIVMessage38775" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma peticion por cada CRN devuelto</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38776" onclick="parent.toggleDiv('detailsDIVMessage38776', 'DetailsImageMessage38776')" />Details:
+							<div id="detailsDIVMessage38776" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA6/EA9696.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1.1: Envia datos de los ejercicios academicos por profesor</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38777" onclick="parent.toggleDiv('detailsDIVMessage38777', 'DetailsImageMessage38777')" />Details:
+							<div id="detailsDIVMessage38777" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/servicio-social/organizaciones-socioformadoras/*/alumnos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38778" onclick="parent.toggleDiv('detailsDIVMessage38778', 'DetailsImageMessage38778')" />Details:
+							<div id="detailsDIVMessage38778" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38781" onclick="parent.toggleDiv('detailsDIVMessage38781', 'DetailsImageMessage38781')" />Details:
+							<div id="detailsDIVMessage38781" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/prepa-tec/alumnos/A01029459/competencias</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38782" onclick="parent.toggleDiv('detailsDIVMessage38782', 'DetailsImageMessage38782')" />Details:
+							<div id="detailsDIVMessage38782" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38784" onclick="parent.toggleDiv('detailsDIVMessage38784', 'DetailsImageMessage38784')" />Details:
+							<div id="detailsDIVMessage38784" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma Respuesta JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38786" onclick="parent.toggleDiv('detailsDIVMessage38786', 'DetailsImageMessage38786')" />Details:
+							<div id="detailsDIVMessage38786" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">validaMatricula</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38788" onclick="parent.toggleDiv('detailsDIVMessage38788', 'DetailsImageMessage38788')" />Details:
+							<div id="detailsDIVMessage38788" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma petición al SP</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38790" onclick="parent.toggleDiv('detailsDIVMessage38790', 'DetailsImageMessage38790')" />Details:
+							<div id="detailsDIVMessage38790" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9483.htm">HTTP Input</a></td>
+					<td width="50%" class="TableRow" valign="top">Arma JSON</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38795" onclick="parent.toggleDiv('detailsDIVMessage38795', 'DetailsImageMessage38795')" />Details:
+							<div id="detailsDIVMessage38795" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/profesores/{{numeroNomina}}/ejercicios-academicos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38796" onclick="parent.toggleDiv('detailsDIVMessage38796', 'DetailsImageMessage38796')" />Details:
+							<div id="detailsDIVMessage38796" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA11/EA9728.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1.1: Envia datos de los cursos del profesor</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38797" onclick="parent.toggleDiv('detailsDIVMessage38797', 'DetailsImageMessage38797')" />Details:
+							<div id="detailsDIVMessage38797" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/canvas/alumnos/{numeroMatricula}/cursos</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38798" onclick="parent.toggleDiv('detailsDIVMessage38798', 'DetailsImageMessage38798')" />Details:
+							<div id="detailsDIVMessage38798" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA9/EA9716.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.1.1: Envia datos de los grupos del alumno</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38799" onclick="parent.toggleDiv('detailsDIVMessage38799', 'DetailsImageMessage38799')" />Details:
+							<div id="detailsDIVMessage38799" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="../../EA4/EA3/EA9676.htm">DWH</a></td>
+					<td width="50%" class="TableRow" valign="top">1.2:Retorna Result set</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38800" onclick="parent.toggleDiv('detailsDIVMessage38800', 'DetailsImageMessage38800')" />Details:
+							<div id="detailsDIVMessage38800" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway.tec.mx/tec-de-monterrey/api/analitica/servicio-social/alumnos/*/unidades-formacion</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38801" onclick="parent.toggleDiv('detailsDIVMessage38801', 'DetailsImageMessage38801')" />Details:
+							<div id="detailsDIVMessage38801" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/tecmilenio/cursos/202160-21015/alumnos-inscritos?fields[alumnos]=nombreAlumno, apellidoPaterno, apellidoMaterno&ejercicio-academico=202160&include=correo-electronico, programa-academico</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38802" onclick="parent.toggleDiv('detailsDIVMessage38802', 'DetailsImageMessage38802')" />Details:
+							<div id="detailsDIVMessage38802" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA9482.htm">Cliente</a></td>
+					<td width="50%" class="TableRow" valign="top">https://apigateway-pprd.tec.mx/tec-de-monterrey/api/analitica/accesos-biblioteca/alumnos/{numeroMatricula}?fechaInicio=2015-01-01&fechaFin=2021-11-02&tipoConsulta=MENSUAL</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38803" onclick="parent.toggleDiv('detailsDIVMessage38803', 'DetailsImageMessage38803')" />Details:
+							<div id="detailsDIVMessage38803" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
