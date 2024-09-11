@@ -1,2 +1,2 @@
 # hti
-Sitio de la HTI. Actualmente en este sitio se encuentra publicada la nueva metodología de experiencias digitales.
+Sitio de la VPT. Actualmente en este sitio se encuentra publicada la nueva metodología de experiencias digitales.
